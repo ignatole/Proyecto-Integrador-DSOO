@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyectointegrador\\proyectointegrador\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyectointegrador\\proyectointegrador\\e_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\e_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyectointegrador\\proyectointegrador\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyectointegrador\\proyectointegrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectointegrador\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyectointegrador\\proyectointegrador\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyectointegrador\\proyectointegrador\\proyectointegrador.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -19,19 +31,7 @@
       "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyectointegrador\\proyectointegrador\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP2_Com1A_Grupo2-main\\Login.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyectointegrador\\proyectointegrador\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyectointegrador\\proyectointegrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyectointegrador\\proyectointegrador\\datos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,7 +49,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,16 +57,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\Cliente.cs",
               "RelativeDocumentMoniker": "proyectoIntegrador\\Cliente.cs",
               "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\Cliente.cs",
               "RelativeToolTip": "proyectoIntegrador\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T22:26:40.177Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "E_Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\E_Cliente.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\E_Cliente.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\E_Cliente.cs",
+              "RelativeToolTip": "proyectoIntegrador\\E_Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:01:50.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP2_Com1A_Grupo2-main\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "..\\DSOO_TP2_Com1A_Grupo2-main\\Login.Designer.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP2_Com1A_Grupo2-main\\Login.Designer.cs",
+              "RelativeToolTip": "..\\DSOO_TP2_Com1A_Grupo2-main\\Login.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:13:11.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\Program.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\Program.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\Program.cs",
+              "RelativeToolTip": "proyectoIntegrador\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:38:58.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\LoginForm.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\LoginForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "proyectoIntegrador\\LoginForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:05:52.381Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -83,24 +133,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "E_Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\E_Cliente.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\E_Cliente.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\E_Cliente.cs",
-              "RelativeToolTip": "proyectoIntegrador\\E_Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T22:01:50.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "DocumentIndex": 5,
+              "Title": "proyectoIntegrador.csproj",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\proyectoIntegrador.csproj",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\proyectoIntegrador.csproj",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\proyectoIntegrador.csproj",
+              "RelativeToolTip": "proyectoIntegrador\\proyectoIntegrador.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-09T16:27:05.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\LoginForm.cs",
               "RelativeDocumentMoniker": "proyectoIntegrador\\LoginForm.cs",
@@ -109,57 +154,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T22:05:49.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "proyectoIntegrador.csproj",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\proyectoIntegrador.csproj",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\proyectoIntegrador.csproj",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\proyectoIntegrador.csproj",
-              "RelativeToolTip": "proyectoIntegrador\\proyectoIntegrador.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-09T16:27:05.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP2_Com1A_Grupo2-main\\Login.Designer.cs",
-              "RelativeDocumentMoniker": "..\\DSOO_TP2_Com1A_Grupo2-main\\Login.Designer.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP2_Com1A_Grupo2-main\\Login.Designer.cs",
-              "RelativeToolTip": "..\\DSOO_TP2_Com1A_Grupo2-main\\Login.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T22:13:11.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\LoginForm.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\LoginForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "proyectoIntegrador\\LoginForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T22:05:52.381Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\Program.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\Program.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\proyectoIntegrador\\proyectoIntegrador\\Program.cs",
-              "RelativeToolTip": "proyectoIntegrador\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T17:38:58.474Z",
               "EditorCaption": ""
             },
             {
@@ -185,6 +179,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T16:29:53.691Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }
