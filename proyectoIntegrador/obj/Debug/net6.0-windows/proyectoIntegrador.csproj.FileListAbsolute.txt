@@ -40,3 +40,4 @@ C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\D
 C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.pdb
 C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.genruntimeconfig.cache
 C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\Debug\net6.0-windows\ref\proyectoIntegrador.dll
+C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.sourcelink.json
