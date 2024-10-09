@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace proyectoIntegrador
 {
-    partial class LoginForm : Form
+    partial class Login : Form
     {
         private System.ComponentModel.IContainer components = null;
 

@@ -4,9 +4,9 @@ using proyectoIntegrador.Datos; // Asegúrate de incluir esta línea
 
 namespace proyectoIntegrador
 {
-    public partial class LoginForm : Form
+    public partial class Login : Form
     {
-        public LoginForm()
+        public Login()
         {
             InitializeComponent();
         }
@@ -27,7 +27,12 @@ namespace proyectoIntegrador
             if (resultadoLogin == 1) // Suponiendo que 1 significa éxito
             {
                 MessageBox.Show("Inicio de sesión exitoso.");
-                // Aquí puedes redirigir a la siguiente ventana o realizar otras acciones
+
+                // Redirigir al HomeForm
+                Home homeForm = new Home();
+                homeForm.Show(); // O homeForm.ShowDialog(); si deseas que sea modal
+
+                this.Hide(); // Oculta el LoginForm, opcional
             }
             else
             {
