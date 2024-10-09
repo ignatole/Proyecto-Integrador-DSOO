@@ -28,7 +28,6 @@ C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\bin\D
 C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.csproj.AssemblyReference.cache
-C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.Form1.resources
 C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.csproj.GenerateResource.cache
 C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.AssemblyInfoInputs.cache
@@ -41,3 +40,4 @@ C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\D
 C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.genruntimeconfig.cache
 C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\Debug\net6.0-windows\ref\proyectoIntegrador.dll
 C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.sourcelink.json
+C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.LoginForm.resources
