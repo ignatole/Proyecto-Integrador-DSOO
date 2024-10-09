@@ -1,6 +1,0 @@
-C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\Pruebas\obj\Debug\net6.0\Pruebas.csproj.AssemblyReference.cache
-C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\Pruebas\obj\Debug\net6.0\Pruebas.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\Pruebas\obj\Debug\net6.0\Pruebas.AssemblyInfoInputs.cache
-C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\Pruebas\obj\Debug\net6.0\Pruebas.AssemblyInfo.cs
-C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\Pruebas\obj\Debug\net6.0\Pruebas.csproj.CoreCompileInputs.cache
-C:\Users\Ignacio Toledo\source\repos\proyectoIntegrador\Pruebas\obj\Debug\net6.0\Pruebas.sourcelink.json
