@@ -31,12 +31,12 @@ namespace proyectoIntegrador
             nuevoCliente.Telefono = textBoxTelefono.Text;
 
             // Llamar al método para insertar el cliente
-            int resultado = clienteHandler.InsertarCliente(nuevoCliente);
+            var (resultado, id_cliente) = clienteHandler.InsertarCliente(nuevoCliente);
 
             // Verificar el resultado y mostrar un mensaje
             if (resultado == 1)
             {
-                MessageBox.Show("Cliente inscripto con éxito", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show($"Cliente creado con éxito. ID del cliente: {id_cliente}", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {

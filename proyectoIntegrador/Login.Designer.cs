@@ -23,7 +23,7 @@ namespace proyectoIntegrador
             label2 = new Label();
             textBox2 = new TextBox();
             button1 = new Button();
-            SuspendLayout(); // Aquí se suspende el diseño
+            SuspendLayout();
             // 
             // textBox1
             // 
@@ -46,7 +46,7 @@ namespace proyectoIntegrador
             label2.AutoSize = true;
             label2.Location = new Point(233, 230);
             label2.Name = "label2";
-            label2.Size = new Size(63, 15);
+            label2.Size = new Size(67, 15);
             label2.TabIndex = 2;
             label2.Text = "Contraseña";
             // 
@@ -56,7 +56,7 @@ namespace proyectoIntegrador
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(100, 23);
             textBox2.TabIndex = 3;
-            textBox2.UseSystemPasswordChar = true; // Oculta la contraseña
+            textBox2.UseSystemPasswordChar = true;
             // 
             // button1
             // 
@@ -66,9 +66,9 @@ namespace proyectoIntegrador
             button1.TabIndex = 4;
             button1.Text = "Ingresar";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += Button1_Click; // Enlaza el evento aquí
+            button1.Click += Button1_Click;
             // 
-            // LoginForm
+            // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -78,9 +78,9 @@ namespace proyectoIntegrador
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(textBox1);
-            Name = "LoginForm";
+            Name = "Login";
             Text = "Login";
-            ResumeLayout(false); // Aquí se reanuda el diseño
+            ResumeLayout(false);
             PerformLayout();
         }
 

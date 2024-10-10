@@ -8,9 +8,10 @@ namespace proyectoIntegrador
     internal class Cliente
     {
         // Método para insertar un cliente
-        public int InsertarCliente(ECliente cliente)
+        public (int resultado, int idCliente) InsertarCliente(ECliente cliente)
         {
             int resultado;
+            int id_cliente = 0; // Variable para almacenar el ID del cliente insertado
 
             using (MySqlConnection sqlCon = Conexion.getInstancia().CrearConexion())
             {
@@ -40,16 +41,26 @@ namespace proyectoIntegrador
                         // Obtenemos el valor del parámetro de salida
                         resultado = Convert.ToInt32(rtaParam.Value);
                     }
+
+                    // Si la inserción fue exitosa, obtenemos el nuevo ID
+                    if (resultado == 1)
+                    {
+                        // Comando para obtener el último ID insertado
+                        using (MySqlCommand getIdCommand = new MySqlCommand("SELECT LAST_INSERT_ID();", sqlCon))
+                        {
+                            id_cliente = Convert.ToInt32(getIdCommand.ExecuteScalar());
+                        }
+                    }
                 }
                 catch (Exception ex)
                 {
                     // Manejo de errores (opcional)
                     Console.WriteLine("Error: " + ex.Message);
-                    resultado = -1; // Un valor que indique un error
+                    resultado = 0; // Un valor que indique un error
                 }
             }
 
-            return resultado; // Retorna 1 si la inserción fue exitosa, 0 si no
+            return (resultado, id_cliente); // Retorna el resultado y el ID del cliente
         }
     }
 }
