@@ -16,13 +16,13 @@ namespace proyectoIntegrador
         {
             // Obtener valores de los campos de texto
             string usuario = textBox1.Text;
-            string contraseña = textBox2.Text;
+            string contrasena = textBox2.Text;
 
             // Crear una instancia de la clase Usuario
             Usuario usuarioDatos = new Usuario();
 
             // Llamar a la función que valida las credenciales
-            int resultadoLogin = usuarioDatos.Log_Usu(usuario, contraseña);
+            int resultadoLogin = usuarioDatos.Log_Usu(usuario, contrasena);
 
             if (resultadoLogin == 1) // Suponiendo que 1 significa éxito
             {

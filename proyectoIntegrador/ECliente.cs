@@ -35,7 +35,7 @@ namespace proyectoIntegrador
         // Constructor sin parametros
         public ECliente() { }
 
-        //Metodo  que retorna el id del cliente
+        //Metodo que retorna el id del cliente
         public int getId() { return id_cliente; }
     }
 }
