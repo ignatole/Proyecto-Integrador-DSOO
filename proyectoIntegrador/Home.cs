@@ -13,29 +13,30 @@ namespace proyectoIntegrador
         // Evento para el botón "Inscribir Cliente"
         private void btnInscribirCliente_Click(object sender, EventArgs e)
         {
-            // Aquí puedes agregar el código para inscribir un cliente
-            MessageBox.Show("Inscribir Cliente");
+            InscribirCliente nuevoFormulario = new InscribirCliente();
+            nuevoFormulario.Show();
+            this.Close();
         }
 
         // Evento para el botón "Inscribir Actividades"
         private void btnInscribirActividades_Click(object sender, EventArgs e)
         {
             // Aquí puedes agregar el código para inscribir actividades
-            MessageBox.Show("Inscribir Actividades");
+            MessageBox.Show("Formulario en desarrollo, estamos trabajando para usted.");
         }
 
         // Evento para el botón "Pagos"
         private void btnPagos_Click(object sender, EventArgs e)
         {
             // Aquí puedes agregar el código para realizar pagos
-            MessageBox.Show("Pagos");
+            MessageBox.Show("Formulario en desarrollo, estamos trabajando para usted.");
         }
 
         // Evento para el botón "Listado de Vencimientos"
         private void btnListadoVencimientos_Click(object sender, EventArgs e)
         {
             // Aquí puedes agregar el código para mostrar el listado de vencimientos
-            MessageBox.Show("Listado de Vencimientos");
+            MessageBox.Show("Formulario en desarrollo, estamos trabajando para usted.");
         }
 
         // Evento para el botón "Salir"

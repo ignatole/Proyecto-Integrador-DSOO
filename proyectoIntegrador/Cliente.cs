@@ -8,7 +8,7 @@ namespace proyectoIntegrador
     internal class Cliente
     {
         // Método para insertar un cliente
-        public int InsertarCliente(E_Cliente cliente)
+        public int InsertarCliente(ECliente cliente)
         {
             int resultado;
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace proyectoIntegrador
 {
-    internal class E_Cliente
+    internal class ECliente
     {
         private int id_cliente; 
         private string? nombre; 
@@ -23,7 +23,7 @@ namespace proyectoIntegrador
         public string? Telefono { get { return telefono; } set { telefono = value; } }
 
         // Constructor basico
-        public E_Cliente(int id_cliente, string nombre, string apellido, int dni, string email, string telefono)
+        public ECliente(int id_cliente, string nombre, string apellido, int dni, string email, string telefono)
         {
             this.id_cliente = id_cliente;
             this.nombre = nombre;
@@ -32,6 +32,8 @@ namespace proyectoIntegrador
             this.email = email;
             this.telefono = telefono;
         }
+        // Constructor sin parametros
+        public ECliente() { }
 
         //Metodo  que retorna el id del cliente
         public int getId() { return id_cliente; }
