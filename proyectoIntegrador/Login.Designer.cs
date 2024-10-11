@@ -18,76 +18,112 @@ namespace proyectoIntegrador
 
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            label1 = new Label();
-            label2 = new Label();
-            textBox2 = new TextBox();
-            button1 = new Button();
+            txtUsuario = new TextBox();
+            lblContra = new Label();
+            txtContra = new TextBox();
+            btnIngresar = new Button();
+            chkMostrarContra = new CheckBox();
+            picLogin = new PictureBox();
+            lblUsuario = new Label();
+            ((System.ComponentModel.ISupportInitialize)picLogin).BeginInit();
             SuspendLayout();
             // 
-            // textBox1
+            // txtUsuario
             // 
-            textBox1.Location = new Point(312, 187);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 0;
+            txtUsuario.Location = new Point(372, 107);
+            txtUsuario.Margin = new Padding(3, 4, 3, 4);
+            txtUsuario.Name = "txtUsuario";
+            txtUsuario.Size = new Size(223, 27);
+            txtUsuario.TabIndex = 0;
             // 
-            // label1
+            // lblContra
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(229, 195);
-            label1.Name = "label1";
-            label1.Size = new Size(47, 15);
-            label1.TabIndex = 1;
-            label1.Text = "Usuario";
+            lblContra.AutoSize = true;
+            lblContra.Location = new Point(280, 188);
+            lblContra.Name = "lblContra";
+            lblContra.Size = new Size(83, 20);
+            lblContra.TabIndex = 2;
+            lblContra.Text = "Contraseña";
             // 
-            // label2
+            // txtContra
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(233, 230);
-            label2.Name = "label2";
-            label2.Size = new Size(67, 15);
-            label2.TabIndex = 2;
-            label2.Text = "Contraseña";
+            txtContra.Location = new Point(372, 181);
+            txtContra.Margin = new Padding(3, 4, 3, 4);
+            txtContra.Name = "txtContra";
+            txtContra.Size = new Size(223, 27);
+            txtContra.TabIndex = 3;
+            txtContra.UseSystemPasswordChar = true;
             // 
-            // textBox2
+            // btnIngresar
             // 
-            textBox2.Location = new Point(312, 227);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 3;
-            textBox2.UseSystemPasswordChar = true;
+            btnIngresar.Location = new Point(280, 273);
+            btnIngresar.Margin = new Padding(3, 4, 3, 4);
+            btnIngresar.Name = "btnIngresar";
+            btnIngresar.Size = new Size(248, 64);
+            btnIngresar.TabIndex = 4;
+            btnIngresar.Text = "Ingresar";
+            btnIngresar.UseVisualStyleBackColor = true;
+            btnIngresar.Click += btnIngresar_Click;
             // 
-            // button1
+            // chkMostrarContra
             // 
-            button1.Location = new Point(272, 280);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 4;
-            button1.Text = "Ingresar";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += Button1_Click;
+            chkMostrarContra.AutoSize = true;
+            chkMostrarContra.FlatStyle = FlatStyle.Popup;
+            chkMostrarContra.Location = new Point(440, 226);
+            chkMostrarContra.Name = "chkMostrarContra";
+            chkMostrarContra.Size = new Size(155, 24);
+            chkMostrarContra.TabIndex = 5;
+            chkMostrarContra.Text = "Mostrar contraseña";
+            chkMostrarContra.UseVisualStyleBackColor = true;
+            chkMostrarContra.CheckedChanged += chkMostrarContra_CheckedChanged;
+            // 
+            // picLogin
+            // 
+            picLogin.Location = new Point(24, 55);
+            picLogin.Name = "picLogin";
+            picLogin.Size = new Size(209, 199);
+            picLogin.SizeMode = PictureBoxSizeMode.StretchImage;
+            picLogin.TabIndex = 6;
+            picLogin.TabStop = false;
+            // 
+            // lblUsuario
+            // 
+            lblUsuario.AutoSize = true;
+            lblUsuario.Location = new Point(280, 110);
+            lblUsuario.Name = "lblUsuario";
+            lblUsuario.Size = new Size(59, 20);
+            lblUsuario.TabIndex = 7;
+            lblUsuario.Text = "Usuario";
             // 
             // Login
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(textBox1);
+            ClientSize = new Size(687, 395);
+            Controls.Add(lblUsuario);
+            Controls.Add(picLogin);
+            Controls.Add(chkMostrarContra);
+            Controls.Add(btnIngresar);
+            Controls.Add(txtContra);
+            Controls.Add(lblContra);
+            Controls.Add(txtUsuario);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Login";
             Text = "Login";
+            ((System.ComponentModel.ISupportInitialize)picLogin).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         private TextBox textBox1;
         private Label label1;
-        private Label label2;
+        private Label lblContra;
         private TextBox textBox2;
-        private Button button1;
+        private Button btnIngresar;
+        private CheckBox chkMostrarContra;
+        private PictureBox picLogin;
+        private TextBox txtUsuario;
+        private TextBox txtContra;
+        private Label lblUsuario;
     }
 }
