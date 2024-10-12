@@ -9,17 +9,14 @@ namespace proyectoIntegrador
         public Login()
         {
             InitializeComponent();
-            picLogin.Image = Image.FromFile(@"..\..\..\recursos\file.png");
-            this.KeyPreview = true; // Permite que el formulario capture los eventos de tecla
-            this.KeyPress += new KeyPressEventHandler(Login_KeyPress);
         }
 
         // Evento para manejar el clic en el botón de inicio de sesión
-        private void btnIngresar_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
             // Obtener valores de los campos de texto
-            string usuario = txtUsuario.Text;
-            string contrasena = txtContra.Text;
+            string usuario = textBox1.Text;
+            string contrasena = textBox2.Text;
 
             // Crear una instancia de la clase Usuario
             Usuario usuarioDatos = new Usuario();
@@ -41,19 +38,6 @@ namespace proyectoIntegrador
             {
                 MessageBox.Show("Usuario o contraseña incorrectos.");
             }
-        }
-        private void Login_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)Keys.Enter)
-            {
-                btnIngresar.PerformClick();
-
-            }
-        }
-
-        private void chkMostrarContra_CheckedChanged(object sender, EventArgs e)
-        {
-            txtContra.UseSystemPasswordChar = !chkMostrarContra.Checked;
         }
     }
 }
