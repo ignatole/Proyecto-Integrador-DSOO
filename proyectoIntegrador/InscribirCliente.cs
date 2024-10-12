@@ -14,11 +14,11 @@
             Cliente clienteHandler = new Cliente();
 
             // Asignar los valores de los TextBox a las propiedades del cliente
-            try
+            if (ValidarCampos())
             {
                 nuevoCliente.Nombre = txtNombre.Text;
                 nuevoCliente.Apellido = txtApellido.Text;
-                nuevoCliente.Dni = Convert.ToInt32(txtDni.Text);
+                nuevoCliente.Dni = Convert.ToInt32(txtDNI.Text);
                 nuevoCliente.Email = txtEmail.Text;
                 nuevoCliente.Telefono = txtTelefono.Text;
 
@@ -36,13 +36,7 @@
                     MessageBox.Show("El cliente ya existe", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            catch (Exception)
-            {
-                MessageBox.Show("Por favor ingrese un valor numérico en DNI", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            
         }
-
         // Evento click del botón "Limpiar"
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
@@ -58,11 +52,79 @@
             this.Close(); // Cerrar el formulario actual
             formPrevio.Show(); // Mostrar el formulario 
         }
+        private bool ValidarCampos()
+        {
+            ResetLabels();
+
+            if (string.IsNullOrWhiteSpace(txtNombre.Text))
+            {
+                lblNombre.Text += "*";
+                lblNombre.ForeColor = Color.Red;
+                MessageBox.Show("El campo Nombre debe ser llenado.");
+                txtNombre.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txtApellido.Text))
+            {
+                lblApellido.Text += "*";
+                lblApellido.ForeColor = Color.Red;
+                MessageBox.Show("El campo Apellido debe ser llenado.");
+                txtApellido.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txtDNI.Text))
+            {
+                lblDNI.Text += "*";
+                lblDNI.ForeColor = Color.Red;
+                MessageBox.Show("El campo DNI debe ser llenado.");
+                txtDNI.Focus();
+                return false;
+            }
+            if (!int.TryParse(txtDNI.Text, out _))
+            {
+                lblDNI.Text += "*";
+                lblDNI.ForeColor = Color.Red;
+                MessageBox.Show("El campo DNI debe contener solo valores numéricos.");
+                txtDNI.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txtTelefono.Text))
+            {
+                lblTelefono.Text += "*";
+                lblTelefono.ForeColor = Color.Red;
+                MessageBox.Show("El campo Teléfono debe ser llenado.");
+                txtTelefono.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txtEmail.Text))
+            {
+                lblEmail.Text += "*";
+                lblEmail.ForeColor = Color.Red;
+                MessageBox.Show("El campo Email debe ser llenado.");
+                txtEmail.Focus();
+                return false;
+            }
+            return true;
+        }
+
+        private void ResetLabels()
+        {
+            lblNombre.Text = "Nombre";
+            lblNombre.ForeColor = SystemColors.ControlText;
+            lblApellido.Text = "Apellido";
+            lblApellido.ForeColor = SystemColors.ControlText;
+            lblDNI.Text = "DNI";
+            lblDNI.ForeColor = SystemColors.ControlText;
+            lblTelefono.Text = "Teléfono";
+            lblTelefono.ForeColor = SystemColors.ControlText;
+            lblEmail.Text = "Email";
+            lblEmail.ForeColor = SystemColors.ControlText;
+        }
         private void LimpiarCampos()
         {
             txtNombre.Text = "";
             txtApellido.Text = "";
-            txtDni.Text = "";
+            txtDNI.Text = "";
             txtTelefono.Text = "";
             txtEmail.Text = "";
         }

@@ -23,12 +23,12 @@
         {
             lblNombre = new Label();
             lblApellido = new Label();
-            lblDni = new Label();
+            lblDNI = new Label();
             lblTelefono = new Label();
-            labelEmail = new Label();
+            lblEmail = new Label();
             txtNombre = new TextBox();
             txtApellido = new TextBox();
-            txtDni = new TextBox();
+            txtDNI = new TextBox();
             txtTelefono = new TextBox();
             txtEmail = new TextBox();
             buttonInscribir = new Button();
@@ -39,99 +39,99 @@
             // lblNombre
             // 
             lblNombre.AutoSize = true;
-            lblNombre.Location = new Point(40, 46);
+            lblNombre.Location = new Point(35, 34);
             lblNombre.Margin = new Padding(4, 0, 4, 0);
             lblNombre.Name = "lblNombre";
-            lblNombre.Size = new Size(64, 20);
+            lblNombre.Size = new Size(51, 15);
             lblNombre.TabIndex = 0;
             lblNombre.Text = "Nombre";
             // 
             // lblApellido
             // 
             lblApellido.AutoSize = true;
-            lblApellido.Location = new Point(40, 108);
+            lblApellido.Location = new Point(35, 81);
             lblApellido.Margin = new Padding(4, 0, 4, 0);
             lblApellido.Name = "lblApellido";
-            lblApellido.Size = new Size(66, 20);
+            lblApellido.Size = new Size(51, 15);
             lblApellido.TabIndex = 1;
             lblApellido.Text = "Apellido";
             // 
-            // lblDni
+            // lblDNI
             // 
-            lblDni.AutoSize = true;
-            lblDni.Location = new Point(40, 169);
-            lblDni.Margin = new Padding(4, 0, 4, 0);
-            lblDni.Name = "lblDni";
-            lblDni.Size = new Size(35, 20);
-            lblDni.TabIndex = 2;
-            lblDni.Text = "DNI";
+            lblDNI.AutoSize = true;
+            lblDNI.Location = new Point(35, 127);
+            lblDNI.Margin = new Padding(4, 0, 4, 0);
+            lblDNI.Name = "lblDNI";
+            lblDNI.Size = new Size(27, 15);
+            lblDNI.TabIndex = 2;
+            lblDNI.Text = "DNI";
             // 
             // lblTelefono
             // 
             lblTelefono.AutoSize = true;
-            lblTelefono.Location = new Point(40, 231);
+            lblTelefono.Location = new Point(35, 173);
             lblTelefono.Margin = new Padding(4, 0, 4, 0);
             lblTelefono.Name = "lblTelefono";
-            lblTelefono.Size = new Size(67, 20);
+            lblTelefono.Size = new Size(53, 15);
             lblTelefono.TabIndex = 3;
             lblTelefono.Text = "Teléfono";
             // 
-            // labelEmail
+            // lblEmail
             // 
-            labelEmail.AutoSize = true;
-            labelEmail.Location = new Point(40, 292);
-            labelEmail.Margin = new Padding(4, 0, 4, 0);
-            labelEmail.Name = "labelEmail";
-            labelEmail.Size = new Size(46, 20);
-            labelEmail.TabIndex = 4;
-            labelEmail.Text = "Email";
+            lblEmail.AutoSize = true;
+            lblEmail.Location = new Point(35, 219);
+            lblEmail.Margin = new Padding(4, 0, 4, 0);
+            lblEmail.Name = "lblEmail";
+            lblEmail.Size = new Size(36, 15);
+            lblEmail.TabIndex = 4;
+            lblEmail.Text = "Email";
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(133, 42);
-            txtNombre.Margin = new Padding(4, 5, 4, 5);
+            txtNombre.Location = new Point(116, 32);
+            txtNombre.Margin = new Padding(4, 4, 4, 4);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(265, 27);
+            txtNombre.Size = new Size(232, 23);
             txtNombre.TabIndex = 5;
             // 
             // txtApellido
             // 
-            txtApellido.Location = new Point(133, 103);
-            txtApellido.Margin = new Padding(4, 5, 4, 5);
+            txtApellido.Location = new Point(116, 77);
+            txtApellido.Margin = new Padding(4, 4, 4, 4);
             txtApellido.Name = "txtApellido";
-            txtApellido.Size = new Size(265, 27);
+            txtApellido.Size = new Size(232, 23);
             txtApellido.TabIndex = 6;
             // 
-            // txtDni
+            // txtDNI
             // 
-            txtDni.Location = new Point(133, 165);
-            txtDni.Margin = new Padding(4, 5, 4, 5);
-            txtDni.Name = "txtDni";
-            txtDni.Size = new Size(265, 27);
-            txtDni.TabIndex = 7;
+            txtDNI.Location = new Point(116, 124);
+            txtDNI.Margin = new Padding(4, 4, 4, 4);
+            txtDNI.Name = "txtDNI";
+            txtDNI.Size = new Size(232, 23);
+            txtDNI.TabIndex = 7;
             // 
             // txtTelefono
             // 
-            txtTelefono.Location = new Point(133, 226);
-            txtTelefono.Margin = new Padding(4, 5, 4, 5);
+            txtTelefono.Location = new Point(116, 170);
+            txtTelefono.Margin = new Padding(4, 4, 4, 4);
             txtTelefono.Name = "txtTelefono";
-            txtTelefono.Size = new Size(265, 27);
+            txtTelefono.Size = new Size(232, 23);
             txtTelefono.TabIndex = 8;
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(133, 288);
-            txtEmail.Margin = new Padding(4, 5, 4, 5);
+            txtEmail.Location = new Point(116, 216);
+            txtEmail.Margin = new Padding(4, 4, 4, 4);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(265, 27);
+            txtEmail.Size = new Size(232, 23);
             txtEmail.TabIndex = 9;
             // 
             // buttonInscribir
             // 
-            buttonInscribir.Location = new Point(40, 354);
-            buttonInscribir.Margin = new Padding(4, 5, 4, 5);
+            buttonInscribir.Location = new Point(35, 266);
+            buttonInscribir.Margin = new Padding(4, 4, 4, 4);
             buttonInscribir.Name = "buttonInscribir";
-            buttonInscribir.Size = new Size(100, 35);
+            buttonInscribir.Size = new Size(88, 26);
             buttonInscribir.TabIndex = 10;
             buttonInscribir.Text = "Inscribir";
             buttonInscribir.UseVisualStyleBackColor = true;
@@ -139,10 +139,10 @@
             // 
             // buttonLimpiar
             // 
-            buttonLimpiar.Location = new Point(173, 354);
-            buttonLimpiar.Margin = new Padding(4, 5, 4, 5);
+            buttonLimpiar.Location = new Point(151, 266);
+            buttonLimpiar.Margin = new Padding(4, 4, 4, 4);
             buttonLimpiar.Name = "buttonLimpiar";
-            buttonLimpiar.Size = new Size(100, 35);
+            buttonLimpiar.Size = new Size(88, 26);
             buttonLimpiar.TabIndex = 11;
             buttonLimpiar.Text = "Limpiar";
             buttonLimpiar.UseVisualStyleBackColor = true;
@@ -150,10 +150,10 @@
             // 
             // buttonCancelar
             // 
-            buttonCancelar.Location = new Point(307, 354);
-            buttonCancelar.Margin = new Padding(4, 5, 4, 5);
+            buttonCancelar.Location = new Point(269, 266);
+            buttonCancelar.Margin = new Padding(4, 4, 4, 4);
             buttonCancelar.Name = "buttonCancelar";
-            buttonCancelar.Size = new Size(100, 35);
+            buttonCancelar.Size = new Size(88, 26);
             buttonCancelar.TabIndex = 12;
             buttonCancelar.Text = "Cancelar";
             buttonCancelar.UseVisualStyleBackColor = true;
@@ -161,23 +161,23 @@
             // 
             // InscribirCliente
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(467, 462);
+            ClientSize = new Size(409, 346);
             Controls.Add(buttonCancelar);
             Controls.Add(buttonLimpiar);
             Controls.Add(buttonInscribir);
             Controls.Add(txtEmail);
             Controls.Add(txtTelefono);
-            Controls.Add(txtDni);
+            Controls.Add(txtDNI);
             Controls.Add(txtApellido);
             Controls.Add(txtNombre);
-            Controls.Add(labelEmail);
+            Controls.Add(lblEmail);
             Controls.Add(lblTelefono);
-            Controls.Add(lblDni);
+            Controls.Add(lblDNI);
             Controls.Add(lblApellido);
             Controls.Add(lblNombre);
-            Margin = new Padding(4, 5, 4, 5);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "InscribirCliente";
             Text = "Formulario de Inscripción";
             ResumeLayout(false);
@@ -186,12 +186,12 @@
 
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label lblApellido;
-        private System.Windows.Forms.Label lblDni;
+        private System.Windows.Forms.Label lblDNI;
         private System.Windows.Forms.Label lblTelefono;
-        private System.Windows.Forms.Label labelEmail;
+        private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtApellido;
-        private System.Windows.Forms.TextBox txtDni;
+        private System.Windows.Forms.TextBox txtDNI;
         private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Button buttonInscribir;
