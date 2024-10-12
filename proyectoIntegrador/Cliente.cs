@@ -29,6 +29,8 @@ namespace proyectoIntegrador
                         comando.Parameters.AddWithValue("@Doc", cliente.Dni);
                         comando.Parameters.AddWithValue("@Email", cliente.Email);
                         comando.Parameters.AddWithValue("@Telefono", cliente.Telefono);
+                        comando.Parameters.AddWithValue("@FecNac", cliente.FechaNac);
+                        comando.Parameters.AddWithValue("@Sexo", cliente.Sexo);
 
                         // Parámetro de salida
                         MySqlParameter rtaParam = new MySqlParameter("@rta", MySqlDbType.Int32);

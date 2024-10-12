@@ -21,6 +21,21 @@
                 nuevoCliente.Dni = Convert.ToInt32(txtDNI.Text);
                 nuevoCliente.Email = txtEmail.Text;
                 nuevoCliente.Telefono = txtTelefono.Text;
+                nuevoCliente.FechaNac = dtpFechaNac.Value;
+                string sexo = "";
+                if (rbtnMasculino.Checked)
+                {
+                    sexo = "Masculino";
+                }
+                else if (rbtnFemenino.Checked)
+                {
+                    sexo = "Femenino";
+                }
+                else if (rbtnOtro.Checked)
+                {
+                    sexo = "Otro";
+                }
+                nuevoCliente.Sexo = sexo;
 
                 // Llamar al método para insertar el cliente
                 var (resultado, id_cliente) = clienteHandler.InsertarCliente(nuevoCliente);
@@ -104,9 +119,24 @@
                 txtEmail.Focus();
                 return false;
             }
+            if (dtpFechaNac.Value > DateTime.Now)
+            {
+                lblFechaNac.Text += "*";
+                lblFechaNac.ForeColor = Color.Red;
+                MessageBox.Show("La fecha de nacimiento no puede ser una fecha futura.");
+                dtpFechaNac.Focus();
+                return false;
+            }
+            if (!rbtnMasculino.Checked && !rbtnFemenino.Checked && !rbtnOtro.Checked)
+            {
+                lblSexo.Text += " *";
+                lblSexo.ForeColor = Color.Red;
+                MessageBox.Show("Debe seleccionar un sexo.");
+                lblSexo.Focus();
+                return false;
+            }
             return true;
         }
-
         private void ResetLabels()
         {
             lblNombre.Text = "Nombre";
@@ -119,6 +149,10 @@
             lblTelefono.ForeColor = SystemColors.ControlText;
             lblEmail.Text = "Email";
             lblEmail.ForeColor = SystemColors.ControlText;
+            lblFechaNac.Text = "Fecha de Nacimiento";
+            lblFechaNac.ForeColor = SystemColors.ControlText;
+            lblSexo.Text = "Sexo";
+            lblSexo.ForeColor = SystemColors.ControlText;
         }
         private void LimpiarCampos()
         {
@@ -127,6 +161,10 @@
             txtDNI.Text = "";
             txtTelefono.Text = "";
             txtEmail.Text = "";
+            rbtnFemenino.Checked = false;
+            rbtnMasculino.Checked = false;
+            rbtnOtro.Checked = false;
+            dtpFechaNac.Value = DateTime.Now;
         }
     }
 }
