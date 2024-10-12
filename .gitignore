@@ -45,3 +45,13 @@ TestResults/               # Test results folder
 # DotNet CLI
 project.lock.json         # Project lock files for .NET Core
 project.assets.json       # Project assets file for .NET Core
+
+# Para ignorar "obj" solo en la raíz
+/obj/
+
+# Para ignorar "bin" solo en la raíz
+/bin/
+
+# Para ignorar cualquier "obj" o "bin" en subdirectorios
+**/obj/
+**/bin/
