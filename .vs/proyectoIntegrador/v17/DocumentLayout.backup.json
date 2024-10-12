@@ -41,15 +41,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
@@ -59,22 +55,10 @@
               "RelativeDocumentMoniker": "proyectoIntegrador\\InscribirCliente.cs",
               "ToolTip": "C:\\Users\\Illei\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs",
               "RelativeToolTip": "proyectoIntegrador\\InscribirCliente.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAQwKYAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T14:28:56.191Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InscribirCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Illei\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\InscribirCliente.cs",
-              "ToolTip": "C:\\Users\\Illei\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "proyectoIntegrador\\InscribirCliente.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T14:17:39.713Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -134,8 +118,7 @@
               "RelativeToolTip": "proyectoIntegrador\\Home.Designer.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAowHIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T22:52:02.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T22:52:02.738Z"
             },
             {
               "$type": "Document",
@@ -148,6 +131,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-10-09T16:27:05.925Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InscribirCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Illei\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\InscribirCliente.cs",
+              "ToolTip": "C:\\Users\\Illei\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "proyectoIntegrador\\InscribirCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:17:39.713Z"
             }
           ]
         }
