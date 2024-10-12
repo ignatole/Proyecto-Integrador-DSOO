@@ -7,9 +7,8 @@
 *.userprefs                # User preferences
 
 # Build results
-[Bb]in/                    # Output folder for binaries
+proyectoIntegrador/[Bb]in/                    # Output folder for binaries
 [Oo]bj/                    # Output folder for intermediate files
-bin/
 
 # Visual Studio Code
 .vscode/                   # Visual Studio Code settings
