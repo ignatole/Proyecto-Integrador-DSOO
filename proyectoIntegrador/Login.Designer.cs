@@ -30,46 +30,51 @@ namespace proyectoIntegrador
             // 
             // txtUsuario
             // 
-            txtUsuario.Location = new Point(326, 80);
+            txtUsuario.Location = new Point(410, 113);
+            txtUsuario.Margin = new Padding(3, 4, 3, 4);
             txtUsuario.Name = "txtUsuario";
-            txtUsuario.Size = new Size(196, 23);
+            txtUsuario.Size = new Size(223, 27);
             txtUsuario.TabIndex = 0;
             // 
             // lblContra
             // 
             lblContra.AutoSize = true;
-            lblContra.Location = new Point(245, 141);
+            lblContra.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblContra.Location = new Point(264, 184);
             lblContra.Name = "lblContra";
-            lblContra.Size = new Size(67, 15);
+            lblContra.Size = new Size(118, 28);
             lblContra.TabIndex = 2;
             lblContra.Text = "Contraseña";
             // 
             // txtContra
             // 
-            txtContra.Location = new Point(326, 136);
+            txtContra.Location = new Point(410, 188);
+            txtContra.Margin = new Padding(3, 4, 3, 4);
             txtContra.Name = "txtContra";
-            txtContra.Size = new Size(196, 23);
+            txtContra.Size = new Size(223, 27);
             txtContra.TabIndex = 3;
             txtContra.UseSystemPasswordChar = true;
             // 
             // btnIngresar
             // 
-            btnIngresar.Location = new Point(245, 205);
+            btnIngresar.BackColor = Color.FromArgb(233, 239, 236);
+            btnIngresar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnIngresar.Location = new Point(273, 291);
+            btnIngresar.Margin = new Padding(3, 4, 3, 4);
             btnIngresar.Name = "btnIngresar";
-            btnIngresar.Size = new Size(217, 48);
+            btnIngresar.Size = new Size(248, 64);
             btnIngresar.TabIndex = 4;
             btnIngresar.Text = "Ingresar";
-            btnIngresar.UseVisualStyleBackColor = true;
+            btnIngresar.UseVisualStyleBackColor = false;
             btnIngresar.Click += btnIngresar_Click;
             // 
             // chkMostrarContra
             // 
             chkMostrarContra.AutoSize = true;
             chkMostrarContra.FlatStyle = FlatStyle.Popup;
-            chkMostrarContra.Location = new Point(385, 170);
-            chkMostrarContra.Margin = new Padding(3, 2, 3, 2);
+            chkMostrarContra.Location = new Point(458, 233);
             chkMostrarContra.Name = "chkMostrarContra";
-            chkMostrarContra.Size = new Size(126, 19);
+            chkMostrarContra.Size = new Size(155, 24);
             chkMostrarContra.TabIndex = 5;
             chkMostrarContra.Text = "Mostrar contraseña";
             chkMostrarContra.UseVisualStyleBackColor = true;
@@ -77,28 +82,29 @@ namespace proyectoIntegrador
             // 
             // picLogin
             // 
-            picLogin.Location = new Point(21, 41);
-            picLogin.Margin = new Padding(3, 2, 3, 2);
+            picLogin.Location = new Point(24, 55);
             picLogin.Name = "picLogin";
-            picLogin.Size = new Size(183, 180);
-            picLogin.SizeMode = PictureBoxSizeMode.StretchImage;
+            picLogin.Size = new Size(209, 240);
+            picLogin.SizeMode = PictureBoxSizeMode.Zoom;
             picLogin.TabIndex = 6;
             picLogin.TabStop = false;
             // 
             // lblUsuario
             // 
             lblUsuario.AutoSize = true;
-            lblUsuario.Location = new Point(245, 82);
+            lblUsuario.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblUsuario.Location = new Point(264, 109);
             lblUsuario.Name = "lblUsuario";
-            lblUsuario.Size = new Size(47, 15);
+            lblUsuario.Size = new Size(84, 28);
             lblUsuario.TabIndex = 7;
             lblUsuario.Text = "Usuario";
             // 
             // Login
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(601, 296);
+            BackColor = Color.FromArgb(246, 245, 242);
+            ClientSize = new Size(687, 395);
             Controls.Add(lblUsuario);
             Controls.Add(picLogin);
             Controls.Add(chkMostrarContra);
@@ -106,6 +112,7 @@ namespace proyectoIntegrador
             Controls.Add(txtContra);
             Controls.Add(lblContra);
             Controls.Add(txtUsuario);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Login";
             Text = "Login";
             ((System.ComponentModel.ISupportInitialize)picLogin).EndInit();

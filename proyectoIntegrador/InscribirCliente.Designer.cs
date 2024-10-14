@@ -35,144 +35,163 @@
             buttonLimpiar = new Button();
             buttonCancelar = new Button();
             grpDatosPersonales = new GroupBox();
-            dtpFechaNac = new DateTimePicker();
-            lblFechaNac = new Label();
-            grpDatosContacto = new GroupBox();
-            lblSexo = new Label();
-            rbtnMasculino = new RadioButton();
-            rbtnFemenino = new RadioButton();
+            label5 = new Label();
+            label6 = new Label();
+            label7 = new Label();
+            label1 = new Label();
             rbtnOtro = new RadioButton();
+            rbtnFemenino = new RadioButton();
+            label2 = new Label();
+            rbtnMasculino = new RadioButton();
+            lblSexo = new Label();
+            lblFechaNac = new Label();
+            dtpFechaNac = new DateTimePicker();
+            grpDatosContacto = new GroupBox();
+            label3 = new Label();
+            label4 = new Label();
+            pictureBox1 = new PictureBox();
             grpDatosPersonales.SuspendLayout();
             grpDatosContacto.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // lblNombre
             // 
             lblNombre.AutoSize = true;
-            lblNombre.Location = new Point(9, 59);
-            lblNombre.Margin = new Padding(4, 0, 4, 0);
+            lblNombre.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            lblNombre.Location = new Point(10, 79);
+            lblNombre.Margin = new Padding(5, 0, 5, 0);
             lblNombre.Name = "lblNombre";
-            lblNombre.Size = new Size(51, 15);
+            lblNombre.Size = new Size(73, 23);
             lblNombre.TabIndex = 0;
             lblNombre.Text = "Nombre";
             // 
             // lblApellido
             // 
             lblApellido.AutoSize = true;
-            lblApellido.Location = new Point(9, 104);
-            lblApellido.Margin = new Padding(4, 0, 4, 0);
+            lblApellido.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            lblApellido.Location = new Point(10, 139);
+            lblApellido.Margin = new Padding(5, 0, 5, 0);
             lblApellido.Name = "lblApellido";
-            lblApellido.Size = new Size(51, 15);
+            lblApellido.Size = new Size(72, 23);
             lblApellido.TabIndex = 1;
             lblApellido.Text = "Apellido";
             // 
             // lblDNI
             // 
             lblDNI.AutoSize = true;
-            lblDNI.Location = new Point(9, 147);
-            lblDNI.Margin = new Padding(4, 0, 4, 0);
+            lblDNI.Location = new Point(10, 196);
+            lblDNI.Margin = new Padding(5, 0, 5, 0);
             lblDNI.Name = "lblDNI";
-            lblDNI.Size = new Size(27, 15);
+            lblDNI.Size = new Size(40, 23);
             lblDNI.TabIndex = 2;
             lblDNI.Text = "DNI";
             // 
             // lblTelefono
             // 
             lblTelefono.AutoSize = true;
-            lblTelefono.Location = new Point(7, 59);
-            lblTelefono.Margin = new Padding(4, 0, 4, 0);
+            lblTelefono.Location = new Point(8, 79);
+            lblTelefono.Margin = new Padding(5, 0, 5, 0);
             lblTelefono.Name = "lblTelefono";
-            lblTelefono.Size = new Size(53, 15);
+            lblTelefono.Size = new Size(67, 20);
             lblTelefono.TabIndex = 3;
             lblTelefono.Text = "Teléfono";
             // 
             // lblEmail
             // 
             lblEmail.AutoSize = true;
-            lblEmail.Location = new Point(7, 104);
-            lblEmail.Margin = new Padding(4, 0, 4, 0);
+            lblEmail.Location = new Point(17, 135);
+            lblEmail.Margin = new Padding(5, 0, 5, 0);
             lblEmail.Name = "lblEmail";
-            lblEmail.Size = new Size(36, 15);
+            lblEmail.Size = new Size(46, 20);
             lblEmail.TabIndex = 4;
             lblEmail.Text = "Email";
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(77, 51);
-            txtNombre.Margin = new Padding(4);
+            txtNombre.Location = new Point(151, 69);
+            txtNombre.Margin = new Padding(5);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(204, 23);
+            txtNombre.Size = new Size(233, 30);
             txtNombre.TabIndex = 5;
             // 
             // txtApellido
             // 
-            txtApellido.Location = new Point(77, 96);
-            txtApellido.Margin = new Padding(4);
+            txtApellido.Location = new Point(151, 132);
+            txtApellido.Margin = new Padding(5);
             txtApellido.Name = "txtApellido";
-            txtApellido.Size = new Size(204, 23);
+            txtApellido.Size = new Size(233, 30);
             txtApellido.TabIndex = 6;
             // 
             // txtDNI
             // 
-            txtDNI.Location = new Point(77, 139);
-            txtDNI.Margin = new Padding(4);
+            txtDNI.Location = new Point(151, 190);
+            txtDNI.Margin = new Padding(5);
             txtDNI.Name = "txtDNI";
-            txtDNI.Size = new Size(204, 23);
+            txtDNI.Size = new Size(233, 30);
             txtDNI.TabIndex = 7;
             // 
             // txtTelefono
             // 
-            txtTelefono.Location = new Point(68, 51);
-            txtTelefono.Margin = new Padding(4);
+            txtTelefono.Location = new Point(98, 73);
+            txtTelefono.Margin = new Padding(5);
             txtTelefono.Name = "txtTelefono";
-            txtTelefono.Size = new Size(200, 23);
+            txtTelefono.Size = new Size(228, 27);
             txtTelefono.TabIndex = 8;
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(68, 96);
-            txtEmail.Margin = new Padding(4);
+            txtEmail.Location = new Point(98, 128);
+            txtEmail.Margin = new Padding(5);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(200, 23);
+            txtEmail.Size = new Size(228, 27);
             txtEmail.TabIndex = 9;
             // 
             // buttonInscribir
             // 
-            buttonInscribir.Location = new Point(396, 349);
-            buttonInscribir.Margin = new Padding(4);
+            buttonInscribir.BackColor = Color.FromArgb(233, 239, 236);
+            buttonInscribir.Location = new Point(191, 480);
+            buttonInscribir.Margin = new Padding(5);
             buttonInscribir.Name = "buttonInscribir";
-            buttonInscribir.Size = new Size(88, 26);
+            buttonInscribir.Size = new Size(101, 35);
             buttonInscribir.TabIndex = 10;
             buttonInscribir.Text = "Inscribir";
-            buttonInscribir.UseVisualStyleBackColor = true;
+            buttonInscribir.UseVisualStyleBackColor = false;
             buttonInscribir.Click += btnInscribir;
             // 
             // buttonLimpiar
             // 
-            buttonLimpiar.Location = new Point(492, 349);
-            buttonLimpiar.Margin = new Padding(4);
+            buttonLimpiar.BackColor = Color.FromArgb(233, 239, 236);
+            buttonLimpiar.Location = new Point(397, 480);
+            buttonLimpiar.Margin = new Padding(5);
             buttonLimpiar.Name = "buttonLimpiar";
-            buttonLimpiar.Size = new Size(88, 26);
+            buttonLimpiar.Size = new Size(101, 35);
             buttonLimpiar.TabIndex = 11;
             buttonLimpiar.Text = "Limpiar";
-            buttonLimpiar.UseVisualStyleBackColor = true;
+            buttonLimpiar.UseVisualStyleBackColor = false;
             buttonLimpiar.Click += btnLimpiar_Click;
             // 
             // buttonCancelar
             // 
-            buttonCancelar.Location = new Point(588, 349);
-            buttonCancelar.Margin = new Padding(4);
+            buttonCancelar.BackColor = Color.FromArgb(233, 239, 236);
+            buttonCancelar.Location = new Point(610, 480);
+            buttonCancelar.Margin = new Padding(5);
             buttonCancelar.Name = "buttonCancelar";
-            buttonCancelar.Size = new Size(88, 26);
+            buttonCancelar.Size = new Size(101, 35);
             buttonCancelar.TabIndex = 12;
             buttonCancelar.Text = "Cancelar";
-            buttonCancelar.UseVisualStyleBackColor = true;
+            buttonCancelar.UseVisualStyleBackColor = false;
             buttonCancelar.Click += btnCancelar_Click;
             // 
             // grpDatosPersonales
             // 
+            grpDatosPersonales.Controls.Add(label5);
+            grpDatosPersonales.Controls.Add(label6);
+            grpDatosPersonales.Controls.Add(label7);
+            grpDatosPersonales.Controls.Add(label1);
             grpDatosPersonales.Controls.Add(rbtnOtro);
             grpDatosPersonales.Controls.Add(rbtnFemenino);
+            grpDatosPersonales.Controls.Add(label2);
             grpDatosPersonales.Controls.Add(rbtnMasculino);
             grpDatosPersonales.Controls.Add(lblSexo);
             grpDatosPersonales.Controls.Add(lblFechaNac);
@@ -183,97 +202,199 @@
             grpDatosPersonales.Controls.Add(txtNombre);
             grpDatosPersonales.Controls.Add(lblDNI);
             grpDatosPersonales.Controls.Add(txtDNI);
-            grpDatosPersonales.Location = new Point(35, 12);
+            grpDatosPersonales.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            grpDatosPersonales.Location = new Point(40, 16);
+            grpDatosPersonales.Margin = new Padding(3, 4, 3, 4);
             grpDatosPersonales.Name = "grpDatosPersonales";
-            grpDatosPersonales.Size = new Size(313, 309);
+            grpDatosPersonales.Padding = new Padding(3, 4, 3, 4);
+            grpDatosPersonales.Size = new Size(411, 412);
             grpDatosPersonales.TabIndex = 13;
             grpDatosPersonales.TabStop = false;
             grpDatosPersonales.Text = "Datos personales";
             // 
-            // dtpFechaNac
+            // label5
             // 
-            dtpFechaNac.Format = DateTimePickerFormat.Short;
-            dtpFechaNac.Location = new Point(181, 186);
-            dtpFechaNac.Name = "dtpFechaNac";
-            dtpFechaNac.Size = new Size(100, 23);
-            dtpFechaNac.TabIndex = 8;
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.ForeColor = Color.Red;
+            label5.Location = new Point(53, 298);
+            label5.Name = "label5";
+            label5.Size = new Size(15, 19);
+            label5.TabIndex = 19;
+            label5.Text = "*";
             // 
-            // lblFechaNac
+            // label6
             // 
-            lblFechaNac.AutoSize = true;
-            lblFechaNac.Location = new Point(9, 192);
-            lblFechaNac.Name = "lblFechaNac";
-            lblFechaNac.Size = new Size(117, 15);
-            lblFechaNac.TabIndex = 9;
-            lblFechaNac.Text = "Fecha de nacimiento";
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = Color.Red;
+            label6.Location = new Point(184, 256);
+            label6.Name = "label6";
+            label6.Size = new Size(15, 19);
+            label6.TabIndex = 20;
+            label6.Text = "*";
             // 
-            // grpDatosContacto
+            // label7
             // 
-            grpDatosContacto.Controls.Add(lblTelefono);
-            grpDatosContacto.Controls.Add(lblEmail);
-            grpDatosContacto.Controls.Add(txtTelefono);
-            grpDatosContacto.Controls.Add(txtEmail);
-            grpDatosContacto.Location = new Point(384, 179);
-            grpDatosContacto.Name = "grpDatosContacto";
-            grpDatosContacto.Size = new Size(292, 142);
-            grpDatosContacto.TabIndex = 14;
-            grpDatosContacto.TabStop = false;
-            grpDatosContacto.Text = "Datos de contacto";
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.ForeColor = Color.Red;
+            label7.Location = new Point(80, 143);
+            label7.Name = "label7";
+            label7.Size = new Size(15, 19);
+            label7.TabIndex = 21;
+            label7.Text = "*";
+            label7.Click += label7_Click;
             // 
-            // lblSexo
+            // label1
             // 
-            lblSexo.AutoSize = true;
-            lblSexo.Location = new Point(9, 222);
-            lblSexo.Name = "lblSexo";
-            lblSexo.Size = new Size(31, 15);
-            lblSexo.TabIndex = 10;
-            lblSexo.Text = "Sexo";
-            // 
-            // rbtnMasculino
-            // 
-            rbtnMasculino.AutoSize = true;
-            rbtnMasculino.Location = new Point(101, 227);
-            rbtnMasculino.Name = "rbtnMasculino";
-            rbtnMasculino.Size = new Size(80, 19);
-            rbtnMasculino.TabIndex = 11;
-            rbtnMasculino.TabStop = true;
-            rbtnMasculino.Text = "Masculino";
-            rbtnMasculino.UseVisualStyleBackColor = true;
-            // 
-            // rbtnFemenino
-            // 
-            rbtnFemenino.AutoSize = true;
-            rbtnFemenino.Location = new Point(101, 252);
-            rbtnFemenino.Name = "rbtnFemenino";
-            rbtnFemenino.Size = new Size(78, 19);
-            rbtnFemenino.TabIndex = 12;
-            rbtnFemenino.TabStop = true;
-            rbtnFemenino.Text = "Femenino";
-            rbtnFemenino.UseVisualStyleBackColor = true;
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = Color.Red;
+            label1.Location = new Point(80, 83);
+            label1.Name = "label1";
+            label1.Size = new Size(15, 19);
+            label1.TabIndex = 15;
+            label1.Text = "*";
             // 
             // rbtnOtro
             // 
             rbtnOtro.AutoSize = true;
-            rbtnOtro.Location = new Point(101, 277);
+            rbtnOtro.Location = new Point(115, 369);
+            rbtnOtro.Margin = new Padding(3, 4, 3, 4);
             rbtnOtro.Name = "rbtnOtro";
-            rbtnOtro.Size = new Size(49, 19);
+            rbtnOtro.Size = new Size(66, 27);
             rbtnOtro.TabIndex = 13;
             rbtnOtro.TabStop = true;
             rbtnOtro.Text = "Otro";
             rbtnOtro.UseVisualStyleBackColor = true;
             // 
+            // rbtnFemenino
+            // 
+            rbtnFemenino.AutoSize = true;
+            rbtnFemenino.Location = new Point(115, 336);
+            rbtnFemenino.Margin = new Padding(3, 4, 3, 4);
+            rbtnFemenino.Name = "rbtnFemenino";
+            rbtnFemenino.Size = new Size(106, 27);
+            rbtnFemenino.TabIndex = 12;
+            rbtnFemenino.TabStop = true;
+            rbtnFemenino.Text = "Femenino";
+            rbtnFemenino.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = Color.Red;
+            label2.Location = new Point(53, 197);
+            label2.Name = "label2";
+            label2.Size = new Size(15, 19);
+            label2.TabIndex = 16;
+            label2.Text = "*";
+            // 
+            // rbtnMasculino
+            // 
+            rbtnMasculino.AutoSize = true;
+            rbtnMasculino.Location = new Point(115, 303);
+            rbtnMasculino.Margin = new Padding(3, 4, 3, 4);
+            rbtnMasculino.Name = "rbtnMasculino";
+            rbtnMasculino.Size = new Size(108, 27);
+            rbtnMasculino.TabIndex = 11;
+            rbtnMasculino.TabStop = true;
+            rbtnMasculino.Text = "Masculino";
+            rbtnMasculino.UseVisualStyleBackColor = true;
+            // 
+            // lblSexo
+            // 
+            lblSexo.AutoSize = true;
+            lblSexo.Location = new Point(10, 296);
+            lblSexo.Name = "lblSexo";
+            lblSexo.Size = new Size(46, 23);
+            lblSexo.TabIndex = 10;
+            lblSexo.Text = "Sexo";
+            // 
+            // lblFechaNac
+            // 
+            lblFechaNac.AutoSize = true;
+            lblFechaNac.Location = new Point(10, 256);
+            lblFechaNac.Name = "lblFechaNac";
+            lblFechaNac.Size = new Size(168, 23);
+            lblFechaNac.TabIndex = 9;
+            lblFechaNac.Text = "Fecha de nacimiento";
+            // 
+            // dtpFechaNac
+            // 
+            dtpFechaNac.Format = DateTimePickerFormat.Short;
+            dtpFechaNac.Location = new Point(270, 250);
+            dtpFechaNac.Margin = new Padding(3, 4, 3, 4);
+            dtpFechaNac.Name = "dtpFechaNac";
+            dtpFechaNac.Size = new Size(114, 30);
+            dtpFechaNac.TabIndex = 8;
+            // 
+            // grpDatosContacto
+            // 
+            grpDatosContacto.Controls.Add(label3);
+            grpDatosContacto.Controls.Add(label4);
+            grpDatosContacto.Controls.Add(lblTelefono);
+            grpDatosContacto.Controls.Add(lblEmail);
+            grpDatosContacto.Controls.Add(txtTelefono);
+            grpDatosContacto.Controls.Add(txtEmail);
+            grpDatosContacto.Location = new Point(486, 239);
+            grpDatosContacto.Margin = new Padding(3, 4, 3, 4);
+            grpDatosContacto.Name = "grpDatosContacto";
+            grpDatosContacto.Padding = new Padding(3, 4, 3, 4);
+            grpDatosContacto.Size = new Size(350, 189);
+            grpDatosContacto.TabIndex = 14;
+            grpDatosContacto.TabStop = false;
+            grpDatosContacto.Text = "Datos de contacto";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.Red;
+            label3.Location = new Point(75, 75);
+            label3.Name = "label3";
+            label3.Size = new Size(15, 19);
+            label3.TabIndex = 17;
+            label3.Text = "*";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.Red;
+            label4.Location = new Point(60, 133);
+            label4.Name = "label4";
+            label4.Size = new Size(15, 19);
+            label4.TabIndex = 18;
+            label4.Text = "*";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.imagen_2;
+            pictureBox1.InitialImage = Properties.Resources.imagen_2;
+            pictureBox1.Location = new Point(503, 32);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(309, 200);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 15;
+            pictureBox1.TabStop = false;
+            // 
             // InscribirCliente
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(246, 245, 242);
             BackgroundImageLayout = ImageLayout.Center;
-            ClientSize = new Size(713, 396);
+            ClientSize = new Size(888, 561);
+            Controls.Add(pictureBox1);
             Controls.Add(grpDatosContacto);
             Controls.Add(grpDatosPersonales);
             Controls.Add(buttonCancelar);
             Controls.Add(buttonLimpiar);
             Controls.Add(buttonInscribir);
-            Margin = new Padding(4);
+            Margin = new Padding(5);
             Name = "InscribirCliente";
             RightToLeft = RightToLeft.No;
             Text = "Formulario de Inscripción";
@@ -281,6 +402,7 @@
             grpDatosPersonales.PerformLayout();
             grpDatosContacto.ResumeLayout(false);
             grpDatosContacto.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -305,5 +427,13 @@
         private RadioButton rbtnOtro;
         private RadioButton rbtnFemenino;
         private RadioButton rbtnMasculino;
+        private Label label5;
+        private Label label6;
+        private Label label7;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private PictureBox pictureBox1;
     }
 }

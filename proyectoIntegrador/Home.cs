@@ -44,6 +44,7 @@ namespace proyectoIntegrador
         {
             // Aquí puedes agregar el código para salir de la aplicación
             this.Close();
+            Application.Exit();
         }
     }
 }

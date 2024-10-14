@@ -40,67 +40,77 @@ namespace proyectoIntegrador
             // 
             // btnInscribirCliente
             // 
-            btnInscribirCliente.Location = new Point(67, 108);
+            btnInscribirCliente.BackColor = Color.FromArgb(233, 239, 236);
+            btnInscribirCliente.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnInscribirCliente.Location = new Point(89, 152);
             btnInscribirCliente.Margin = new Padding(4, 5, 4, 5);
             btnInscribirCliente.Name = "btnInscribirCliente";
-            btnInscribirCliente.Size = new Size(267, 62);
+            btnInscribirCliente.Size = new Size(281, 94);
             btnInscribirCliente.TabIndex = 0;
             btnInscribirCliente.Text = "Inscribir Cliente";
-            btnInscribirCliente.UseVisualStyleBackColor = true;
+            btnInscribirCliente.UseVisualStyleBackColor = false;
             btnInscribirCliente.Click += btnInscribirCliente_Click;
             // 
             // btnInscribirActividades
             // 
-            btnInscribirActividades.Location = new Point(67, 200);
+            btnInscribirActividades.BackColor = Color.FromArgb(233, 239, 236);
+            btnInscribirActividades.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnInscribirActividades.Location = new Point(480, 152);
             btnInscribirActividades.Margin = new Padding(4, 5, 4, 5);
             btnInscribirActividades.Name = "btnInscribirActividades";
-            btnInscribirActividades.Size = new Size(267, 62);
+            btnInscribirActividades.Size = new Size(279, 94);
             btnInscribirActividades.TabIndex = 1;
             btnInscribirActividades.Text = "Inscribir Actividades";
-            btnInscribirActividades.UseVisualStyleBackColor = true;
+            btnInscribirActividades.UseVisualStyleBackColor = false;
             btnInscribirActividades.Click += btnInscribirActividades_Click;
             // 
             // btnPagos
             // 
-            btnPagos.Location = new Point(67, 292);
+            btnPagos.BackColor = Color.FromArgb(233, 239, 236);
+            btnPagos.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnPagos.Location = new Point(89, 317);
             btnPagos.Margin = new Padding(4, 5, 4, 5);
             btnPagos.Name = "btnPagos";
-            btnPagos.Size = new Size(267, 62);
+            btnPagos.Size = new Size(281, 100);
             btnPagos.TabIndex = 2;
             btnPagos.Text = "Pagos";
-            btnPagos.UseVisualStyleBackColor = true;
+            btnPagos.UseVisualStyleBackColor = false;
             btnPagos.Click += btnPagos_Click;
             // 
             // btnListadoVencimientos
             // 
-            btnListadoVencimientos.Location = new Point(67, 385);
+            btnListadoVencimientos.BackColor = Color.FromArgb(233, 239, 236);
+            btnListadoVencimientos.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnListadoVencimientos.Location = new Point(480, 317);
             btnListadoVencimientos.Margin = new Padding(4, 5, 4, 5);
             btnListadoVencimientos.Name = "btnListadoVencimientos";
-            btnListadoVencimientos.Size = new Size(267, 62);
+            btnListadoVencimientos.Size = new Size(279, 100);
             btnListadoVencimientos.TabIndex = 3;
             btnListadoVencimientos.Text = "Listado de Vencimientos";
-            btnListadoVencimientos.UseVisualStyleBackColor = true;
+            btnListadoVencimientos.UseVisualStyleBackColor = false;
             btnListadoVencimientos.Click += btnListadoVencimientos_Click;
             // 
             // btnSalir
             // 
-            btnSalir.Location = new Point(67, 477);
+            btnSalir.BackColor = Color.FromArgb(233, 239, 236);
+            btnSalir.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSalir.Location = new Point(492, 500);
             btnSalir.Margin = new Padding(4, 5, 4, 5);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(267, 62);
             btnSalir.TabIndex = 4;
             btnSalir.Text = "Salir";
-            btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.UseVisualStyleBackColor = false;
             btnSalir.Click += btnSalir_Click;
             // 
             // lblTitulo
             // 
             lblTitulo.AutoSize = true;
-            lblTitulo.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            lblTitulo.Location = new Point(60, 31);
+            lblTitulo.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTitulo.Location = new Point(286, 46);
             lblTitulo.Margin = new Padding(4, 0, 4, 0);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(273, 29);
+            lblTitulo.Size = new Size(302, 31);
             lblTitulo.TabIndex = 5;
             lblTitulo.Text = "Bienvenido al Sistema";
             // 
@@ -108,7 +118,8 @@ namespace proyectoIntegrador
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(400, 585);
+            BackColor = Color.FromArgb(246, 245, 242);
+            ClientSize = new Size(850, 585);
             Controls.Add(lblTitulo);
             Controls.Add(btnSalir);
             Controls.Add(btnListadoVencimientos);
