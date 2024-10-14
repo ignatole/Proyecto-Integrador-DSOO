@@ -9,7 +9,7 @@ namespace proyectoIntegrador
         public Login()
         {
             InitializeComponent();
-            picLogin.Image = Image.FromFile(@"..\..\..\recursos\file.png");
+            picLogin.Image = Image.FromFile(@"..\..\..\resources\ImagenFormLogin.png");
             this.KeyPreview = true; // Permite que el formulario capture los eventos de tecla
             this.KeyPress += new KeyPressEventHandler(Login_KeyPress);
         }

@@ -364,8 +364,8 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.imagen_2;
-            pictureBox1.InitialImage = Properties.Resources.imagen_2;
+            pictureBox1.Image = Properties.Resources.ImagenFormInscripcion;
+            pictureBox1.InitialImage = Properties.Resources.ImagenFormInscripcion;
             pictureBox1.Location = new Point(440, 24);
             pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";

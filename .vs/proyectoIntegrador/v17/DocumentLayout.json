@@ -1,58 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\",
+  "WorkspaceRootPath": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyecto-integrador-dsoo\\proyectointegrador\\inscribircliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\proyectointegrador.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\proyectointegrador.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\inscribircliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\inscribircliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\inscribircliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\inscribircliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectointegrador\\inscribircliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\inscribircliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\inscribircliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyecto-integrador-dsoo\\proyectointegrador\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyecto-integrador-dsoo\\proyectointegrador\\datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyecto-integrador-dsoo\\proyectointegrador\\recursos\\imagen_2.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\recursos\\imagen_2.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyecto-integrador-dsoo\\proyectointegrador\\recursos\\file.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\recursos\\file.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyecto-integrador-dsoo\\proyectointegrador\\datos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\datos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyecto-integrador-dsoo\\proyectointegrador\\resources\\imagen_2.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\resources\\imagen_2.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyecto-integrador-dsoo\\proyectointegrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectointegrador\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectointegrador\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyecto-integrador-dsoo\\proyectointegrador\\ecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\ecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\source\\repos\\proyecto-integrador-dsoo\\proyectointegrador\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,174 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "imagen_2.png -  [Espa\u00F1ol (M\u00E9xico)] - PNG [740x740, 24 bits, PNG]",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Recursos\\imagen_2.png",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\Recursos\\imagen_2.png",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Recursos\\imagen_2.png -  [Espa\u00F1ol (M\u00E9xico)] - PNG [740x740, 24 bits, PNG]",
-              "RelativeToolTip": "proyectoIntegrador\\Recursos\\imagen_2.png -  [Espa\u00F1ol (M\u00E9xico)] - PNG [740x740, 24 bits, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-10-14T02:58:43.918Z",
-              "EditorCaption": " -  [Espa\u00F1ol (M\u00E9xico)] - PNG [740x740, 24 bits, PNG]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Datos\\Conexion.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\Datos\\Conexion.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Datos\\Conexion.cs",
-              "RelativeToolTip": "proyectoIntegrador\\Datos\\Conexion.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwBUAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Login.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\Login.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Login.cs",
+              "RelativeToolTip": "proyectoIntegrador\\Login.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAjwAsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T21:23:06.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Cliente.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Cliente.cs",
-              "RelativeToolTip": "proyectoIntegrador\\Cliente.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T02:58:30.419Z",
+              "WhenOpened": "2024-10-14T03:20:20.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InscribirCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs",
+              "Title": "proyectoIntegrador",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\proyectoIntegrador.csproj",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\proyectoIntegrador.csproj",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\proyectoIntegrador.csproj",
+              "RelativeToolTip": "proyectoIntegrador\\proyectoIntegrador.csproj",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-14T03:19:37.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InscribirCliente.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.Designer.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\InscribirCliente.Designer.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.Designer.cs",
+              "RelativeToolTip": "proyectoIntegrador\\InscribirCliente.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T03:19:11.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InscribirCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs",
               "RelativeDocumentMoniker": "proyectoIntegrador\\InscribirCliente.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs",
+              "RelativeToolTip": "proyectoIntegrador\\InscribirCliente.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAUwKgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T03:19:07.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InscribirCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\InscribirCliente.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs [Dise\u00F1o]",
               "RelativeToolTip": "proyectoIntegrador\\InscribirCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T14:17:39.713Z",
+              "WhenOpened": "2024-10-14T03:19:05.717Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InscribirCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\InscribirCliente.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs",
-              "RelativeToolTip": "proyectoIntegrador\\InscribirCliente.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAEwKgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T14:28:56.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "file.png -  [Espa\u00F1ol (M\u00E9xico)] - PNG [740x740, 32 bits, PNG]",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Recursos\\file.png",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\Recursos\\file.png",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Recursos\\file.png -  [Espa\u00F1ol (M\u00E9xico)] - PNG [740x740, 32 bits, PNG]",
-              "RelativeToolTip": "proyectoIntegrador\\Recursos\\file.png -  [Espa\u00F1ol (M\u00E9xico)] - PNG [740x740, 32 bits, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-10-14T02:58:43.159Z",
-              "EditorCaption": " -  [Espa\u00F1ol (M\u00E9xico)] - PNG [740x740, 32 bits, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Datos\\Usuario.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\Datos\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Datos\\Usuario.cs",
-              "RelativeToolTip": "proyectoIntegrador\\Datos\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T02:58:42.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "imagen_2.png -  [Espa\u00F1ol (M\u00E9xico)] - PNG [740x740, 24 bits, PNG]",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Resources\\imagen_2.png",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\Resources\\imagen_2.png",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Resources\\imagen_2.png -  [Espa\u00F1ol (M\u00E9xico)] - PNG [740x740, 24 bits, PNG]",
-              "RelativeToolTip": "proyectoIntegrador\\Resources\\imagen_2.png -  [Espa\u00F1ol (M\u00E9xico)] - PNG [740x740, 24 bits, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-10-14T02:58:40.115Z",
-              "EditorCaption": " -  [Espa\u00F1ol (M\u00E9xico)] - PNG [740x740, 24 bits, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ECliente.cs",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\ECliente.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\ECliente.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\ECliente.cs",
-              "RelativeToolTip": "proyectoIntegrador\\ECliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T02:58:34.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Home.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Home.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\Home.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Home.cs [Dise\u00F1o]",
-              "RelativeToolTip": "proyectoIntegrador\\Home.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T22:11:09.453Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Login.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\Login.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "proyectoIntegrador\\Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T22:11:26.848Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Program.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\Program.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Program.cs",
-              "RelativeToolTip": "proyectoIntegrador\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T17:38:58.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Home.cs",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Home.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\Home.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Home.cs",
-              "RelativeToolTip": "proyectoIntegrador\\Home.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T14:51:48.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         },

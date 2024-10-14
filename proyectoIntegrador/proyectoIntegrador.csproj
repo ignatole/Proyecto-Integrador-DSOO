@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Recursos\file.png" />
+    <None Remove="Resources\ImagenFormLogin.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Recursos\file.png" />
+    <Resource Include="Resources\ImagenFormLogin.png" />
   </ItemGroup>
 
   <ItemGroup>

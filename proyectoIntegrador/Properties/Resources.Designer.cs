@@ -63,9 +63,9 @@ namespace proyectoIntegrador.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap imagen_2 {
+        internal static System.Drawing.Bitmap ImagenFormInscripcion {
             get {
-                object obj = ResourceManager.GetObject("imagen_2", resourceCulture);
+                object obj = ResourceManager.GetObject("ImagenFormInscripcion", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
