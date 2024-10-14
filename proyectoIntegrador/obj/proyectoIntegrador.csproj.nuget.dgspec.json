@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\romin\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\proyectoIntegrador.csproj": {}
+    "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\proyectoIntegrador.csproj": {}
   },
   "projects": {
-    "C:\\Users\\romin\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\proyectoIntegrador.csproj": {
+    "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\proyectoIntegrador.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romin\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\proyectoIntegrador.csproj",
+        "projectUniqueName": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\proyectoIntegrador.csproj",
         "projectName": "proyectoIntegrador",
-        "projectPath": "C:\\Users\\romin\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\proyectoIntegrador.csproj",
-        "packagesPath": "C:\\Users\\romin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romin\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\obj\\",
+        "projectPath": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\proyectoIntegrador.csproj",
+        "packagesPath": "C:\\Users\\Ignacio Toledo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ignacio Toledo\\source\\repos\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\romin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ignacio Toledo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -74,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

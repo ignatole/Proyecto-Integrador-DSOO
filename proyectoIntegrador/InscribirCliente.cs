@@ -73,7 +73,6 @@
 
             if (string.IsNullOrWhiteSpace(txtNombre.Text))
             {
-                lblNombre.Text += "*";
                 lblNombre.ForeColor = Color.Red;
                 MessageBox.Show("El campo Nombre debe ser llenado.");
                 txtNombre.Focus();
@@ -81,7 +80,6 @@
             }
             if (string.IsNullOrWhiteSpace(txtApellido.Text))
             {
-                lblApellido.Text += "*";
                 lblApellido.ForeColor = Color.Red;
                 MessageBox.Show("El campo Apellido debe ser llenado.");
                 txtApellido.Focus();
@@ -89,7 +87,6 @@
             }
             if (string.IsNullOrWhiteSpace(txtDNI.Text))
             {
-                lblDNI.Text += "*";
                 lblDNI.ForeColor = Color.Red;
                 MessageBox.Show("El campo DNI debe ser llenado.");
                 txtDNI.Focus();
@@ -97,7 +94,6 @@
             }
             if (!int.TryParse(txtDNI.Text, out _))
             {
-                lblDNI.Text += "*";
                 lblDNI.ForeColor = Color.Red;
                 MessageBox.Show("El campo DNI debe contener solo valores numéricos.");
                 txtDNI.Focus();
@@ -105,7 +101,6 @@
             }
             if (string.IsNullOrWhiteSpace(txtTelefono.Text))
             {
-                lblTelefono.Text += "*";
                 lblTelefono.ForeColor = Color.Red;
                 MessageBox.Show("El campo Teléfono debe ser llenado.");
                 txtTelefono.Focus();
@@ -113,7 +108,6 @@
             }
             if (string.IsNullOrWhiteSpace(txtEmail.Text))
             {
-                lblEmail.Text += "*";
                 lblEmail.ForeColor = Color.Red;
                 MessageBox.Show("El campo Email debe ser llenado.");
                 txtEmail.Focus();
@@ -121,7 +115,6 @@
             }
             if (dtpFechaNac.Value > DateTime.Now)
             {
-                lblFechaNac.Text += "*";
                 lblFechaNac.ForeColor = Color.Red;
                 MessageBox.Show("La fecha de nacimiento no puede ser una fecha futura.");
                 dtpFechaNac.Focus();
@@ -129,7 +122,6 @@
             }
             if (!rbtnMasculino.Checked && !rbtnFemenino.Checked && !rbtnOtro.Checked)
             {
-                lblSexo.Text += " *";
                 lblSexo.ForeColor = Color.Red;
                 MessageBox.Show("Debe seleccionar un sexo.");
                 lblSexo.Focus();
@@ -168,6 +160,11 @@
         }
 
         private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
