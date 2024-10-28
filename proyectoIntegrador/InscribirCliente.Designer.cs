@@ -110,7 +110,7 @@
             // txtNombre
             // 
             txtNombre.Location = new Point(132, 52);
-            txtNombre.Margin = new Padding(4, 4, 4, 4);
+            txtNombre.Margin = new Padding(4);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(204, 25);
             txtNombre.TabIndex = 5;
@@ -118,7 +118,7 @@
             // txtApellido
             // 
             txtApellido.Location = new Point(132, 99);
-            txtApellido.Margin = new Padding(4, 4, 4, 4);
+            txtApellido.Margin = new Padding(4);
             txtApellido.Name = "txtApellido";
             txtApellido.Size = new Size(204, 25);
             txtApellido.TabIndex = 6;
@@ -126,7 +126,7 @@
             // txtDNI
             // 
             txtDNI.Location = new Point(132, 142);
-            txtDNI.Margin = new Padding(4, 4, 4, 4);
+            txtDNI.Margin = new Padding(4);
             txtDNI.Name = "txtDNI";
             txtDNI.Size = new Size(204, 25);
             txtDNI.TabIndex = 7;
@@ -134,7 +134,7 @@
             // txtTelefono
             // 
             txtTelefono.Location = new Point(86, 55);
-            txtTelefono.Margin = new Padding(4, 4, 4, 4);
+            txtTelefono.Margin = new Padding(4);
             txtTelefono.Name = "txtTelefono";
             txtTelefono.Size = new Size(200, 23);
             txtTelefono.TabIndex = 8;
@@ -142,7 +142,7 @@
             // txtEmail
             // 
             txtEmail.Location = new Point(86, 96);
-            txtEmail.Margin = new Padding(4, 4, 4, 4);
+            txtEmail.Margin = new Padding(4);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(200, 23);
             txtEmail.TabIndex = 9;
@@ -151,7 +151,7 @@
             // 
             buttonInscribir.BackColor = Color.FromArgb(233, 239, 236);
             buttonInscribir.Location = new Point(167, 360);
-            buttonInscribir.Margin = new Padding(4, 4, 4, 4);
+            buttonInscribir.Margin = new Padding(4);
             buttonInscribir.Name = "buttonInscribir";
             buttonInscribir.Size = new Size(88, 26);
             buttonInscribir.TabIndex = 10;
@@ -163,7 +163,7 @@
             // 
             buttonLimpiar.BackColor = Color.FromArgb(233, 239, 236);
             buttonLimpiar.Location = new Point(347, 360);
-            buttonLimpiar.Margin = new Padding(4, 4, 4, 4);
+            buttonLimpiar.Margin = new Padding(4);
             buttonLimpiar.Name = "buttonLimpiar";
             buttonLimpiar.Size = new Size(88, 26);
             buttonLimpiar.TabIndex = 11;
@@ -175,7 +175,7 @@
             // 
             buttonCancelar.BackColor = Color.FromArgb(233, 239, 236);
             buttonCancelar.Location = new Point(534, 360);
-            buttonCancelar.Margin = new Padding(4, 4, 4, 4);
+            buttonCancelar.Margin = new Padding(4);
             buttonCancelar.Name = "buttonCancelar";
             buttonCancelar.Size = new Size(88, 26);
             buttonCancelar.TabIndex = 12;
@@ -298,6 +298,7 @@
             rbtnMasculino.TabStop = true;
             rbtnMasculino.Text = "Masculino";
             rbtnMasculino.UseVisualStyleBackColor = true;
+            rbtnMasculino.CheckedChanged += rbtnMasculino_CheckedChanged;
             // 
             // lblSexo
             // 
@@ -388,7 +389,7 @@
             Controls.Add(buttonCancelar);
             Controls.Add(buttonLimpiar);
             Controls.Add(buttonInscribir);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "InscribirCliente";
             RightToLeft = RightToLeft.No;
             Text = "Formulario de Inscripción";

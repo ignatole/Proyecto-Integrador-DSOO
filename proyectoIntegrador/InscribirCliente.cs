@@ -168,5 +168,10 @@
         {
 
         }
+
+        private void rbtnMasculino_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

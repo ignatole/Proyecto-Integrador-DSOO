@@ -27,7 +27,9 @@ namespace proyectoIntegrador
         // Evento para el botón "Pagos"
         private void btnPagos_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Formulario en desarrollo, estamos trabajando para usted.");
+            PagarCuota nuevoFormulario = new PagarCuota();
+            nuevoFormulario.Show();
+            this.Close();
         }
 
         // Evento para el botón "Listado de Vencimientos"
