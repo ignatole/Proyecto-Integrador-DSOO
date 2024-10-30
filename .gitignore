@@ -1,5 +1,5 @@
 # Visual Studio
-.vs/                       # Visual Studio folder for user-specific settings
+**/vs/                       # Visual Studio folder for user-specific settings
 *.suo                      # Solution User Options file
 *.user                     # User-specific settings
 *.sln.ide                  # Solution IDE settings
@@ -7,7 +7,7 @@
 *.userprefs                # User preferences
 
 # Build results
-proyectoIntegrador/[Bb]in/                    # Output folder for binaries
+**/[Bb]in/                    # Output folder for binaries
 [Oo]bj/                    # Output folder for intermediate files
 
 # Visual Studio Code
