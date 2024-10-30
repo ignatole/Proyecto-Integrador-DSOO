@@ -36,6 +36,7 @@
                     sexo = "Otro";
                 }
                 nuevoCliente.Sexo = sexo;
+                nuevoCliente.AptoFisico = chkAptoFisico.Checked ? true : false;
 
                 // Llamar al método para insertar el cliente
                 var (resultado, id_cliente) = clienteHandler.InsertarCliente(nuevoCliente);
@@ -157,6 +158,7 @@
             rbtnMasculino.Checked = false;
             rbtnOtro.Checked = false;
             dtpFechaNac.Value = DateTime.Now;
+            chkAptoFisico.Checked = false; 
         }
 
         private void label7_Click(object sender, EventArgs e)
