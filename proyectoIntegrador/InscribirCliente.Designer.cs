@@ -47,6 +47,8 @@
             lblFechaNac = new Label();
             dtpFechaNac = new DateTimePicker();
             grpDatosContacto = new GroupBox();
+            chkAptoFisico = new CheckBox();
+            lblAptoFisico = new Label();
             label3 = new Label();
             label4 = new Label();
             pictureBox1 = new PictureBox();
@@ -90,7 +92,7 @@
             // lblTelefono
             // 
             lblTelefono.AutoSize = true;
-            lblTelefono.Location = new Point(7, 59);
+            lblTelefono.Location = new Point(12, 29);
             lblTelefono.Margin = new Padding(4, 0, 4, 0);
             lblTelefono.Name = "lblTelefono";
             lblTelefono.Size = new Size(52, 15);
@@ -100,7 +102,7 @@
             // lblEmail
             // 
             lblEmail.AutoSize = true;
-            lblEmail.Location = new Point(15, 101);
+            lblEmail.Location = new Point(15, 60);
             lblEmail.Margin = new Padding(4, 0, 4, 0);
             lblEmail.Name = "lblEmail";
             lblEmail.Size = new Size(36, 15);
@@ -133,7 +135,7 @@
             // 
             // txtTelefono
             // 
-            txtTelefono.Location = new Point(86, 55);
+            txtTelefono.Location = new Point(85, 25);
             txtTelefono.Margin = new Padding(4);
             txtTelefono.Name = "txtTelefono";
             txtTelefono.Size = new Size(200, 23);
@@ -141,7 +143,7 @@
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(86, 96);
+            txtEmail.Location = new Point(85, 57);
             txtEmail.Margin = new Padding(4);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(200, 23);
@@ -328,6 +330,8 @@
             // 
             // grpDatosContacto
             // 
+            grpDatosContacto.Controls.Add(chkAptoFisico);
+            grpDatosContacto.Controls.Add(lblAptoFisico);
             grpDatosContacto.Controls.Add(label3);
             grpDatosContacto.Controls.Add(label4);
             grpDatosContacto.Controls.Add(lblTelefono);
@@ -341,12 +345,32 @@
             grpDatosContacto.TabStop = false;
             grpDatosContacto.Text = "Datos de contacto";
             // 
+            // chkAptoFisico
+            // 
+            chkAptoFisico.AutoSize = true;
+            chkAptoFisico.Location = new Point(136, 94);
+            chkAptoFisico.Name = "chkAptoFisico";
+            chkAptoFisico.Size = new Size(15, 14);
+            chkAptoFisico.TabIndex = 20;
+            chkAptoFisico.UseVisualStyleBackColor = true;
+            chkAptoFisico.CheckedChanged += chkAptoFisico_CheckedChanged;
+            // 
+            // lblAptoFisico
+            // 
+            lblAptoFisico.AutoSize = true;
+            lblAptoFisico.Location = new Point(15, 93);
+            lblAptoFisico.Name = "lblAptoFisico";
+            lblAptoFisico.Size = new Size(115, 15);
+            lblAptoFisico.TabIndex = 19;
+            lblAptoFisico.Text = "Presenta apto fisico?";
+            lblAptoFisico.Click += label8_Click;
+            // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
             label3.ForeColor = Color.Red;
-            label3.Location = new Point(66, 56);
+            label3.Location = new Point(66, 25);
             label3.Name = "label3";
             label3.Size = new Size(12, 13);
             label3.TabIndex = 17;
@@ -357,7 +381,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = Color.Red;
-            label4.Location = new Point(52, 100);
+            label4.Location = new Point(52, 57);
             label4.Name = "label4";
             label4.Size = new Size(12, 13);
             label4.TabIndex = 18;
@@ -430,5 +454,7 @@
         private Label label3;
         private Label label4;
         private PictureBox pictureBox1;
+        private Label lblAptoFisico;
+        private CheckBox chkAptoFisico;
     }
 }
