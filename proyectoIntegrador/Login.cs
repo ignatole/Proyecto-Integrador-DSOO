@@ -1,6 +1,6 @@
 using System;
 using System.Windows.Forms;
-using proyectoIntegrador.Datos; // Asegúrate de incluir esta línea
+using proyectoIntegrador.Datos; // Asegurate de incluir esta linea
 
 namespace proyectoIntegrador
 {
@@ -9,24 +9,27 @@ namespace proyectoIntegrador
         public Login()
         {
             InitializeComponent();
+            picLogin.Image = Image.FromFile(@"..\..\..\resources\ImagenFormLogin.png");
+            this.KeyPreview = true; // Permite que el formulario capture los eventos de tecla
+            this.KeyPress += new KeyPressEventHandler(Login_KeyPress);
         }
 
-        // Evento para manejar el clic en el botón de inicio de sesión
-        private void Button1_Click(object sender, EventArgs e)
+        // Evento para manejar el clic en el boton de inicio de sesion
+        private void btnIngresar_Click(object sender, EventArgs e)
         {
             // Obtener valores de los campos de texto
-            string usuario = textBox1.Text;
-            string contrasena = textBox2.Text;
+            string usuario = txtUsuario.Text;
+            string contrasena = txtContra.Text;
 
             // Crear una instancia de la clase Usuario
             Usuario usuarioDatos = new Usuario();
 
-            // Llamar a la función que valida las credenciales
+            // Llamar a la funciï¿½n que valida las credenciales
             int resultadoLogin = usuarioDatos.Log_Usu(usuario, contrasena);
 
-            if (resultadoLogin == 1) // Suponiendo que 1 significa éxito
+            if (resultadoLogin == 1) // Suponiendo que 1 significa exito
             {
-                MessageBox.Show("Inicio de sesión exitoso.");
+                MessageBox.Show("Inicio de sesiÃ³n exitoso.");
 
                 // Redirigir al HomeForm
                 Home homeForm = new Home();
@@ -36,8 +39,21 @@ namespace proyectoIntegrador
             }
             else
             {
-                MessageBox.Show("Usuario o contraseña incorrectos.");
+                MessageBox.Show("Usuario o contraseÃ±a incorrectos.");
             }
+        }
+        private void Login_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                btnIngresar.PerformClick();
+
+            }
+        }
+
+        private void chkMostrarContra_CheckedChanged(object sender, EventArgs e)
+        {
+            txtContra.UseSystemPasswordChar = !chkMostrarContra.Checked;
         }
     }
 }
