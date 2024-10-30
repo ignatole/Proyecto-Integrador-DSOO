@@ -1,5 +1,5 @@
 # Visual Studio
-**/vs/                       # Visual Studio folder for user-specific settings
+**/.vs/                       # Visual Studio folder for user-specific settings
 *.suo                      # Solution User Options file
 *.user                     # User-specific settings
 *.sln.ide                  # Solution IDE settings
