@@ -47,6 +47,8 @@
             lblFechaNac = new Label();
             dtpFechaNac = new DateTimePicker();
             grpDatosContacto = new GroupBox();
+            chkAptoFisico = new CheckBox();
+            lblAptoFisico = new Label();
             label3 = new Label();
             label4 = new Label();
             pictureBox1 = new PictureBox();
@@ -90,7 +92,7 @@
             // lblTelefono
             // 
             lblTelefono.AutoSize = true;
-            lblTelefono.Location = new Point(7, 59);
+            lblTelefono.Location = new Point(12, 29);
             lblTelefono.Margin = new Padding(4, 0, 4, 0);
             lblTelefono.Name = "lblTelefono";
             lblTelefono.Size = new Size(52, 15);
@@ -100,7 +102,7 @@
             // lblEmail
             // 
             lblEmail.AutoSize = true;
-            lblEmail.Location = new Point(15, 101);
+            lblEmail.Location = new Point(15, 60);
             lblEmail.Margin = new Padding(4, 0, 4, 0);
             lblEmail.Name = "lblEmail";
             lblEmail.Size = new Size(36, 15);
@@ -110,7 +112,7 @@
             // txtNombre
             // 
             txtNombre.Location = new Point(132, 52);
-            txtNombre.Margin = new Padding(4, 4, 4, 4);
+            txtNombre.Margin = new Padding(4);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(204, 25);
             txtNombre.TabIndex = 5;
@@ -118,7 +120,7 @@
             // txtApellido
             // 
             txtApellido.Location = new Point(132, 99);
-            txtApellido.Margin = new Padding(4, 4, 4, 4);
+            txtApellido.Margin = new Padding(4);
             txtApellido.Name = "txtApellido";
             txtApellido.Size = new Size(204, 25);
             txtApellido.TabIndex = 6;
@@ -126,23 +128,23 @@
             // txtDNI
             // 
             txtDNI.Location = new Point(132, 142);
-            txtDNI.Margin = new Padding(4, 4, 4, 4);
+            txtDNI.Margin = new Padding(4);
             txtDNI.Name = "txtDNI";
             txtDNI.Size = new Size(204, 25);
             txtDNI.TabIndex = 7;
             // 
             // txtTelefono
             // 
-            txtTelefono.Location = new Point(86, 55);
-            txtTelefono.Margin = new Padding(4, 4, 4, 4);
+            txtTelefono.Location = new Point(85, 25);
+            txtTelefono.Margin = new Padding(4);
             txtTelefono.Name = "txtTelefono";
             txtTelefono.Size = new Size(200, 23);
             txtTelefono.TabIndex = 8;
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(86, 96);
-            txtEmail.Margin = new Padding(4, 4, 4, 4);
+            txtEmail.Location = new Point(85, 57);
+            txtEmail.Margin = new Padding(4);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(200, 23);
             txtEmail.TabIndex = 9;
@@ -151,7 +153,7 @@
             // 
             buttonInscribir.BackColor = Color.FromArgb(233, 239, 236);
             buttonInscribir.Location = new Point(167, 360);
-            buttonInscribir.Margin = new Padding(4, 4, 4, 4);
+            buttonInscribir.Margin = new Padding(4);
             buttonInscribir.Name = "buttonInscribir";
             buttonInscribir.Size = new Size(88, 26);
             buttonInscribir.TabIndex = 10;
@@ -163,7 +165,7 @@
             // 
             buttonLimpiar.BackColor = Color.FromArgb(233, 239, 236);
             buttonLimpiar.Location = new Point(347, 360);
-            buttonLimpiar.Margin = new Padding(4, 4, 4, 4);
+            buttonLimpiar.Margin = new Padding(4);
             buttonLimpiar.Name = "buttonLimpiar";
             buttonLimpiar.Size = new Size(88, 26);
             buttonLimpiar.TabIndex = 11;
@@ -175,7 +177,7 @@
             // 
             buttonCancelar.BackColor = Color.FromArgb(233, 239, 236);
             buttonCancelar.Location = new Point(534, 360);
-            buttonCancelar.Margin = new Padding(4, 4, 4, 4);
+            buttonCancelar.Margin = new Padding(4);
             buttonCancelar.Name = "buttonCancelar";
             buttonCancelar.Size = new Size(88, 26);
             buttonCancelar.TabIndex = 12;
@@ -298,6 +300,7 @@
             rbtnMasculino.TabStop = true;
             rbtnMasculino.Text = "Masculino";
             rbtnMasculino.UseVisualStyleBackColor = true;
+            rbtnMasculino.CheckedChanged += rbtnMasculino_CheckedChanged;
             // 
             // lblSexo
             // 
@@ -327,6 +330,8 @@
             // 
             // grpDatosContacto
             // 
+            grpDatosContacto.Controls.Add(chkAptoFisico);
+            grpDatosContacto.Controls.Add(lblAptoFisico);
             grpDatosContacto.Controls.Add(label3);
             grpDatosContacto.Controls.Add(label4);
             grpDatosContacto.Controls.Add(lblTelefono);
@@ -340,12 +345,32 @@
             grpDatosContacto.TabStop = false;
             grpDatosContacto.Text = "Datos de contacto";
             // 
+            // chkAptoFisico
+            // 
+            chkAptoFisico.AutoSize = true;
+            chkAptoFisico.Location = new Point(136, 94);
+            chkAptoFisico.Name = "chkAptoFisico";
+            chkAptoFisico.Size = new Size(15, 14);
+            chkAptoFisico.TabIndex = 20;
+            chkAptoFisico.UseVisualStyleBackColor = true;
+            chkAptoFisico.CheckedChanged += chkAptoFisico_CheckedChanged;
+            // 
+            // lblAptoFisico
+            // 
+            lblAptoFisico.AutoSize = true;
+            lblAptoFisico.Location = new Point(15, 93);
+            lblAptoFisico.Name = "lblAptoFisico";
+            lblAptoFisico.Size = new Size(115, 15);
+            lblAptoFisico.TabIndex = 19;
+            lblAptoFisico.Text = "Presenta apto fisico?";
+            lblAptoFisico.Click += label8_Click;
+            // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
             label3.ForeColor = Color.Red;
-            label3.Location = new Point(66, 56);
+            label3.Location = new Point(66, 25);
             label3.Name = "label3";
             label3.Size = new Size(12, 13);
             label3.TabIndex = 17;
@@ -356,7 +381,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = Color.Red;
-            label4.Location = new Point(52, 100);
+            label4.Location = new Point(52, 57);
             label4.Name = "label4";
             label4.Size = new Size(12, 13);
             label4.TabIndex = 18;
@@ -388,7 +413,7 @@
             Controls.Add(buttonCancelar);
             Controls.Add(buttonLimpiar);
             Controls.Add(buttonInscribir);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "InscribirCliente";
             RightToLeft = RightToLeft.No;
             Text = "Formulario de Inscripción";
@@ -429,5 +454,7 @@
         private Label label3;
         private Label label4;
         private PictureBox pictureBox1;
+        private Label lblAptoFisico;
+        private CheckBox chkAptoFisico;
     }
 }
