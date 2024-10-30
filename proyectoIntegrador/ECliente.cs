@@ -16,6 +16,7 @@ namespace proyectoIntegrador
         private string? telefono;
         private DateTime fechaNac;
         private string? sexo;
+        private bool aptoFisico;
 
         // GET - SET
         public string? Nombre { get { return nombre; } set { nombre = value; } }
@@ -25,6 +26,7 @@ namespace proyectoIntegrador
         public string? Telefono { get { return telefono; } set { telefono = value; } }
         public DateTime FechaNac { get { return fechaNac; } set { fechaNac = value; } }
         public string? Sexo { get { return sexo; } set { sexo = value; } }
+        public bool AptoFisico { get { return aptoFisico; } set { aptoFisico = value; } }
 
         // Constructor basico
         public ECliente(int id_cliente, string nombre, string apellido, int dni, string email, string telefono, DateTime fechaNac, string sexo)
