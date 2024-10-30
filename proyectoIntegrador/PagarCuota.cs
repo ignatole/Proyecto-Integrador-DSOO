@@ -15,29 +15,76 @@ namespace proyectoIntegrador
         public PagarCuota()
         {
             InitializeComponent();
+            rbtnCuotaActividad.CheckedChanged += new EventHandler(RadioButton_CheckedChanged);
+            rbtnCuotaMensual.CheckedChanged += new EventHandler(RadioButton_CheckedChanged);
+            nudCantAct.Visible = false;
+            nudCantAct.Minimum = 0; 
+            nudCantAct.ValueChanged += new EventHandler(NudCantAct_ValueChanged);
+        }
+        private void NudCantAct_ValueChanged(object? sender, EventArgs e)
+        { 
+            txtboxMonto.Text = (nudCantAct.Value * 1000).ToString();
         }
         private void btnVerDeuda_Click(object sender, EventArgs e)
         {
             Deuda verDeudaForm = new Deuda();
             verDeudaForm.ShowDialog();
         }
-
+        private void RadioButton_CheckedChanged(object? sender, EventArgs e)
+        {
+            if (rbtnCuotaActividad.Checked)
+            {
+                nudCantAct.Visible = true;
+                txtboxMonto.ReadOnly = true;
+                txtboxMonto.Text = (nudCantAct.Value * 1000).ToString();
+            }
+            else
+            {
+                nudCantAct.Visible = false;
+                txtboxMonto.ReadOnly = false;
+                txtboxMonto.Clear();
+            }
+        }
         private void btnPagar_Click(object sender, EventArgs e)
         {
-            int dniCliente = int.Parse(txtNroCliente.Text); 
+            int dniCliente = int.Parse(txtNroCliente.Text);
 
-            Cliente clienteService = new Cliente();
+            Cliente clienteService = new();
 
             var (resultado, idCliente) = clienteService.BuscarNroCliente(dniCliente);
 
             if (resultado == 1)
             {
-
-                decimal monto = decimal.Parse(txtboxMonto.Text); 
+                if (rbtnCuotaActividad.Checked && nudCantAct.Value == 0)
+                {
+                    MessageBox.Show("Debe registrar el pago de al menos un crédito");
+                    return;
+                }
+                if (string.IsNullOrEmpty(txtboxMonto.Text))
+                {
+                    MessageBox.Show("Debe ingresar un monto");
+                    return;
+                }
+                if (!rbtnEfectivo.Checked && !rbtnTarjeta.Checked)
+                {
+                    MessageBox.Show("Debe seleccionar un medio de pago");
+                    return;
+                }
+                if (rbtnCuotaActividad.Checked)
+                {
+                    ECredito credito = new()
+                    {
+                        IdCliente = idCliente,
+                        CantCreditos = (int)nudCantAct.Value
+                    };
+                    Credito creditoService = new();
+                    creditoService.CargarCreditos(credito);
+                }
+                decimal monto = decimal.Parse(txtboxMonto.Text);
                 string medioPago = rbtnEfectivo.Checked ? "Efectivo" : "Tarjeta";
-                bool tipoCuota = rbtnCuotaMensual.Checked; 
+                bool tipoCuota = rbtnCuotaMensual.Checked;
 
-                ECuota cuota = new ECuota
+                ECuota cuota = new()
                 {
                     IdCliente = idCliente,
                     FechaPago = DateTime.Now,

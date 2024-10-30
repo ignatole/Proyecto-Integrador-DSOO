@@ -31,8 +31,10 @@
             rbtnCuotaActividad = new RadioButton();
             grpFormaDePago = new GroupBox();
             grpTipoCuota = new GroupBox();
+            nudCantAct = new NumericUpDown();
             grpFormaDePago.SuspendLayout();
             grpTipoCuota.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)nudCantAct).BeginInit();
             SuspendLayout();
             // 
             // lblTitulo
@@ -120,7 +122,7 @@
             rbtnTarjeta.AutoSize = true;
             rbtnTarjeta.Location = new Point(6, 47);
             rbtnTarjeta.Name = "rbtnTarjeta";
-            rbtnTarjeta.Size = new Size(59, 19);
+            rbtnTarjeta.Size = new Size(60, 19);
             rbtnTarjeta.TabIndex = 6;
             rbtnTarjeta.TabStop = true;
             rbtnTarjeta.Text = "Tarjeta";
@@ -157,7 +159,7 @@
             lblTipoCuota.AutoSize = true;
             lblTipoCuota.Location = new Point(146, 192);
             lblTipoCuota.Name = "lblTipoCuota";
-            lblTipoCuota.Size = new Size(79, 15);
+            lblTipoCuota.Size = new Size(80, 15);
             lblTipoCuota.TabIndex = 10;
             lblTipoCuota.Text = "Tipo de cuota";
             // 
@@ -203,11 +205,19 @@
             grpTipoCuota.TabIndex = 14;
             grpTipoCuota.TabStop = false;
             // 
+            // nudCantAct
+            // 
+            nudCantAct.Location = new Point(683, 217);
+            nudCantAct.Name = "nudCantAct";
+            nudCantAct.Size = new Size(35, 23);
+            nudCantAct.TabIndex = 15;
+            // 
             // PagarCuota
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(847, 429);
+            Controls.Add(nudCantAct);
             Controls.Add(lblTitulo);
             Controls.Add(txtNroCliente);
             Controls.Add(btnVerNroCliente);
@@ -231,6 +241,7 @@
             grpFormaDePago.PerformLayout();
             grpTipoCuota.ResumeLayout(false);
             grpTipoCuota.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)nudCantAct).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -251,6 +262,7 @@
         private RadioButton rbtnCuotaActividad;
         private GroupBox grpFormaDePago;
         private GroupBox grpTipoCuota;
+        private NumericUpDown nudCantAct;
     }
 }
 
