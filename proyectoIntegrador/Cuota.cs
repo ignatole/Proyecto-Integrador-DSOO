@@ -37,5 +37,40 @@ namespace proyectoIntegrador
                 }
             }
         }
+        public List<(int IdCliente, string NombreCompleto, int Dni, string FechaVencimiento)> ObtenerCuotasVencidas()
+        {
+            List<(int IdCliente, string NombreCompleto, int Dni, string FechaVencimiento)> cuotasVencidas = new List<(int, string, int, string)>();
+
+            using (MySqlConnection sqlCon = Conexion.getInstancia().CrearConexion())
+            {
+                try
+                {
+                    sqlCon.Open();
+
+                    using (MySqlCommand command = new MySqlCommand("SELECT * FROM listado_de_vencimientos ORDER BY `Nro de socio` ASC", sqlCon))
+                    {
+                        using (MySqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                var cuota = (
+                                    IdCliente: reader.GetInt32("Nro de socio"),
+                                    NombreCompleto: reader.GetString("Nombre completo"),
+                                    Dni: reader.GetInt32("dni"),
+                                    FechaVencimiento: reader.GetString("Fecha de Vencimiento")
+                                );
+                                cuotasVencidas.Add(cuota);
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error al obtener cuotas vencidas: " + ex.Message);
+                }
+            }
+
+            return cuotasVencidas;
+        }
     }
 }

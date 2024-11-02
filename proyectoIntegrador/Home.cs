@@ -37,14 +37,20 @@ namespace proyectoIntegrador
         // Evento para el botón "Listado de Vencimientos"
         private void btnListadoVencimientos_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Formulario en desarrollo, estamos trabajando para usted.");
+            ListadoVencimiento nuevoFormulario = new ListadoVencimiento();
+            nuevoFormulario.Show(); // Muestra el formulario
         }
+
 
         // Evento para el botón "Salir"
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            this.Close();
             Application.Exit();
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
