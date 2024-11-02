@@ -1,6 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
 using proyectoIntegrador.Datos;
-using System;
 using System.Data;
 
 namespace proyectoIntegrador
@@ -30,6 +29,7 @@ namespace proyectoIntegrador
                         comando.Parameters.AddWithValue("@Telefono", cliente.Telefono);
                         comando.Parameters.AddWithValue("@FecNac", cliente.FechaNac);
                         comando.Parameters.AddWithValue("@Sexo", cliente.Sexo);
+                        comando.Parameters.AddWithValue("@AptoFisico", cliente.AptoFisico ? 1 : 0);
 
                         // Parámetro de salida
                         MySqlParameter rtaParam = new MySqlParameter("@rta", MySqlDbType.Int32);
@@ -71,12 +71,12 @@ namespace proyectoIntegrador
             {
                 try
                 {
-                    sqlCon.Open(); 
+                    sqlCon.Open();
 
                     using (MySqlCommand comando = new MySqlCommand("SELECT id_cliente FROM cliente WHERE dni = @Dni", sqlCon))
                     {
                         comando.Parameters.AddWithValue("@Dni", dni);
-                        var id = comando.ExecuteScalar(); 
+                        var id = comando.ExecuteScalar();
 
                         if (id != null)
                         {
@@ -88,11 +88,11 @@ namespace proyectoIntegrador
                 catch (Exception ex)
                 {
                     Console.WriteLine("Error: " + ex.Message);
-                    resultado = 0; 
+                    resultado = 0;
                 }
             }
 
-            return (resultado, id_cliente); 
+            return (resultado, id_cliente);
         }
     }
 }

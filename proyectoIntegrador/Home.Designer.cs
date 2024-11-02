@@ -129,6 +129,7 @@ namespace proyectoIntegrador
             Margin = new Padding(4, 5, 4, 5);
             Name = "Home";
             Text = "Ventana Principal";
+            Load += Home_Load;
             ResumeLayout(false);
             PerformLayout();
         }
