@@ -236,3 +236,4 @@ C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debu
 C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.Properties.Resources.resources
 C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.InscribirActividad.resources
 C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.InscribirActividad.resources
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.Comprobante.resources

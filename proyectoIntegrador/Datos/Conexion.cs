@@ -1,9 +1,8 @@
 ﻿using MySql.Data.MySqlClient;
-using System;
 
 namespace proyectoIntegrador.Datos
 {
-    internal class Conexion
+    public class Conexion
     {
         // declaramos las variables
         private string baseDatos;

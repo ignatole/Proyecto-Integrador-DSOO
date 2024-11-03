@@ -1,7 +1,4 @@
-﻿using System;
-using System.Windows.Forms;
-
-namespace proyectoIntegrador
+﻿namespace proyectoIntegrador
 {
     public partial class Home : Form
     {
@@ -45,6 +42,11 @@ namespace proyectoIntegrador
         {
             this.Close();
             Application.Exit();
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

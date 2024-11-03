@@ -1,6 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
 using proyectoIntegrador.Datos;
-using System;
 using System.Data;
 
 namespace proyectoIntegrador
@@ -72,12 +71,12 @@ namespace proyectoIntegrador
             {
                 try
                 {
-                    sqlCon.Open(); 
+                    sqlCon.Open();
 
                     using (MySqlCommand comando = new MySqlCommand("SELECT id_cliente FROM cliente WHERE dni = @Dni", sqlCon))
                     {
                         comando.Parameters.AddWithValue("@Dni", dni);
-                        var id = comando.ExecuteScalar(); 
+                        var id = comando.ExecuteScalar();
 
                         if (id != null)
                         {
@@ -89,11 +88,11 @@ namespace proyectoIntegrador
                 catch (Exception ex)
                 {
                     Console.WriteLine("Error: " + ex.Message);
-                    resultado = 0; 
+                    resultado = 0;
                 }
             }
 
-            return (resultado, id_cliente); 
+            return (resultado, id_cliente);
         }
     }
 }

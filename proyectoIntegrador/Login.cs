@@ -1,5 +1,3 @@
-using System;
-using System.Windows.Forms;
 using proyectoIntegrador.Datos; // Asegurate de incluir esta linea
 
 namespace proyectoIntegrador

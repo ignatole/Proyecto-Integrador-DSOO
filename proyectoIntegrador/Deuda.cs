@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Windows.Forms;
-
-namespace proyectoIntegrador
+﻿namespace proyectoIntegrador
 {
     public partial class Deuda : Form
     {
@@ -11,7 +7,7 @@ namespace proyectoIntegrador
         public Deuda()
         {
             InitializeComponent();
-            cliente = new Cliente(); 
+            cliente = new Cliente();
             btnVerDeuda.Click += new EventHandler(btnVerDeuda_Click);
         }
 

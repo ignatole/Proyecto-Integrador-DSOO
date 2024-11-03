@@ -158,7 +158,7 @@
             rbtnMasculino.Checked = false;
             rbtnOtro.Checked = false;
             dtpFechaNac.Value = DateTime.Now;
-            chkAptoFisico.Checked = false; 
+            chkAptoFisico.Checked = false;
         }
 
         private void label7_Click(object sender, EventArgs e)
