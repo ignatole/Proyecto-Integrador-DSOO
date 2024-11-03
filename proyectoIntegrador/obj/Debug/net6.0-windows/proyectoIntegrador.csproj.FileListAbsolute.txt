@@ -236,6 +236,7 @@ C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debu
 C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.Properties.Resources.resources
 C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.InscribirActividad.resources
 C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.InscribirActividad.resources
+<<<<<<< HEAD
 C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.Comprobante.resources
 C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.barcodes.dll
 C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.bouncy-castle-connector.dll
@@ -259,3 +260,6 @@ C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debu
 C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
 C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
 C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+=======
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.ListadoVencimiento.resources
+>>>>>>> origin/feature---listado-de-vencimientos

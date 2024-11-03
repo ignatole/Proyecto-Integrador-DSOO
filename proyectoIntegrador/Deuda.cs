@@ -13,5 +13,10 @@
 
         private void btnVerDeuda_Click(object sender, EventArgs e)
         { }
+
+        private void gridDeudaCliente_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

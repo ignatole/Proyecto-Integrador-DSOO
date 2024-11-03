@@ -69,6 +69,7 @@ namespace proyectoIntegrador
             gridDeudaCliente.ReadOnly = true;
             gridDeudaCliente.Size = new Size(449, 233);
             gridDeudaCliente.TabIndex = 3;
+            gridDeudaCliente.CellContentClick += gridDeudaCliente_CellContentClick;
             // 
             // Deuda
             // 
