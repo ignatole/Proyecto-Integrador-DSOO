@@ -27,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\clases\\ecuota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\ecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\ecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\inscribircliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\inscribircliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -56,7 +52,7 @@
               "RelativeDocumentMoniker": "proyectoIntegrador\\Datos\\Conexion.cs",
               "ToolTip": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Datos\\Conexion.cs",
               "RelativeToolTip": "proyectoIntegrador\\Datos\\Conexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T18:36:53.946Z",
               "EditorCaption": ""
@@ -71,8 +67,7 @@
               "RelativeToolTip": "proyectoIntegrador\\Clases\\ECuota.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:36:40.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T18:36:40.683Z"
             },
             {
               "$type": "Document",
@@ -84,25 +79,11 @@
               "RelativeToolTip": "proyectoIntegrador\\Clases\\Transaccion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:36:27.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T18:36:27.855Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ECliente.cs",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\ECliente.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\ECliente.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\ECliente.cs",
-              "RelativeToolTip": "proyectoIntegrador\\ECliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:32:26.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "InscribirCliente.cs",
               "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs",
               "RelativeDocumentMoniker": "proyectoIntegrador\\InscribirCliente.cs",
@@ -110,8 +91,7 @@
               "RelativeToolTip": "proyectoIntegrador\\InscribirCliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:31:30.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T18:31:30.945Z"
             },
             {
               "$type": "Document",
@@ -123,8 +103,7 @@
               "RelativeToolTip": "proyectoIntegrador\\Clases\\ECredito.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:30:47.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T18:30:47.958Z"
             },
             {
               "$type": "Document",
@@ -136,8 +115,7 @@
               "RelativeToolTip": "proyectoIntegrador\\Clases\\EActividad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:30:46.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T18:30:46.178Z"
             },
             {
               "$type": "Document",
@@ -149,12 +127,11 @@
               "RelativeToolTip": "proyectoIntegrador\\Clases\\ECliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:30:22.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T18:30:22.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Cliente.cs",
               "RelativeDocumentMoniker": "proyectoIntegrador\\Cliente.cs",
@@ -162,8 +139,7 @@
               "RelativeToolTip": "proyectoIntegrador\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:29:53.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T18:29:53.235Z"
             }
           ]
         },

@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\ecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\ecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\inscribircliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\inscribircliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\clases\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\clases\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\clases\\eactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\clases\\eactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\clases\\ecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +21,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\clases\\ecredito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\clases\\ecredito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\clases\\ecuota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\clases\\ecuota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\inscribircliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\inscribircliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,19 +47,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ECliente.cs",
-              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\ECliente.cs",
-              "RelativeDocumentMoniker": "proyectoIntegrador\\ECliente.cs",
-              "ToolTip": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\ECliente.cs",
-              "RelativeToolTip": "proyectoIntegrador\\ECliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Datos\\Conexion.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\Datos\\Conexion.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Datos\\Conexion.cs",
+              "RelativeToolTip": "proyectoIntegrador\\Datos\\Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:32:26.171Z",
+              "WhenOpened": "2024-11-03T18:36:53.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ECuota.cs",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Clases\\ECuota.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\Clases\\ECuota.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Clases\\ECuota.cs",
+              "RelativeToolTip": "proyectoIntegrador\\Clases\\ECuota.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T18:36:40.683Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Clases\\Transaccion.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\Clases\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Clases\\Transaccion.cs",
+              "RelativeToolTip": "proyectoIntegrador\\Clases\\Transaccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T18:36:27.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "InscribirCliente.cs",
               "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\InscribirCliente.cs",
               "RelativeDocumentMoniker": "proyectoIntegrador\\InscribirCliente.cs",
@@ -59,12 +91,11 @@
               "RelativeToolTip": "proyectoIntegrador\\InscribirCliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:31:30.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T18:31:30.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ECredito.cs",
               "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Clases\\ECredito.cs",
               "RelativeDocumentMoniker": "proyectoIntegrador\\Clases\\ECredito.cs",
@@ -72,8 +103,7 @@
               "RelativeToolTip": "proyectoIntegrador\\Clases\\ECredito.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:30:47.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T18:30:47.958Z"
             },
             {
               "$type": "Document",
@@ -85,25 +115,23 @@
               "RelativeToolTip": "proyectoIntegrador\\Clases\\EActividad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:30:46.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T18:30:46.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ECliente.cs",
               "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Clases\\ECliente.cs",
               "RelativeDocumentMoniker": "proyectoIntegrador\\Clases\\ECliente.cs",
               "ToolTip": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Clases\\ECliente.cs",
               "RelativeToolTip": "proyectoIntegrador\\Clases\\ECliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:30:22.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T18:30:22.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Cliente.cs",
               "RelativeDocumentMoniker": "proyectoIntegrador\\Cliente.cs",
@@ -111,8 +139,7 @@
               "RelativeToolTip": "proyectoIntegrador\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:29:53.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T18:29:53.235Z"
             }
           ]
         },
