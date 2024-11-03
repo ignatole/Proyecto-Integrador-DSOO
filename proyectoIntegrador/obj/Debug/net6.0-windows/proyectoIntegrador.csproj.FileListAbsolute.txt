@@ -236,3 +236,30 @@ C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debu
 C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.Properties.Resources.resources
 C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.InscribirActividad.resources
 C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.InscribirActividad.resources
+<<<<<<< HEAD
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.Comprobante.resources
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.barcodes.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.bouncy-castle-connector.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.forms.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.io.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.kernel.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.layout.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.pdfa.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.pdfua.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.sign.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.styledxmlparser.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.svg.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.commons.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itextsharp.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+=======
+C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.ListadoVencimiento.resources
+>>>>>>> origin/feature---listado-de-vencimientos

@@ -1,28 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using proyectoIntegrador.Transacciones;
 
 namespace proyectoIntegrador
 {
     public partial class PagarCuota : Form
     {
+        private int _idPago;
         public PagarCuota()
         {
             InitializeComponent();
             rbtnCuotaActividad.CheckedChanged += new EventHandler(RadioButton_CheckedChanged);
             rbtnCuotaMensual.CheckedChanged += new EventHandler(RadioButton_CheckedChanged);
             nudCantAct.Visible = false;
-            nudCantAct.Minimum = 0; 
+            nudCantAct.Minimum = 0;
             nudCantAct.ValueChanged += new EventHandler(NudCantAct_ValueChanged);
+            //btnComprobante.Enabled = false;
         }
         private void NudCantAct_ValueChanged(object? sender, EventArgs e)
-        { 
+        {
             txtboxMonto.Text = (nudCantAct.Value * 1000).ToString();
         }
         private void btnVerDeuda_Click(object sender, EventArgs e)
@@ -110,8 +104,11 @@ namespace proyectoIntegrador
 
         private void btnComprobante_Click(object sender, EventArgs e)
         {
-            // Lógica para mostrar comprobante
-            MessageBox.Show("Mostrando comprobante.");
+            // solo dar acceso al boton si el pago se realizo 
+
+            //abre el comprobante con los datos del pago actual
+            Comprobante comprobante = new Comprobante(_idPago);
+            comprobante.ShowDialog();
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
