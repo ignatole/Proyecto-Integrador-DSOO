@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\",
   "Documents": [
     {
@@ -37,6 +38,49 @@
     {
       "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\ignacio toledo\\git\\proyecto-integrador-dsoo\\proyectointegrador\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\emils\\git\\proyecto-integrador-dsoo\\proyectointegrador\\pagarcuota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\pagarcuota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\emils\\git\\proyecto-integrador-dsoo\\proyectointegrador\\pagarcuota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\pagarcuota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\emils\\git\\proyecto-integrador-dsoo\\proyectointegrador\\mostrarcarnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\mostrarcarnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\emils\\git\\proyecto-integrador-dsoo\\proyectointegrador\\mostrarcarnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\mostrarcarnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\emils\\git\\proyecto-integrador-dsoo\\proyectointegrador\\mostrarcarnet.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\mostrarcarnet.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectointegrador\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\emils\\git\\proyecto-integrador-dsoo\\proyectointegrador\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\emils\\git\\proyecto-integrador-dsoo\\proyectointegrador\\datos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\datos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\emils\\git\\proyecto-integrador-dsoo\\proyectointegrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|c:\\users\\emils\\git\\proyecto-integrador-dsoo\\proyectointegrador\\datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739AC0AD-DAF8-4690-8515-4FAC454BCE68}|proyectoIntegrador\\proyectoIntegrador.csproj|solutionrelative:proyectointegrador\\datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -46,6 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -59,10 +104,34 @@
               "ViewState": "AgIAABYAAAAAAAAAAAAgwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T19:31:23.511Z",
+=======
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PagarCuota.cs",
+              "DocumentMoniker": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\PagarCuota.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\PagarCuota.cs",
+              "ToolTip": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\PagarCuota.cs",
+              "RelativeToolTip": "proyectoIntegrador\\PagarCuota.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:14:15.471Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Datos\\Conexion.cs",
@@ -145,10 +214,111 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T18:30:22.225Z"
+=======
+              "DocumentIndex": 4,
+              "Title": "MostrarCarnet.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\MostrarCarnet.Designer.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\MostrarCarnet.Designer.cs",
+              "ToolTip": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\MostrarCarnet.Designer.cs",
+              "RelativeToolTip": "proyectoIntegrador\\MostrarCarnet.Designer.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAewEUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T02:51:21.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MostrarCarnet.cs",
+              "DocumentMoniker": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\MostrarCarnet.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\MostrarCarnet.cs",
+              "ToolTip": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\MostrarCarnet.cs",
+              "RelativeToolTip": "proyectoIntegrador\\MostrarCarnet.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T02:22:52.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MostrarCarnet.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\MostrarCarnet.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\MostrarCarnet.cs",
+              "ToolTip": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\MostrarCarnet.cs [Dise\u00F1o]",
+              "RelativeToolTip": "proyectoIntegrador\\MostrarCarnet.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T23:22:53.773Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Home.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\Home.cs",
+              "ToolTip": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Home.cs [Dise\u00F1o]",
+              "RelativeToolTip": "proyectoIntegrador\\Home.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T23:11:00.335Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PagarCuota.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\PagarCuota.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\PagarCuota.cs",
+              "ToolTip": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\PagarCuota.cs [Dise\u00F1o]",
+              "RelativeToolTip": "proyectoIntegrador\\PagarCuota.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T23:28:21.981Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Home.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\Home.cs",
+              "ToolTip": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Home.cs",
+              "RelativeToolTip": "proyectoIntegrador\\Home.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwDgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T23:11:35.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Datos\\Usuario.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\Datos\\Usuario.cs",
+              "ToolTip": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Datos\\Usuario.cs",
+              "RelativeToolTip": "proyectoIntegrador\\Datos\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T02:29:38.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Datos\\Conexion.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\Datos\\Conexion.cs",
+              "ToolTip": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Datos\\Conexion.cs",
+              "RelativeToolTip": "proyectoIntegrador\\Datos\\Conexion.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAABQwBMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T22:49:21.591Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+<<<<<<< Updated upstream
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\git\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Cliente.cs",
               "RelativeDocumentMoniker": "proyectoIntegrador\\Cliente.cs",
@@ -157,6 +327,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T18:29:53.235Z"
+=======
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Program.cs",
+              "RelativeDocumentMoniker": "proyectoIntegrador\\Program.cs",
+              "ToolTip": "C:\\Users\\emils\\GIT\\Proyecto-Integrador-DSOO\\proyectoIntegrador\\Program.cs",
+              "RelativeToolTip": "proyectoIntegrador\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T22:46:14.804Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             }
           ]
         },
