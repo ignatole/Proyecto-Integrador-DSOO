@@ -27,6 +27,7 @@ namespace proyectoIntegrador
                         command.Parameters.AddWithValue("c_medio_pago", cuota.MedioPago);
                         command.Parameters.AddWithValue("c_monto", cuota.Monto);
                         command.Parameters.AddWithValue("c_tipo_cuota", cuota.TipoCuota ? 1 : 0);
+                        command.Parameters.AddWithValue("c_plazo_cuota", cuota.PlazoCuota);
 
                         command.ExecuteNonQuery();
                     }
