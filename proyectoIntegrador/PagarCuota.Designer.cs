@@ -32,41 +32,40 @@
             grpFormaDePago = new GroupBox();
             grpTipoCuota = new GroupBox();
             nudCantAct = new NumericUpDown();
-            numericUpDown1 = new NumericUpDown();
+            cmbCantidadCuotas = new ComboBox();
             grpFormaDePago.SuspendLayout();
             grpTipoCuota.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nudCantAct).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
             // lblTitulo
             // 
             lblTitulo.AutoSize = true;
             lblTitulo.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            lblTitulo.Location = new Point(167, 55);
-            lblTitulo.Margin = new Padding(5, 0, 5, 0);
+            lblTitulo.Location = new Point(146, 41);
+            lblTitulo.Margin = new Padding(4, 0, 4, 0);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(266, 23);
+            lblTitulo.Size = new Size(213, 19);
             lblTitulo.TabIndex = 0;
             lblTitulo.Text = "Ingrese el número de documento";
             lblTitulo.Click += lblTitulo_Click_1;
             // 
             // txtNroCliente
             // 
-            txtNroCliente.Location = new Point(515, 55);
-            txtNroCliente.Margin = new Padding(5);
+            txtNroCliente.Location = new Point(451, 41);
+            txtNroCliente.Margin = new Padding(4);
             txtNroCliente.MaxLength = 10;
             txtNroCliente.Name = "txtNroCliente";
-            txtNroCliente.Size = new Size(245, 27);
+            txtNroCliente.Size = new Size(215, 23);
             txtNroCliente.TabIndex = 1;
             // 
             // btnVerNroCliente
             // 
             btnVerNroCliente.BackColor = Color.FromArgb(233, 239, 236);
-            btnVerNroCliente.Location = new Point(85, 411);
-            btnVerNroCliente.Margin = new Padding(5);
+            btnVerNroCliente.Location = new Point(74, 308);
+            btnVerNroCliente.Margin = new Padding(4);
             btnVerNroCliente.Name = "btnVerNroCliente";
-            btnVerNroCliente.Size = new Size(182, 56);
+            btnVerNroCliente.Size = new Size(159, 42);
             btnVerNroCliente.TabIndex = 1;
             btnVerNroCliente.Text = "Ver deuda";
             btnVerNroCliente.UseVisualStyleBackColor = false;
@@ -75,10 +74,10 @@
             // btnPagar
             // 
             btnPagar.BackColor = Color.FromArgb(233, 239, 236);
-            btnPagar.Location = new Point(408, 411);
-            btnPagar.Margin = new Padding(5);
+            btnPagar.Location = new Point(357, 308);
+            btnPagar.Margin = new Padding(4);
             btnPagar.Name = "btnPagar";
-            btnPagar.Size = new Size(182, 56);
+            btnPagar.Size = new Size(159, 42);
             btnPagar.TabIndex = 2;
             btnPagar.Text = "Pagar";
             btnPagar.UseVisualStyleBackColor = false;
@@ -87,10 +86,10 @@
             // btnComprobante
             // 
             btnComprobante.BackColor = Color.FromArgb(233, 239, 236);
-            btnComprobante.Location = new Point(720, 411);
-            btnComprobante.Margin = new Padding(5);
+            btnComprobante.Location = new Point(630, 308);
+            btnComprobante.Margin = new Padding(4);
             btnComprobante.Name = "btnComprobante";
-            btnComprobante.Size = new Size(193, 56);
+            btnComprobante.Size = new Size(169, 42);
             btnComprobante.TabIndex = 3;
             btnComprobante.Text = "Comprobante";
             btnComprobante.UseVisualStyleBackColor = false;
@@ -99,10 +98,10 @@
             // btnVolver
             // 
             btnVolver.BackColor = Color.FromArgb(233, 239, 236);
-            btnVolver.Location = new Point(720, 499);
-            btnVolver.Margin = new Padding(5);
+            btnVolver.Location = new Point(630, 374);
+            btnVolver.Margin = new Padding(4);
             btnVolver.Name = "btnVolver";
-            btnVolver.Size = new Size(193, 56);
+            btnVolver.Size = new Size(169, 42);
             btnVolver.TabIndex = 4;
             btnVolver.Text = "Volver";
             btnVolver.UseVisualStyleBackColor = false;
@@ -111,10 +110,9 @@
             // rbtnEfectivo
             // 
             rbtnEfectivo.AutoSize = true;
-            rbtnEfectivo.Location = new Point(7, 29);
-            rbtnEfectivo.Margin = new Padding(3, 4, 3, 4);
+            rbtnEfectivo.Location = new Point(6, 22);
             rbtnEfectivo.Name = "rbtnEfectivo";
-            rbtnEfectivo.Size = new Size(83, 24);
+            rbtnEfectivo.Size = new Size(67, 19);
             rbtnEfectivo.TabIndex = 5;
             rbtnEfectivo.TabStop = true;
             rbtnEfectivo.Text = "Efectivo";
@@ -123,10 +121,9 @@
             // rbtnTarjeta
             // 
             rbtnTarjeta.AutoSize = true;
-            rbtnTarjeta.Location = new Point(7, 63);
-            rbtnTarjeta.Margin = new Padding(3, 4, 3, 4);
+            rbtnTarjeta.Location = new Point(6, 47);
             rbtnTarjeta.Name = "rbtnTarjeta";
-            rbtnTarjeta.Size = new Size(74, 24);
+            rbtnTarjeta.Size = new Size(59, 19);
             rbtnTarjeta.TabIndex = 6;
             rbtnTarjeta.TabStop = true;
             rbtnTarjeta.Text = "Tarjeta";
@@ -135,46 +132,44 @@
             // lblFormadePago
             // 
             lblFormadePago.AutoSize = true;
-            lblFormadePago.Location = new Point(167, 141);
+            lblFormadePago.Location = new Point(146, 106);
             lblFormadePago.Name = "lblFormadePago";
-            lblFormadePago.Size = new Size(111, 20);
+            lblFormadePago.Size = new Size(87, 15);
             lblFormadePago.TabIndex = 7;
             lblFormadePago.Text = "Forma de pago";
             // 
             // lblMonto
             // 
             lblMonto.AutoSize = true;
-            lblMonto.Location = new Point(167, 351);
+            lblMonto.Location = new Point(146, 263);
             lblMonto.Name = "lblMonto";
-            lblMonto.Size = new Size(53, 20);
+            lblMonto.Size = new Size(43, 15);
             lblMonto.TabIndex = 8;
             lblMonto.Text = "Monto";
             lblMonto.Click += lblMonto_Click;
             // 
             // txtboxMonto
             // 
-            txtboxMonto.Location = new Point(515, 351);
-            txtboxMonto.Margin = new Padding(3, 4, 3, 4);
+            txtboxMonto.Location = new Point(451, 263);
             txtboxMonto.Name = "txtboxMonto";
-            txtboxMonto.Size = new Size(245, 27);
+            txtboxMonto.Size = new Size(215, 23);
             txtboxMonto.TabIndex = 9;
             // 
             // lblTipoCuota
             // 
             lblTipoCuota.AutoSize = true;
-            lblTipoCuota.Location = new Point(167, 256);
+            lblTipoCuota.Location = new Point(146, 192);
             lblTipoCuota.Name = "lblTipoCuota";
-            lblTipoCuota.Size = new Size(101, 20);
+            lblTipoCuota.Size = new Size(79, 15);
             lblTipoCuota.TabIndex = 10;
             lblTipoCuota.Text = "Tipo de cuota";
             // 
             // rbtnCuotaMensual
             // 
             rbtnCuotaMensual.AutoSize = true;
-            rbtnCuotaMensual.Location = new Point(7, 29);
-            rbtnCuotaMensual.Margin = new Padding(3, 4, 3, 4);
+            rbtnCuotaMensual.Location = new Point(6, 22);
             rbtnCuotaMensual.Name = "rbtnCuotaMensual";
-            rbtnCuotaMensual.Size = new Size(128, 24);
+            rbtnCuotaMensual.Size = new Size(105, 19);
             rbtnCuotaMensual.TabIndex = 11;
             rbtnCuotaMensual.TabStop = true;
             rbtnCuotaMensual.Text = "Cuota Mensual";
@@ -183,10 +178,9 @@
             // rbtnCuotaActividad
             // 
             rbtnCuotaActividad.AutoSize = true;
-            rbtnCuotaActividad.Location = new Point(7, 63);
-            rbtnCuotaActividad.Margin = new Padding(3, 4, 3, 4);
+            rbtnCuotaActividad.Location = new Point(6, 47);
             rbtnCuotaActividad.Name = "rbtnCuotaActividad";
-            rbtnCuotaActividad.Size = new Size(157, 24);
+            rbtnCuotaActividad.Size = new Size(126, 19);
             rbtnCuotaActividad.TabIndex = 12;
             rbtnCuotaActividad.TabStop = true;
             rbtnCuotaActividad.Text = "Cuota de Actividad";
@@ -196,11 +190,9 @@
             // 
             grpFormaDePago.Controls.Add(rbtnEfectivo);
             grpFormaDePago.Controls.Add(rbtnTarjeta);
-            grpFormaDePago.Location = new Point(515, 112);
-            grpFormaDePago.Margin = new Padding(3, 4, 3, 4);
+            grpFormaDePago.Location = new Point(451, 84);
             grpFormaDePago.Name = "grpFormaDePago";
-            grpFormaDePago.Padding = new Padding(3, 4, 3, 4);
-            grpFormaDePago.Size = new Size(246, 107);
+            grpFormaDePago.Size = new Size(215, 80);
             grpFormaDePago.TabIndex = 13;
             grpFormaDePago.TabStop = false;
             // 
@@ -208,40 +200,34 @@
             // 
             grpTipoCuota.Controls.Add(rbtnCuotaMensual);
             grpTipoCuota.Controls.Add(rbtnCuotaActividad);
-            grpTipoCuota.Location = new Point(515, 227);
-            grpTipoCuota.Margin = new Padding(3, 4, 3, 4);
+            grpTipoCuota.Location = new Point(451, 170);
             grpTipoCuota.Name = "grpTipoCuota";
-            grpTipoCuota.Padding = new Padding(3, 4, 3, 4);
-            grpTipoCuota.Size = new Size(246, 107);
+            grpTipoCuota.Size = new Size(215, 80);
             grpTipoCuota.TabIndex = 14;
             grpTipoCuota.TabStop = false;
             // 
             // nudCantAct
             // 
-            nudCantAct.Location = new Point(781, 289);
-            nudCantAct.Margin = new Padding(3, 4, 3, 4);
+            nudCantAct.Location = new Point(683, 217);
             nudCantAct.Name = "nudCantAct";
-            nudCantAct.Size = new Size(40, 27);
+            nudCantAct.Size = new Size(35, 23);
             nudCantAct.TabIndex = 15;
             // 
-            // numericUpDown1
+            // cmbCantidadCuotas
             // 
-            numericUpDown1.Increment = new decimal(new int[] { 3, 0, 0, 0 });
-            numericUpDown1.Location = new Point(781, 175);
-            numericUpDown1.Margin = new Padding(3, 4, 3, 4);
-            numericUpDown1.Maximum = new decimal(new int[] { 6, 0, 0, 0 });
-            numericUpDown1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(40, 27);
-            numericUpDown1.TabIndex = 16;
-            numericUpDown1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            cmbCantidadCuotas.FormattingEnabled = true;
+            cmbCantidadCuotas.Items.AddRange(new object[] { "1", "3", "6" });
+            cmbCantidadCuotas.Location = new Point(683, 130);
+            cmbCantidadCuotas.Name = "cmbCantidadCuotas";
+            cmbCantidadCuotas.Size = new Size(35, 23);
+            cmbCantidadCuotas.TabIndex = 17;
             // 
             // PagarCuota
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(968, 572);
-            Controls.Add(numericUpDown1);
+            ClientSize = new Size(847, 429);
+            Controls.Add(cmbCantidadCuotas);
             Controls.Add(nudCantAct);
             Controls.Add(lblTitulo);
             Controls.Add(txtNroCliente);
@@ -256,7 +242,7 @@
             Controls.Add(grpFormaDePago);
             Controls.Add(grpTipoCuota);
             FormBorderStyle = FormBorderStyle.FixedDialog;
-            Margin = new Padding(5);
+            Margin = new Padding(4);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "PagarCuota";
@@ -267,7 +253,6 @@
             grpTipoCuota.ResumeLayout(false);
             grpTipoCuota.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)nudCantAct).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -289,7 +274,7 @@
         private GroupBox grpFormaDePago;
         private GroupBox grpTipoCuota;
         private NumericUpDown nudCantAct;
-        private NumericUpDown numericUpDown1;
+        private ComboBox cmbCantidadCuotas;
     }
 }
 

@@ -13,6 +13,8 @@ namespace proyectoIntegrador
             nudCantAct.Visible = false;
             nudCantAct.Minimum = 0;
             nudCantAct.ValueChanged += new EventHandler(NudCantAct_ValueChanged);
+            cmbCantidadCuotas.Visible = false;
+            rbtnTarjeta.CheckedChanged += new EventHandler(RadioButtonTarjeta_CheckedChanged);
             //btnComprobante.Enabled = false;
         }
         private void NudCantAct_ValueChanged(object? sender, EventArgs e)
@@ -23,6 +25,16 @@ namespace proyectoIntegrador
         {
             Deuda verDeudaForm = new Deuda();
             verDeudaForm.ShowDialog();
+        }
+        private void RadioButtonTarjeta_CheckedChanged(object? sender, EventArgs e) {
+            if (rbtnTarjeta.Checked)
+            {
+                cmbCantidadCuotas.Visible = true;
+            }
+            else
+            {
+                cmbCantidadCuotas.Visible = false;
+            }
         }
         private void RadioButton_CheckedChanged(object? sender, EventArgs e)
         {
@@ -77,6 +89,7 @@ namespace proyectoIntegrador
                 decimal monto = decimal.Parse(txtboxMonto.Text);
                 string medioPago = rbtnEfectivo.Checked ? "Efectivo" : "Tarjeta";
                 bool tipoCuota = rbtnCuotaMensual.Checked;
+                int plazoCuota = int.Parse(cmbCantidadCuotas.Text);
 
                 ECuota cuota = new()
                 {
@@ -84,7 +97,8 @@ namespace proyectoIntegrador
                     FechaPago = DateTime.Now,
                     MedioPago = medioPago,
                     Monto = monto,
-                    TipoCuota = tipoCuota
+                    TipoCuota = tipoCuota,
+                    PlazoCuota = plazoCuota
                 };
 
                 Cuota cuotaService = new Cuota();
@@ -161,5 +175,6 @@ namespace proyectoIntegrador
             rbtnCuotaMensual.Checked = false;
             rbtnCuotaActividad.Checked = false;
         }
+
     }
 }
