@@ -259,3 +259,26 @@ C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debu
 C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
 C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
 C:\Users\Ignacio Toledo\git\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.barcodes.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.bouncy-castle-connector.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.forms.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.io.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.kernel.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.layout.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.pdfa.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.pdfua.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.sign.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.styledxmlparser.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.svg.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itext.commons.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\itextsharp.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Illei\source\repos\Proyecto-Integrador-DSOO\proyectoIntegrador\obj\Debug\net6.0-windows\proyectoIntegrador.Comprobante.resources
