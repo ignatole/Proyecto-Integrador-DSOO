@@ -123,36 +123,10 @@ namespace proyectoIntegrador
             ((System.ComponentModel.ISupportInitialize)dgvActividades).EndInit();
             ResumeLayout(false);
             PerformLayout();
-            CargarActividades();
         }
 
         #endregion
-        private void CargarActividades()
-        {
-            using (MySqlConnection sqlCon = Conexion.getInstancia().CrearConexion())
-            {
-                try
-                {
-                    sqlCon.Open();
-                    string query = "SELECT * FROM actividad";
-                    MySqlDataAdapter adapter = new MySqlDataAdapter(query, sqlCon);
-                    DataTable dt = new DataTable();
-                    adapter.Fill(dt);
-                    dgvActividades.DataSource = dt;
-                    cmbActividades.Items.Clear();
-                    foreach (DataRow row in dt.Rows)
-                    {
-                        cmbActividades.Items.Add(new { Text = row["nombre"].ToString(), Value = row["id_actividad"] });
-                    }
-                    cmbActividades.DisplayMember = "Text";
-                    cmbActividades.ValueMember = "Value";
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error al cargar actividades: " + ex.Message);
-                }
-            }
-        }
+        
 
         private DataGridView dgvActividades;
         private TextBox txtDNI;
