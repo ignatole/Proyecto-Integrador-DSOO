@@ -8,8 +8,9 @@
         public string? MedioPago { get; set; }
         public decimal Monto { get; set; }
         public bool TipoCuota { get; set; }
+        public int PlazoCuota { get; set; }
         public int IdCliente { get; set; }
-        public ECuota(int id_pago, DateTime fecha_pago, DateTime? fecha_vencimiento, string medio_pago, decimal monto, bool tipo_cuota, int id_cliente)
+        public ECuota(int id_pago, DateTime fecha_pago, DateTime? fecha_vencimiento, string medio_pago, decimal monto, bool tipo_cuota,int plazo_cuota, int id_cliente)
         {
             IdPago = id_pago;
             FechaPago = fecha_pago;

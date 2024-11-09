@@ -1,10 +1,15 @@
-﻿namespace proyectoIntegrador
+﻿using MySql.Data.MySqlClient;
+using proyectoIntegrador.Datos;
+using System.Data;
+
+namespace proyectoIntegrador
 {
     public partial class InscribirActividad : Form
     {
         public InscribirActividad()
         {
             InitializeComponent();
+            CargarActividades();
         }
 
         private void btnInscribir_Click(object sender, EventArgs e)
@@ -17,35 +22,69 @@
 
             if (resultado == 1)
             {
-                int idActividad = (cmbActividades.SelectedItem as dynamic).Value;
-                EActividad actividad = new()
+                if (cmbActividades.SelectedItem != null)
                 {
-                    IdCliente = idCliente,
-                    IdActividad = idActividad
-                };
-                Actividad actividadService = new();
-                int result = actividadService.RegistrarActividad(actividad);
-                switch (result)
+                    int idActividad = (cmbActividades.SelectedItem as dynamic).Value;
+                    EActividad actividad = new()
+                    {
+                        IdCliente = idCliente,
+                        IdActividad = idActividad
+                    };
+                    Actividad actividadService = new();
+                    int result = actividadService.RegistrarActividad(actividad);
+                    switch (result)
+                    {
+                        case 1:
+                            MessageBox.Show("Inscripción realizada con éxito.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            ResetCampos();
+                            break;
+                        case 0:
+                            MessageBox.Show("No hay suficientes créditos disponibles.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            break;
+                        case 2:
+                            MessageBox.Show("No hay suficientes cupos disponibles.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            break;
+                        default:
+                            MessageBox.Show("Resultado desconocido.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            break;
+                    }
+                }
+                else
                 {
-                    case 1:
-                        MessageBox.Show("Inscripción realizada con éxito.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        ResetCampos();
-                        break;
-                    case 0:
-                        MessageBox.Show("No hay suficientes créditos disponibles.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        break;
-                    case 2:
-                        MessageBox.Show("No hay suficientes cupos disponibles.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        break;
-                    default:
-                        MessageBox.Show("Resultado desconocido.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        break;
+                    MessageBox.Show("Seleccione una actividad.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             else
             {
-                // Mensaje de error si no se encuentra el cliente
                 MessageBox.Show("Cliente no encontrado. Verifique el número de documento.");
+            }
+            CargarActividades();
+        }
+
+        private void CargarActividades()
+        {
+            using (MySqlConnection sqlCon = Conexion.getInstancia().CrearConexion())
+            {
+                try
+                {
+                    sqlCon.Open();
+                    string query = "SELECT * FROM actividad";
+                    MySqlDataAdapter adapter = new MySqlDataAdapter(query, sqlCon);
+                    DataTable dt = new DataTable();
+                    adapter.Fill(dt);
+                    dgvActividades.DataSource = dt;
+                    cmbActividades.Items.Clear();
+                    foreach (DataRow row in dt.Rows)
+                    {
+                        cmbActividades.Items.Add(new { Text = row["nombre"].ToString(), Value = row["id_actividad"] });
+                    }
+                    cmbActividades.DisplayMember = "Text";
+                    cmbActividades.ValueMember = "Value";
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al cargar actividades: " + ex.Message);
+                }
             }
         }
         private void ResetCampos()
@@ -60,5 +99,6 @@
             this.Close();
             formPrevio.Show();
         }
+
     }
 }

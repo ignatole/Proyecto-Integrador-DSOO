@@ -32,6 +32,7 @@
             grpFormaDePago = new GroupBox();
             grpTipoCuota = new GroupBox();
             nudCantAct = new NumericUpDown();
+            cmbCantidadCuotas = new ComboBox();
             grpFormaDePago.SuspendLayout();
             grpTipoCuota.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nudCantAct).BeginInit();
@@ -122,7 +123,7 @@
             rbtnTarjeta.AutoSize = true;
             rbtnTarjeta.Location = new Point(6, 47);
             rbtnTarjeta.Name = "rbtnTarjeta";
-            rbtnTarjeta.Size = new Size(60, 19);
+            rbtnTarjeta.Size = new Size(59, 19);
             rbtnTarjeta.TabIndex = 6;
             rbtnTarjeta.TabStop = true;
             rbtnTarjeta.Text = "Tarjeta";
@@ -159,7 +160,7 @@
             lblTipoCuota.AutoSize = true;
             lblTipoCuota.Location = new Point(146, 192);
             lblTipoCuota.Name = "lblTipoCuota";
-            lblTipoCuota.Size = new Size(80, 15);
+            lblTipoCuota.Size = new Size(79, 15);
             lblTipoCuota.TabIndex = 10;
             lblTipoCuota.Text = "Tipo de cuota";
             // 
@@ -212,11 +213,21 @@
             nudCantAct.Size = new Size(35, 23);
             nudCantAct.TabIndex = 15;
             // 
+            // cmbCantidadCuotas
+            // 
+            cmbCantidadCuotas.FormattingEnabled = true;
+            cmbCantidadCuotas.Items.AddRange(new object[] { "1", "3", "6" });
+            cmbCantidadCuotas.Location = new Point(683, 130);
+            cmbCantidadCuotas.Name = "cmbCantidadCuotas";
+            cmbCantidadCuotas.Size = new Size(35, 23);
+            cmbCantidadCuotas.TabIndex = 17;
+            // 
             // PagarCuota
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(847, 429);
+            Controls.Add(cmbCantidadCuotas);
             Controls.Add(nudCantAct);
             Controls.Add(lblTitulo);
             Controls.Add(txtNroCliente);
@@ -263,6 +274,7 @@
         private GroupBox grpFormaDePago;
         private GroupBox grpTipoCuota;
         private NumericUpDown nudCantAct;
+        private ComboBox cmbCantidadCuotas;
     }
 }
 
