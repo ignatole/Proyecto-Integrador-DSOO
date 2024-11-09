@@ -53,7 +53,11 @@ namespace proyectoIntegrador
         }
         private void btnPagar_Click(object sender, EventArgs e)
         {
-            int dniCliente = int.Parse(txtNroCliente.Text);
+            if (!int.TryParse(txtNroCliente.Text, out int dniCliente))
+            {
+                MessageBox.Show("Por favor, ingresa un número de cliente válido.");
+                return;
+            }
 
             Cliente clienteService = new();
 
@@ -76,20 +80,32 @@ namespace proyectoIntegrador
                     MessageBox.Show("Debe seleccionar un medio de pago");
                     return;
                 }
-                if (rbtnCuotaActividad.Checked)
+
+                if (!rbtnCuotaMensual.Checked && !rbtnCuotaActividad.Checked)
                 {
-                    ECredito credito = new()
-                    {
-                        IdCliente = idCliente,
-                        CantCreditos = (int)nudCantAct.Value
-                    };
-                    Credito creditoService = new();
-                    creditoService.CargarCreditos(credito);
+                    MessageBox.Show("Debe seleccionar un tipo de cuota (Mensual o Por Actividad)");
+                    return;
                 }
-                decimal monto = decimal.Parse(txtboxMonto.Text);
+
+                if (!decimal.TryParse(txtboxMonto.Text, out decimal monto))
+                {
+                    MessageBox.Show("Por favor, ingresa un monto válido.");
+                    return;
+                }
+
                 string medioPago = rbtnEfectivo.Checked ? "Efectivo" : "Tarjeta";
                 bool tipoCuota = rbtnCuotaMensual.Checked;
-                int plazoCuota = int.Parse(cmbCantidadCuotas.Text);
+
+                int plazoCuota = 1; // Valor predeterminado en caso de que no aplique el plazo de cuota
+
+                if (rbtnTarjeta.Checked)
+                {
+                    if (!int.TryParse(cmbCantidadCuotas.Text, out plazoCuota))
+                    {
+                        MessageBox.Show("Por favor, selecciona una cantidad de cuotas válida.");
+                        return;
+                    }
+                }
 
                 ECuota cuota = new()
                 {
@@ -109,7 +125,6 @@ namespace proyectoIntegrador
             }
             else
             {
-                // Mensaje de error si no se encuentra el cliente
                 MessageBox.Show("Cliente no encontrado. Verifique el número de documento.");
             }
 
