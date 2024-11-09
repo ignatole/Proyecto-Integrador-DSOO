@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             gridVencimientos = new DataGridView();
-            lblTituloVencimientos = new Label();
             IdCliente = new DataGridViewLinkColumn();
             NombreCompleto = new DataGridViewTextBoxColumn();
             Dni = new DataGridViewTextBoxColumn();
             FechaVencimiento = new DataGridViewTextBoxColumn();
+            lblTituloVencimientos = new Label();
             ((System.ComponentModel.ISupportInitialize)gridVencimientos).BeginInit();
             SuspendLayout();
             // 
@@ -42,28 +42,18 @@
             gridVencimientos.AllowUserToAddRows = false;
             gridVencimientos.AllowUserToDeleteRows = false;
             gridVencimientos.AllowUserToOrderColumns = true;
+            gridVencimientos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            gridVencimientos.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             gridVencimientos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             gridVencimientos.Columns.AddRange(new DataGridViewColumn[] { IdCliente, NombreCompleto, Dni, FechaVencimiento });
             gridVencimientos.Location = new Point(12, 78);
             gridVencimientos.Name = "gridVencimientos";
             gridVencimientos.ReadOnly = true;
+            gridVencimientos.RowHeadersVisible = false;
             gridVencimientos.RowTemplate.Height = 25;
             gridVencimientos.Size = new Size(776, 360);
             gridVencimientos.TabIndex = 0;
-            gridVencimientos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            // Al inicializar el DataGridView en el constructor o en el evento Load
-            gridVencimientos.RowHeadersVisible = false;
-            gridVencimientos.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             gridVencimientos.CellContentClick += gridVencimientos_CellContentClick;
-            // 
-            // lblTituloVencimientos
-            // 
-            lblTituloVencimientos.AutoSize = true;
-            lblTituloVencimientos.Location = new Point(303, 29);
-            lblTituloVencimientos.Name = "lblTituloVencimientos";
-            lblTituloVencimientos.Size = new Size(172, 15);
-            lblTituloVencimientos.TabIndex = 1;
-            lblTituloVencimientos.Text = "Listado de vencimientos al dia: ";
             // 
             // IdCliente
             // 
@@ -76,21 +66,27 @@
             NombreCompleto.HeaderText = "Nombre Completo";
             NombreCompleto.Name = "NombreCompleto";
             NombreCompleto.ReadOnly = true;
-            NombreCompleto.Visible = true;
             // 
             // Dni
             // 
             Dni.HeaderText = "Documento";
             Dni.Name = "Dni";
             Dni.ReadOnly = true;
-            Dni.Visible = true;
             // 
             // FechaVencimiento
             // 
             FechaVencimiento.HeaderText = "Fecha de vencimiento";
             FechaVencimiento.Name = "FechaVencimiento";
             FechaVencimiento.ReadOnly = true;
-            FechaVencimiento.Visible = true;
+            // 
+            // lblTituloVencimientos
+            // 
+            lblTituloVencimientos.AutoSize = true;
+            lblTituloVencimientos.Location = new Point(303, 29);
+            lblTituloVencimientos.Name = "lblTituloVencimientos";
+            lblTituloVencimientos.Size = new Size(172, 15);
+            lblTituloVencimientos.TabIndex = 1;
+            lblTituloVencimientos.Text = "Listado de vencimientos al dia: ";
             // 
             // ListadoVencimiento
             // 

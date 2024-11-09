@@ -33,7 +33,7 @@
             txtEmail = new TextBox();
             buttonInscribir = new Button();
             buttonLimpiar = new Button();
-            buttonCancelar = new Button();
+            btnVolver = new Button();
             grpDatosPersonales = new GroupBox();
             label5 = new Label();
             label6 = new Label();
@@ -173,17 +173,17 @@
             buttonLimpiar.UseVisualStyleBackColor = false;
             buttonLimpiar.Click += btnLimpiar_Click;
             // 
-            // buttonCancelar
+            // btnVolver
             // 
-            buttonCancelar.BackColor = Color.FromArgb(233, 239, 236);
-            buttonCancelar.Location = new Point(534, 360);
-            buttonCancelar.Margin = new Padding(4);
-            buttonCancelar.Name = "buttonCancelar";
-            buttonCancelar.Size = new Size(88, 26);
-            buttonCancelar.TabIndex = 12;
-            buttonCancelar.Text = "Cancelar";
-            buttonCancelar.UseVisualStyleBackColor = false;
-            buttonCancelar.Click += btnCancelar_Click;
+            btnVolver.BackColor = Color.FromArgb(233, 239, 236);
+            btnVolver.Location = new Point(534, 360);
+            btnVolver.Margin = new Padding(4);
+            btnVolver.Name = "btnVolver";
+            btnVolver.Size = new Size(88, 26);
+            btnVolver.TabIndex = 12;
+            btnVolver.Text = "Volver";
+            btnVolver.UseVisualStyleBackColor = false;
+            btnVolver.Click += btnCancelar_Click;
             // 
             // grpDatosPersonales
             // 
@@ -410,7 +410,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(grpDatosContacto);
             Controls.Add(grpDatosPersonales);
-            Controls.Add(buttonCancelar);
+            Controls.Add(btnVolver);
             Controls.Add(buttonLimpiar);
             Controls.Add(buttonInscribir);
             Margin = new Padding(4);
@@ -437,7 +437,7 @@
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Button buttonInscribir;
         private System.Windows.Forms.Button buttonLimpiar;
-        private System.Windows.Forms.Button buttonCancelar;
+        private System.Windows.Forms.Button btnVolver;
         private GroupBox grpDatosPersonales;
         private Label lblFechaNac;
         private DateTimePicker dtpFechaNac;

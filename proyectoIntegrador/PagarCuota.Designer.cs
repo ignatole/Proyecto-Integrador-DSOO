@@ -17,7 +17,7 @@
         {
             lblTitulo = new Label();
             txtNroCliente = new TextBox();
-            btnVerNroCliente = new Button();
+            btnLimpiar = new Button();
             btnPagar = new Button();
             btnComprobante = new Button();
             btnVolver = new Button();
@@ -33,6 +33,7 @@
             grpTipoCuota = new GroupBox();
             nudCantAct = new NumericUpDown();
             cmbCantidadCuotas = new ComboBox();
+            lblCantidadDeCuotas = new Label();
             grpFormaDePago.SuspendLayout();
             grpTipoCuota.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nudCantAct).BeginInit();
@@ -59,17 +60,17 @@
             txtNroCliente.Size = new Size(215, 23);
             txtNroCliente.TabIndex = 1;
             // 
-            // btnVerNroCliente
+            // btnLimpiar
             // 
-            btnVerNroCliente.BackColor = Color.FromArgb(233, 239, 236);
-            btnVerNroCliente.Location = new Point(74, 308);
-            btnVerNroCliente.Margin = new Padding(4);
-            btnVerNroCliente.Name = "btnVerNroCliente";
-            btnVerNroCliente.Size = new Size(159, 42);
-            btnVerNroCliente.TabIndex = 1;
-            btnVerNroCliente.Text = "Ver deuda";
-            btnVerNroCliente.UseVisualStyleBackColor = false;
-            btnVerNroCliente.Click += btnVerDeuda_Click;
+            btnLimpiar.BackColor = Color.FromArgb(233, 239, 236);
+            btnLimpiar.Location = new Point(74, 308);
+            btnLimpiar.Margin = new Padding(4);
+            btnLimpiar.Name = "btnLimpiar";
+            btnLimpiar.Size = new Size(159, 42);
+            btnLimpiar.TabIndex = 1;
+            btnLimpiar.Text = "Limpiar";
+            btnLimpiar.UseVisualStyleBackColor = false;
+            btnLimpiar.Click += btnLimpiar_Click;
             // 
             // btnPagar
             // 
@@ -217,21 +218,31 @@
             // 
             cmbCantidadCuotas.FormattingEnabled = true;
             cmbCantidadCuotas.Items.AddRange(new object[] { "1", "3", "6" });
-            cmbCantidadCuotas.Location = new Point(683, 130);
+            cmbCantidadCuotas.Location = new Point(672, 131);
             cmbCantidadCuotas.Name = "cmbCantidadCuotas";
-            cmbCantidadCuotas.Size = new Size(35, 23);
+            cmbCantidadCuotas.Size = new Size(109, 23);
             cmbCantidadCuotas.TabIndex = 17;
+            // 
+            // lblCantidadDeCuotas
+            // 
+            lblCantidadDeCuotas.AutoSize = true;
+            lblCantidadDeCuotas.Location = new Point(672, 113);
+            lblCantidadDeCuotas.Name = "lblCantidadDeCuotas";
+            lblCantidadDeCuotas.Size = new Size(109, 15);
+            lblCantidadDeCuotas.TabIndex = 18;
+            lblCantidadDeCuotas.Text = "Cantidad de cuotas";
             // 
             // PagarCuota
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(847, 429);
+            Controls.Add(lblCantidadDeCuotas);
             Controls.Add(cmbCantidadCuotas);
             Controls.Add(nudCantAct);
             Controls.Add(lblTitulo);
             Controls.Add(txtNroCliente);
-            Controls.Add(btnVerNroCliente);
+            Controls.Add(btnLimpiar);
             Controls.Add(btnPagar);
             Controls.Add(btnComprobante);
             Controls.Add(btnVolver);
@@ -259,7 +270,7 @@
 
         private Label lblTitulo;
         private TextBox txtNroCliente;
-        private Button btnVerNroCliente;
+        private Button btnLimpiar;
         private Button btnPagar;
         private Button btnComprobante;
         private Button btnVolver;
@@ -275,6 +286,7 @@
         private GroupBox grpTipoCuota;
         private NumericUpDown nudCantAct;
         private ComboBox cmbCantidadCuotas;
+        private Label lblCantidadDeCuotas;
     }
 }
 

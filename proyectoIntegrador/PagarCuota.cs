@@ -15,25 +15,26 @@ namespace proyectoIntegrador
             nudCantAct.ValueChanged += new EventHandler(NudCantAct_ValueChanged);
             cmbCantidadCuotas.Visible = false;
             rbtnTarjeta.CheckedChanged += new EventHandler(RadioButtonTarjeta_CheckedChanged);
-            //btnComprobante.Enabled = false;
+            lblCantidadDeCuotas.Visible = false;
         }
         private void NudCantAct_ValueChanged(object? sender, EventArgs e)
         {
             txtboxMonto.Text = (nudCantAct.Value * 1000).ToString();
         }
-        private void btnVerDeuda_Click(object sender, EventArgs e)
+        private void btnLimpiar_Click(object sender, EventArgs e)
         {
-            Deuda verDeudaForm = new Deuda();
-            verDeudaForm.ShowDialog();
+            ResetCampos();
         }
         private void RadioButtonTarjeta_CheckedChanged(object? sender, EventArgs e) {
             if (rbtnTarjeta.Checked)
             {
                 cmbCantidadCuotas.Visible = true;
+                lblCantidadDeCuotas.Visible = true;
             }
             else
             {
                 cmbCantidadCuotas.Visible = false;
+                lblCantidadDeCuotas.Visible = false;
             }
         }
         private void RadioButton_CheckedChanged(object? sender, EventArgs e)
