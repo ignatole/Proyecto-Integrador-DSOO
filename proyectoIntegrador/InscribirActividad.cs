@@ -14,7 +14,11 @@ namespace proyectoIntegrador
 
         private void btnInscribir_Click(object sender, EventArgs e)
         {
-            int dniCliente = int.Parse(txtDNI.Text);
+            if (string.IsNullOrEmpty(txtDNI.Text) || !int.TryParse(txtDNI.Text, out int dniCliente))
+            {
+                MessageBox.Show("Por favor, ingresa un número de DNI válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
             Cliente clienteService = new();
 
@@ -60,6 +64,7 @@ namespace proyectoIntegrador
             }
             CargarActividades();
         }
+
 
         private void CargarActividades()
         {
