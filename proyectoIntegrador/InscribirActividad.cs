@@ -100,5 +100,9 @@ namespace proyectoIntegrador
             formPrevio.Show();
         }
 
+        private void dgvActividades_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

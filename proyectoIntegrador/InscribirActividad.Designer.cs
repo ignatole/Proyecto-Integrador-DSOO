@@ -44,12 +44,23 @@ namespace proyectoIntegrador
             // 
             // dgvActividades
             // 
+            dgvActividades.AllowUserToAddRows = false;
+            dgvActividades.AllowUserToDeleteRows = false;
+            dgvActividades.AllowUserToOrderColumns = true;
+            dgvActividades.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dgvActividades.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvActividades.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dgvActividades.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvActividades.Location = new Point(26, 21);
             dgvActividades.Name = "dgvActividades";
-            dgvActividades.RowTemplate.Height = 25;
-            dgvActividades.Size = new Size(738, 243);
+            dgvActividades.ReadOnly = true;
+            dgvActividades.RowHeadersVisible = false;
+            dgvActividades.RowTemplate.Height = 35;
+            dgvActividades.RowTemplate.ReadOnly = true;
+            dgvActividades.ScrollBars = ScrollBars.Horizontal;
+            dgvActividades.Size = new Size(738, 236);
             dgvActividades.TabIndex = 0;
+            dgvActividades.CellContentClick += dgvActividades_CellContentClick;
             // 
             // txtDNI
             // 
@@ -126,7 +137,7 @@ namespace proyectoIntegrador
         }
 
         #endregion
-        
+
 
         private DataGridView dgvActividades;
         private TextBox txtDNI;
