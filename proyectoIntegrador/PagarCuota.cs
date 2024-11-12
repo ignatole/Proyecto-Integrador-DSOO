@@ -16,6 +16,7 @@ namespace proyectoIntegrador
             cmbCantidadCuotas.Visible = false;
             rbtnTarjeta.CheckedChanged += new EventHandler(RadioButtonTarjeta_CheckedChanged);
             lblCantidadDeCuotas.Visible = false;
+            btnComprobante.Visible = false;
         }
         private void NudCantAct_ValueChanged(object? sender, EventArgs e)
         {
@@ -123,6 +124,7 @@ namespace proyectoIntegrador
                 cuotaService.RegistrarCuota(cuota);
 
                 MessageBox.Show("Pago registrado exitosamente.");
+                btnComprobante.Visible = true;
             }
             else
             {
