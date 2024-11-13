@@ -12,7 +12,7 @@
         {
             InscribirCliente nuevoFormulario = new InscribirCliente();
             nuevoFormulario.Show();
-            this.Close();
+            this.Hide();
         }
 
         // Evento para el botón "Inscribir Actividades"
@@ -20,7 +20,7 @@
         {
             InscribirActividad nuevoFormulario = new InscribirActividad();
             nuevoFormulario.Show();
-            this.Close();
+            this.Hide();
         }
 
         // Evento para el botón "Pagos"
@@ -28,14 +28,15 @@
         {
             PagarCuota nuevoFormulario = new PagarCuota();
             nuevoFormulario.Show();
-            this.Close();
+            this.Hide();
         }
 
         // Evento para el botón "Listado de Vencimientos"
         private void btnListadoVencimientos_Click(object sender, EventArgs e)
         {
             ListadoVencimiento nuevoFormulario = new ListadoVencimiento();
-            nuevoFormulario.Show(); // Muestra el formulario
+            nuevoFormulario.Show();
+            this.Hide();
         }
 
 
@@ -52,7 +53,7 @@
         {
             MostrarCarnet nuevoFormulario = new MostrarCarnet();
             nuevoFormulario.Show();
-            this.Close();
+            this.Hide();
         }
     }
 }

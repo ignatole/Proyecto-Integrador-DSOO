@@ -18,6 +18,7 @@ namespace proyectoIntegrador
         {
             InitializeComponent();
             cuota = new Cuota();
+            this.FormClosing += CargarVencimientos_FormClosing;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -40,6 +41,14 @@ namespace proyectoIntegrador
                     cuotaVencida.Dni,
                     cuotaVencida.FechaVencimiento
                 );
+            }
+        }
+        private void CargarVencimientos_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Form home = Application.OpenForms["Home"];
+            if (home != null)
+            {
+                home.Show();
             }
         }
 

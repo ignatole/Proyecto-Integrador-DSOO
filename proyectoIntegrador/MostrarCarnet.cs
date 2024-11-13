@@ -20,6 +20,7 @@ namespace proyectoIntegrador
         public MostrarCarnet()
         {
             InitializeComponent();
+            this.FormClosing += MostrarCarnet_FormClosing; 
         }
 
 
@@ -143,6 +144,14 @@ namespace proyectoIntegrador
                 {
                     MessageBox.Show("Error al acceder a la base de datos: " + ex.Message);
                 }
+            }
+        }
+        private void MostrarCarnet_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Form home = Application.OpenForms["Home"];
+            if (home != null)
+            {
+                home.Show();
             }
         }
 

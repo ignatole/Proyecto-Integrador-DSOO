@@ -17,6 +17,7 @@ namespace proyectoIntegrador
             rbtnTarjeta.CheckedChanged += new EventHandler(RadioButtonTarjeta_CheckedChanged);
             lblCantidadDeCuotas.Visible = false;
             btnComprobante.Visible = false;
+            this.FormClosing += PagarCuota_FormClosing;
         }
         private void NudCantAct_ValueChanged(object? sender, EventArgs e)
         {
@@ -151,6 +152,16 @@ namespace proyectoIntegrador
             this.Close();
             formPrevio.Show();
         }
+
+        private void PagarCuota_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Form home = Application.OpenForms["Home"];
+            if (home != null)
+            {
+                home.Show();
+            }
+        }
+
         private void ResetCampos()
         {
             txtNroCliente.Text = string.Empty;

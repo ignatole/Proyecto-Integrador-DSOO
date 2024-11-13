@@ -5,6 +5,7 @@
         public InscribirCliente()
         {
             InitializeComponent();
+            this.FormClosing += InscribirCliente_FormClosing;
         }
         // Evento click del botón "Inscribir"
         private void btnInscribir(object sender, EventArgs e)
@@ -159,6 +160,16 @@
             rbtnOtro.Checked = false;
             dtpFechaNac.Value = DateTime.Now;
             chkAptoFisico.Checked = false;
+        }
+
+        private void InscribirCliente_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+            Form home = Application.OpenForms["Home"];
+            if (home != null)
+            {
+                home.Show();
+            }
         }
 
         private void label7_Click(object sender, EventArgs e)

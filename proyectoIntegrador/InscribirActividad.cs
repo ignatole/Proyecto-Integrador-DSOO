@@ -10,6 +10,7 @@ namespace proyectoIntegrador
         {
             InitializeComponent();
             CargarActividades();
+            this.FormClosing += InscribirActividad_FormClosing;
         }
 
         private void btnInscribir_Click(object sender, EventArgs e)
@@ -103,6 +104,16 @@ namespace proyectoIntegrador
             Home formPrevio = new Home();
             this.Close();
             formPrevio.Show();
+        }
+
+        private void InscribirActividad_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Muestra el formulario principal (home) al cerrar InscribirActividad
+            Form home = Application.OpenForms["Home"];
+            if (home != null)
+            {
+                home.Show();
+            }
         }
 
         private void dgvActividades_CellContentClick(object sender, DataGridViewCellEventArgs e)
