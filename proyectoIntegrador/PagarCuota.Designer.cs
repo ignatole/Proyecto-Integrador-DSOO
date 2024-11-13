@@ -49,7 +49,6 @@
             lblTitulo.Size = new Size(213, 19);
             lblTitulo.TabIndex = 0;
             lblTitulo.Text = "Ingrese el número de documento";
-            lblTitulo.Click += lblTitulo_Click_1;
             // 
             // txtNroCliente
             // 
@@ -147,7 +146,6 @@
             lblMonto.Size = new Size(43, 15);
             lblMonto.TabIndex = 8;
             lblMonto.Text = "Monto";
-            lblMonto.Click += lblMonto_Click;
             // 
             // txtboxMonto
             // 

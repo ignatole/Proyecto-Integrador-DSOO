@@ -16,7 +16,6 @@ namespace proyectoIntegrador
                     using (MySqlCommand command = new MySqlCommand("ComprarCreditos", sqlCon))
                     {
                         command.CommandType = System.Data.CommandType.StoredProcedure;
-
                         command.Parameters.AddWithValue("c_id_cliente", credito.IdCliente);
                         command.Parameters.AddWithValue("cantidad", credito.CantCreditos);
                         command.ExecuteNonQuery();

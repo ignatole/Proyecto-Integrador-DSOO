@@ -12,14 +12,13 @@ namespace proyectoIntegrador.Datos
         private string clave;
         private static Conexion? con = null;
 
-        private Conexion() // asignamos valores a las variables de la conexion
-        {
-            this.baseDatos = "clubdeportivo";
-            this.servidor = "localhost";
-            this.puerto = "3306";
-            this.usuario = "root";
-            this.clave = "";
-        }
+        private Conexion() { }
+        public string BaseDatos { set => baseDatos = value; }
+        public string Servidor { set => servidor = value; }
+        public string Puerto { set => puerto = value; }
+        public string Usuario { set => usuario = value; }
+        public string Clave { set => clave = value; }
+
 
         public MySqlConnection CrearConexion() // corregido el nombre CrearConcexion a CrearConexion
         {

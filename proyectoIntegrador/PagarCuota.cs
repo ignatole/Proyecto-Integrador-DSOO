@@ -108,7 +108,6 @@ namespace proyectoIntegrador
                         return;
                     }
                 }
-
                 ECuota cuota = new()
                 {
                     IdCliente = idCliente,
@@ -118,10 +117,13 @@ namespace proyectoIntegrador
                     TipoCuota = tipoCuota,
                     PlazoCuota = plazoCuota
                 };
-
                 Cuota cuotaService = new Cuota();
-
                 cuotaService.RegistrarCuota(cuota);
+                if (rbtnCuotaActividad.Checked)
+                {
+                    Credito credito = new();
+                    credito.CargarCreditos(new ECredito { IdCliente = idCliente, CantCreditos = (int)nudCantAct.Value });
+                }
 
                 MessageBox.Show("Pago registrado exitosamente.");
                 btnComprobante.Visible = true;
@@ -148,41 +150,6 @@ namespace proyectoIntegrador
             Home formPrevio = new Home();
             this.Close();
             formPrevio.Show();
-        }
-
-        private void lblTitulo_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtNroCliente_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblMonto_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblTitulo_Click_1(object sender, EventArgs e)
-        {
-
         }
         private void ResetCampos()
         {
