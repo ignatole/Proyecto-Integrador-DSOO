@@ -70,45 +70,29 @@ namespace proyectoIntegrador
                 string filePath = saveFileDialog.FileName;
                 try
                 {
-                    var documento = new Document();
-                    using (var writer = PdfWriter.GetInstance(documento, new FileStream(filePath, FileMode.Create)))
-                    {
-                        documento.Open();
-                        var titleFont = FontFactory.GetFont(FontFactory.HELVETICA_BOLD, 18);
-                        var title = new Paragraph("Comprobante de Pago - Club Deportivo", titleFont);
-                        title.Alignment = Element.ALIGN_CENTER;
-                        documento.Add(title);
-                        documento.Add(new Paragraph("\n"));
-                        var contentFont = FontFactory.GetFont(FontFactory.HELVETICA, 12);
-                        var facturaControl = tblComprobante.GetControlFromPosition(1, 0);
-                        var clienteControl = tblComprobante.GetControlFromPosition(1, 1);
-                        var totalControl = tblComprobante.GetControlFromPosition(1, 2);
-                        var fechaControl = tblComprobante.GetControlFromPosition(1, 3);
-                        var medioPagoControl = tblComprobante.GetControlFromPosition(1, 4);
-                        var tipoMembresiaControl = tblComprobante.GetControlFromPosition(1, 5);
-                        if (facturaControl != null && clienteControl != null && totalControl != null && fechaControl != null && medioPagoControl != null && tipoMembresiaControl != null)
-                        {
-                            documento.Add(new Paragraph($"Factura N°: 0001-000000{facturaControl.Text}", contentFont));
-                            documento.Add(new Paragraph($"Cliente: {clienteControl.Text}", contentFont));
-                            documento.Add(new Paragraph($"Total: {totalControl.Text}", contentFont));
-                            documento.Add(new Paragraph($"Fecha: {fechaControl.Text}", contentFont));
-                            documento.Add(new Paragraph($"Medio de pago: {medioPagoControl.Text}", contentFont));
-                            documento.Add(new Paragraph($"Tipo de Membresía: {tipoMembresiaControl.Text}", contentFont));
-                        }
-                        else
-                        {
-                            throw new Exception("Uno o más controles son null.");
-                        }
-                        var footerFont = FontFactory.GetFont(FontFactory.HELVETICA, 10);
-                        var footer = new Paragraph("Gracias por su preferencia. Club Deportivo.", footerFont);
-                        footer.Alignment = Element.ALIGN_CENTER;
-                        documento.Add(new Paragraph("\n"));
-                        documento.Add(footer);
-                        documento.Close();
-                        writer.Close();
-                    }
-
-                    MessageBox.Show($"PDF generado exitosamente {nombreAutoArchivo}");
+                var documento = new Document();
+                var writer = PdfWriter.GetInstance(documento, new FileStream(filePath, FileMode.Create));
+                documento.Open();
+                var titleFont = FontFactory.GetFont(FontFactory.HELVETICA_BOLD, 18);
+                var title = new Paragraph("Comprobante de Pago - Club Deportivo", titleFont);
+                title.Alignment = Element.ALIGN_CENTER;
+                documento.Add(title);
+                documento.Add(new Paragraph("\n"));
+                var contentFont = FontFactory.GetFont(FontFactory.HELVETICA, 12);
+                documento.Add(new Paragraph($"Factura N°: 0001-000000{tblComprobante.GetControlFromPosition(1, 0).Text}", contentFont));
+                documento.Add(new Paragraph($"Cliente: {tblComprobante.GetControlFromPosition(1, 1).Text}", contentFont));
+                documento.Add(new Paragraph($"Total: {tblComprobante.GetControlFromPosition(1, 2).Text}", contentFont));
+                documento.Add(new Paragraph($"Fecha: {tblComprobante.GetControlFromPosition(1, 3).Text}", contentFont));
+                documento.Add(new Paragraph($"Medio de pago: {tblComprobante.GetControlFromPosition(1, 4).Text}", contentFont));
+                documento.Add(new Paragraph($"Tipo de Membresía: {tblComprobante.GetControlFromPosition(1, 5).Text}", contentFont));
+                var footerFont = FontFactory.GetFont(FontFactory.HELVETICA, 10);
+                var footer = new Paragraph("Gracias por su preferencia. Club Deportivo.", footerFont);
+                footer.Alignment = Element.ALIGN_CENTER;
+                documento.Add(new Paragraph("\n"));
+                documento.Add(footer);
+                documento.Close();
+                writer.Close();
+                MessageBox.Show($"PDF generado exitosamente {saveFileDialog.FileName}");
                 }
                 catch (Exception ex)
                 {

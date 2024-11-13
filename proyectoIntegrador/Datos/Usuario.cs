@@ -41,7 +41,7 @@ namespace proyectoIntegrador.Datos
             }
             catch (Exception ex)
             {
-                throw new Exception("Error al ejecutar el login: " + ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
