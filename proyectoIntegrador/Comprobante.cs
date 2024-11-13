@@ -79,7 +79,7 @@ namespace proyectoIntegrador
                 documento.Add(title);
                 documento.Add(new Paragraph("\n"));
                 var contentFont = FontFactory.GetFont(FontFactory.HELVETICA, 12);
-                documento.Add(new Paragraph($"Factura N°: 0001-000000{tblComprobante.GetControlFromPosition(1, 1).Text}", contentFont));
+                documento.Add(new Paragraph($"Factura N°: 0001-000000{tblComprobante.GetControlFromPosition(1, 0).Text}", contentFont));
                 documento.Add(new Paragraph($"Cliente: {tblComprobante.GetControlFromPosition(1, 1).Text}", contentFont));
                 documento.Add(new Paragraph($"Total: {tblComprobante.GetControlFromPosition(1, 2).Text}", contentFont));
                 documento.Add(new Paragraph($"Fecha: {tblComprobante.GetControlFromPosition(1, 3).Text}", contentFont));
