@@ -102,7 +102,7 @@ namespace proyectoIntegrador
             btnSalir.TabIndex = 4;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = false;
-            btnSalir.Click += btnSalir_Click;
+            btnSalir.Click += Home_FormClosing;
             // 
             // lblTitulo
             // 

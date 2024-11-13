@@ -5,6 +5,7 @@
         public Home()
         {
             InitializeComponent();
+            this.FormClosing += Home_FormClosing;
         }
 
         // Evento para el botón "Inscribir Cliente"
@@ -41,7 +42,7 @@
 
 
         // Evento para el botón "Salir"
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void Home_FormClosing(object sender, EventArgs e)
         {
             Application.Exit();
         }
