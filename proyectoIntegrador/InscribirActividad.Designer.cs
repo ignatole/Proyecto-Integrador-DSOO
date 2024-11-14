@@ -51,77 +51,89 @@ namespace proyectoIntegrador
             dgvActividades.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvActividades.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dgvActividades.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvActividades.Location = new Point(26, 21);
+            dgvActividades.Location = new Point(34, 29);
+            dgvActividades.Margin = new Padding(3, 5, 3, 5);
             dgvActividades.Name = "dgvActividades";
             dgvActividades.ReadOnly = true;
             dgvActividades.RowHeadersVisible = false;
+            dgvActividades.RowHeadersWidth = 51;
             dgvActividades.RowTemplate.Height = 35;
             dgvActividades.RowTemplate.ReadOnly = true;
             dgvActividades.ScrollBars = ScrollBars.Horizontal;
-            dgvActividades.Size = new Size(738, 236);
-            dgvActividades.TabIndex = 0;
+            dgvActividades.Size = new Size(948, 331);
+            dgvActividades.TabIndex = 6;
             dgvActividades.CellContentClick += dgvActividades_CellContentClick;
             // 
             // txtDNI
             // 
-            txtDNI.Location = new Point(83, 307);
+            txtDNI.Location = new Point(134, 425);
+            txtDNI.Margin = new Padding(3, 5, 3, 5);
+            txtDNI.MaxLength = 20;
             txtDNI.Name = "txtDNI";
-            txtDNI.Size = new Size(157, 23);
-            txtDNI.TabIndex = 1;
+            txtDNI.Size = new Size(201, 28);
+            txtDNI.TabIndex = 0;
             // 
             // lblDNI
             // 
             lblDNI.AutoSize = true;
-            lblDNI.Location = new Point(30, 308);
+            lblDNI.Font = new Font("Tahoma", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            lblDNI.Location = new Point(61, 430);
             lblDNI.Name = "lblDNI";
-            lblDNI.Size = new Size(27, 15);
-            lblDNI.TabIndex = 2;
+            lblDNI.Size = new Size(43, 23);
+            lblDNI.TabIndex = 4;
             lblDNI.Text = "DNI";
             // 
             // cmbActividades
             // 
             cmbActividades.FormattingEnabled = true;
-            cmbActividades.Location = new Point(358, 308);
+            cmbActividades.Location = new Point(771, 424);
+            cmbActividades.Margin = new Padding(3, 5, 3, 5);
             cmbActividades.Name = "cmbActividades";
-            cmbActividades.Size = new Size(153, 23);
-            cmbActividades.TabIndex = 3;
+            cmbActividades.Size = new Size(195, 29);
+            cmbActividades.TabIndex = 1;
             // 
             // btnInscribir
             // 
-            btnInscribir.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            btnInscribir.Location = new Point(207, 382);
+            btnInscribir.BackColor = Color.FromArgb(233, 239, 236);
+            btnInscribir.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnInscribir.Location = new Point(249, 534);
+            btnInscribir.Margin = new Padding(3, 5, 3, 5);
             btnInscribir.Name = "btnInscribir";
-            btnInscribir.Size = new Size(130, 45);
-            btnInscribir.TabIndex = 4;
+            btnInscribir.Size = new Size(168, 63);
+            btnInscribir.TabIndex = 2;
             btnInscribir.Text = "Inscribir";
-            btnInscribir.UseVisualStyleBackColor = true;
+            btnInscribir.UseVisualStyleBackColor = false;
             btnInscribir.Click += btnInscribir_Click;
             // 
             // btnVolver
             // 
-            btnVolver.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            btnVolver.Location = new Point(427, 382);
+            btnVolver.BackColor = Color.FromArgb(233, 239, 236);
+            btnVolver.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnVolver.Location = new Point(621, 534);
+            btnVolver.Margin = new Padding(3, 5, 3, 5);
             btnVolver.Name = "btnVolver";
-            btnVolver.Size = new Size(130, 45);
-            btnVolver.TabIndex = 5;
+            btnVolver.Size = new Size(168, 63);
+            btnVolver.TabIndex = 3;
             btnVolver.Text = "Volver";
-            btnVolver.UseVisualStyleBackColor = true;
+            btnVolver.UseVisualStyleBackColor = false;
             btnVolver.Click += btnVolver_Click;
             // 
             // lblActividad
             // 
             lblActividad.AutoSize = true;
-            lblActividad.Location = new Point(270, 310);
+            lblActividad.Font = new Font("Tahoma", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            lblActividad.Location = new Point(621, 432);
             lblActividad.Name = "lblActividad";
-            lblActividad.Size = new Size(57, 15);
-            lblActividad.TabIndex = 6;
+            lblActividad.Size = new Size(85, 23);
+            lblActividad.TabIndex = 5;
             lblActividad.Text = "Actividad";
             // 
             // InscribirActividad
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = Color.FromArgb(246, 245, 242);
+            ClientSize = new Size(1028, 630);
             Controls.Add(lblActividad);
             Controls.Add(btnVolver);
             Controls.Add(btnInscribir);
@@ -129,6 +141,8 @@ namespace proyectoIntegrador
             Controls.Add(lblDNI);
             Controls.Add(txtDNI);
             Controls.Add(dgvActividades);
+            Font = new Font("Tahoma", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            Margin = new Padding(3, 5, 3, 5);
             Name = "InscribirActividad";
             Text = "InscribirActividad";
             ((System.ComponentModel.ISupportInitialize)dgvActividades).EndInit();

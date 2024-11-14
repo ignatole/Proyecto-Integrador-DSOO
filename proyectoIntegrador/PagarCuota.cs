@@ -27,7 +27,8 @@ namespace proyectoIntegrador
         {
             ResetCampos();
         }
-        private void RadioButtonTarjeta_CheckedChanged(object? sender, EventArgs e) {
+        private void RadioButtonTarjeta_CheckedChanged(object? sender, EventArgs e)
+        {
             if (rbtnTarjeta.Checked)
             {
                 cmbCantidadCuotas.Visible = true;
@@ -170,6 +171,6 @@ namespace proyectoIntegrador
             rbtnCuotaMensual.Checked = false;
             rbtnCuotaActividad.Checked = false;
         }
-
+        
     }
 }

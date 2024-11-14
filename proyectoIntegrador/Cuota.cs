@@ -50,7 +50,8 @@ namespace proyectoIntegrador
                                     c.Monto, c.fecha_Pago, c.medio_pago, c.tipo_cuota, c.id_pago                                    
                                     FROM  cuota c
                                     JOIN cliente cl ON cl.id_cliente = c.id_cliente
-                                    WHERE c.id_pago = LAST_INSERT_ID();";
+                                    ORDER BY c.id_pago DESC
+                                    LIMIT 1;";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, conexion))
                 {
