@@ -45,108 +45,116 @@
             // lblServidor
             // 
             lblServidor.AutoSize = true;
-            lblServidor.Location = new Point(97, 55);
+            lblServidor.Location = new Point(125, 77);
             lblServidor.Name = "lblServidor";
-            lblServidor.Size = new Size(50, 15);
+            lblServidor.Size = new Size(70, 21);
             lblServidor.TabIndex = 0;
             lblServidor.Text = "Servidor";
             // 
             // lblDb
             // 
             lblDb.AutoSize = true;
-            lblDb.Location = new Point(97, 130);
+            lblDb.Location = new Point(125, 182);
             lblDb.Name = "lblDb";
-            lblDb.Size = new Size(69, 15);
-            lblDb.TabIndex = 1;
+            lblDb.Size = new Size(95, 21);
+            lblDb.TabIndex = 2;
             lblDb.Text = "Nombre DB";
             // 
             // lblUsuario
             // 
             lblUsuario.AutoSize = true;
-            lblUsuario.Location = new Point(97, 169);
+            lblUsuario.Location = new Point(125, 236);
             lblUsuario.Name = "lblUsuario";
-            lblUsuario.Size = new Size(47, 15);
-            lblUsuario.TabIndex = 2;
+            lblUsuario.Size = new Size(66, 21);
+            lblUsuario.TabIndex = 3;
             lblUsuario.Text = "Usuario";
             // 
             // lblPass
             // 
             lblPass.AutoSize = true;
-            lblPass.Location = new Point(97, 209);
+            lblPass.Location = new Point(125, 293);
             lblPass.Name = "lblPass";
-            lblPass.Size = new Size(67, 15);
-            lblPass.TabIndex = 3;
+            lblPass.Size = new Size(94, 21);
+            lblPass.TabIndex = 4;
             lblPass.Text = "Contraseña";
             // 
             // txtHost
             // 
-            txtHost.Location = new Point(192, 47);
+            txtHost.Location = new Point(246, 66);
+            txtHost.Margin = new Padding(3, 5, 3, 5);
             txtHost.Name = "txtHost";
-            txtHost.Size = new Size(100, 23);
-            txtHost.TabIndex = 4;
+            txtHost.Size = new Size(128, 28);
+            txtHost.TabIndex = 0;
             // 
             // txtDb
             // 
-            txtDb.Location = new Point(192, 122);
+            txtDb.Location = new Point(246, 172);
+            txtDb.Margin = new Padding(3, 5, 3, 5);
             txtDb.Name = "txtDb";
-            txtDb.Size = new Size(100, 23);
-            txtDb.TabIndex = 5;
+            txtDb.Size = new Size(128, 28);
+            txtDb.TabIndex = 2;
             // 
             // txtUsuario
             // 
-            txtUsuario.Location = new Point(192, 161);
+            txtUsuario.Location = new Point(246, 226);
+            txtUsuario.Margin = new Padding(3, 5, 3, 5);
             txtUsuario.Name = "txtUsuario";
-            txtUsuario.Size = new Size(100, 23);
-            txtUsuario.TabIndex = 6;
+            txtUsuario.Size = new Size(128, 28);
+            txtUsuario.TabIndex = 3;
             // 
             // txtPass
             // 
-            txtPass.Location = new Point(192, 201);
+            txtPass.Location = new Point(246, 281);
+            txtPass.Margin = new Padding(3, 5, 3, 5);
             txtPass.Name = "txtPass";
-            txtPass.Size = new Size(100, 23);
-            txtPass.TabIndex = 7;
+            txtPass.Size = new Size(128, 28);
+            txtPass.TabIndex = 4;
             // 
             // btnConfirmar
             // 
-            btnConfirmar.Location = new Point(117, 251);
+            btnConfirmar.BackColor = Color.FromArgb(233, 239, 236);
+            btnConfirmar.Location = new Point(151, 352);
+            btnConfirmar.Margin = new Padding(3, 5, 3, 5);
             btnConfirmar.Name = "btnConfirmar";
-            btnConfirmar.Size = new Size(155, 41);
-            btnConfirmar.TabIndex = 8;
+            btnConfirmar.Size = new Size(199, 58);
+            btnConfirmar.TabIndex = 5;
             btnConfirmar.Text = "Confirmar";
-            btnConfirmar.UseVisualStyleBackColor = true;
+            btnConfirmar.UseVisualStyleBackColor = false;
             btnConfirmar.Click += btnConfirmar_Click;
             // 
             // lblTitulo
             // 
             lblTitulo.AutoSize = true;
-            lblTitulo.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            lblTitulo.Location = new Point(100, 9);
+            lblTitulo.Font = new Font("Tahoma", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            lblTitulo.Location = new Point(151, 9);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(185, 25);
+            lblTitulo.Size = new Size(231, 29);
             lblTitulo.TabIndex = 9;
             lblTitulo.Text = "Datos para conexión";
             // 
             // lblPuerto
             // 
             lblPuerto.AutoSize = true;
-            lblPuerto.Location = new Point(97, 93);
+            lblPuerto.Location = new Point(125, 131);
             lblPuerto.Name = "lblPuerto";
-            lblPuerto.Size = new Size(42, 15);
-            lblPuerto.TabIndex = 10;
+            lblPuerto.Size = new Size(58, 21);
+            lblPuerto.TabIndex = 1;
             lblPuerto.Text = "Puerto";
             // 
             // txtPuerto
             // 
-            txtPuerto.Location = new Point(192, 85);
+            txtPuerto.Location = new Point(246, 119);
+            txtPuerto.Margin = new Padding(3, 5, 3, 5);
             txtPuerto.Name = "txtPuerto";
-            txtPuerto.Size = new Size(100, 23);
-            txtPuerto.TabIndex = 11;
+            txtPuerto.Size = new Size(128, 28);
+            txtPuerto.TabIndex = 1;
             // 
             // DatosConexion
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(410, 304);
+            BackColor = Color.FromArgb(246, 245, 242);
+            ClientSize = new Size(528, 425);
             Controls.Add(txtPuerto);
             Controls.Add(lblPuerto);
             Controls.Add(lblTitulo);
@@ -159,7 +167,10 @@
             Controls.Add(lblUsuario);
             Controls.Add(lblDb);
             Controls.Add(lblServidor);
+            Font = new Font("Tahoma", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            Margin = new Padding(3, 5, 3, 5);
             Name = "DatosConexion";
+            RightToLeftLayout = true;
             Text = "DatosConexion";
             ResumeLayout(false);
             PerformLayout();

@@ -30,11 +30,11 @@
         {
             grpDatosPersonales = new GroupBox();
             lblId_Cliente = new Label();
-            label5 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label1 = new Label();
+            lblFNacCarnet = new Label();
+            lblNombreCarnet = new Label();
+            lblApellidoCarnet = new Label();
+            lblDniCarnet = new Label();
+            lblNroSocioCarnet = new Label();
             lblFechaNac = new Label();
             lblNombre = new Label();
             lblApellido = new Label();
@@ -51,19 +51,21 @@
             // grpDatosPersonales
             // 
             grpDatosPersonales.Controls.Add(lblId_Cliente);
-            grpDatosPersonales.Controls.Add(label5);
-            grpDatosPersonales.Controls.Add(label2);
-            grpDatosPersonales.Controls.Add(label3);
-            grpDatosPersonales.Controls.Add(label4);
-            grpDatosPersonales.Controls.Add(label1);
+            grpDatosPersonales.Controls.Add(lblFNacCarnet);
+            grpDatosPersonales.Controls.Add(lblNombreCarnet);
+            grpDatosPersonales.Controls.Add(lblApellidoCarnet);
+            grpDatosPersonales.Controls.Add(lblDniCarnet);
+            grpDatosPersonales.Controls.Add(lblNroSocioCarnet);
             grpDatosPersonales.Controls.Add(lblFechaNac);
             grpDatosPersonales.Controls.Add(lblNombre);
             grpDatosPersonales.Controls.Add(lblApellido);
             grpDatosPersonales.Controls.Add(lblDNI);
-            grpDatosPersonales.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            grpDatosPersonales.Location = new Point(63, 95);
+            grpDatosPersonales.Font = new Font("Tahoma", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            grpDatosPersonales.Location = new Point(240, 133);
+            grpDatosPersonales.Margin = new Padding(3, 5, 3, 5);
             grpDatosPersonales.Name = "grpDatosPersonales";
-            grpDatosPersonales.Size = new Size(439, 274);
+            grpDatosPersonales.Padding = new Padding(3, 5, 3, 5);
+            grpDatosPersonales.Size = new Size(565, 383);
             grpDatosPersonales.TabIndex = 14;
             grpDatosPersonales.TabStop = false;
             grpDatosPersonales.Text = "Datos personales";
@@ -72,128 +74,129 @@
             // 
             lblId_Cliente.AutoSize = true;
             lblId_Cliente.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            lblId_Cliente.Location = new Point(258, 48);
-            lblId_Cliente.Margin = new Padding(4, 0, 4, 0);
+            lblId_Cliente.Location = new Point(332, 68);
+            lblId_Cliente.Margin = new Padding(6, 0, 6, 0);
             lblId_Cliente.Name = "lblId_Cliente";
-            lblId_Cliente.Size = new Size(0, 19);
+            lblId_Cliente.Size = new Size(0, 23);
             lblId_Cliente.TabIndex = 15;
             // 
-            // label5
+            // lblFNacCarnet
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(7, 222);
-            label5.Name = "label5";
-            label5.Size = new Size(134, 19);
-            label5.TabIndex = 14;
-            label5.Text = "Fecha de nacimiento";
+            lblFNacCarnet.AutoSize = true;
+            lblFNacCarnet.Location = new Point(9, 310);
+            lblFNacCarnet.Name = "lblFNacCarnet";
+            lblFNacCarnet.Size = new Size(163, 21);
+            lblFNacCarnet.TabIndex = 14;
+            lblFNacCarnet.Text = "Fecha de nacimiento";
             // 
-            // label2
+            // lblNombreCarnet
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(7, 89);
-            label2.Margin = new Padding(4, 0, 4, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(59, 19);
-            label2.TabIndex = 11;
-            label2.Text = "Nombre";
+            lblNombreCarnet.AutoSize = true;
+            lblNombreCarnet.Font = new Font("Tahoma", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            lblNombreCarnet.Location = new Point(9, 125);
+            lblNombreCarnet.Margin = new Padding(6, 0, 6, 0);
+            lblNombreCarnet.Name = "lblNombreCarnet";
+            lblNombreCarnet.Size = new Size(68, 21);
+            lblNombreCarnet.TabIndex = 11;
+            lblNombreCarnet.Text = "Nombre";
             // 
-            // label3
+            // lblApellidoCarnet
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(7, 134);
-            label3.Margin = new Padding(4, 0, 4, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(58, 19);
-            label3.TabIndex = 12;
-            label3.Text = "Apellido";
+            lblApellidoCarnet.AutoSize = true;
+            lblApellidoCarnet.Font = new Font("Tahoma", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            lblApellidoCarnet.Location = new Point(9, 188);
+            lblApellidoCarnet.Margin = new Padding(6, 0, 6, 0);
+            lblApellidoCarnet.Name = "lblApellidoCarnet";
+            lblApellidoCarnet.Size = new Size(69, 21);
+            lblApellidoCarnet.TabIndex = 12;
+            lblApellidoCarnet.Text = "Apellido";
             // 
-            // label4
+            // lblDniCarnet
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(7, 177);
-            label4.Margin = new Padding(4, 0, 4, 0);
-            label4.Name = "label4";
-            label4.Size = new Size(33, 19);
-            label4.TabIndex = 13;
-            label4.Text = "DNI";
+            lblDniCarnet.AutoSize = true;
+            lblDniCarnet.Location = new Point(9, 247);
+            lblDniCarnet.Margin = new Padding(6, 0, 6, 0);
+            lblDniCarnet.Name = "lblDniCarnet";
+            lblDniCarnet.Size = new Size(39, 21);
+            lblDniCarnet.TabIndex = 13;
+            lblDniCarnet.Text = "DNI";
             // 
-            // label1
+            // lblNroSocioCarnet
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(7, 48);
-            label1.Margin = new Padding(4, 0, 4, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(87, 19);
-            label1.TabIndex = 10;
-            label1.Text = "Nro de Socio";
+            lblNroSocioCarnet.AutoSize = true;
+            lblNroSocioCarnet.Font = new Font("Tahoma", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            lblNroSocioCarnet.Location = new Point(9, 68);
+            lblNroSocioCarnet.Margin = new Padding(6, 0, 6, 0);
+            lblNroSocioCarnet.Name = "lblNroSocioCarnet";
+            lblNroSocioCarnet.Size = new Size(103, 21);
+            lblNroSocioCarnet.TabIndex = 10;
+            lblNroSocioCarnet.Text = "Nro de Socio";
+            
             // 
             // lblFechaNac
             // 
             lblFechaNac.AutoSize = true;
-            lblFechaNac.Location = new Point(259, 222);
+            lblFechaNac.Location = new Point(333, 310);
             lblFechaNac.Name = "lblFechaNac";
-            lblFechaNac.Size = new Size(0, 19);
+            lblFechaNac.Size = new Size(0, 21);
             lblFechaNac.TabIndex = 9;
             // 
             // lblNombre
             // 
             lblNombre.AutoSize = true;
             lblNombre.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            lblNombre.Location = new Point(259, 89);
-            lblNombre.Margin = new Padding(4, 0, 4, 0);
+            lblNombre.Location = new Point(333, 125);
+            lblNombre.Margin = new Padding(6, 0, 6, 0);
             lblNombre.Name = "lblNombre";
-            lblNombre.Size = new Size(0, 19);
+            lblNombre.Size = new Size(0, 23);
             lblNombre.TabIndex = 0;
             // 
             // lblApellido
             // 
             lblApellido.AutoSize = true;
             lblApellido.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            lblApellido.Location = new Point(259, 134);
-            lblApellido.Margin = new Padding(4, 0, 4, 0);
+            lblApellido.Location = new Point(333, 188);
+            lblApellido.Margin = new Padding(6, 0, 6, 0);
             lblApellido.Name = "lblApellido";
-            lblApellido.Size = new Size(0, 19);
+            lblApellido.Size = new Size(0, 23);
             lblApellido.TabIndex = 1;
             // 
             // lblDNI
             // 
             lblDNI.AutoSize = true;
-            lblDNI.Location = new Point(259, 177);
-            lblDNI.Margin = new Padding(4, 0, 4, 0);
+            lblDNI.Location = new Point(333, 247);
+            lblDNI.Margin = new Padding(6, 0, 6, 0);
             lblDNI.Name = "lblDNI";
-            lblDNI.Size = new Size(0, 19);
+            lblDNI.Size = new Size(0, 21);
             lblDNI.TabIndex = 2;
             // 
             // lblTitulo
             // 
             lblTitulo.AutoSize = true;
-            lblTitulo.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            lblTitulo.Location = new Point(63, 40);
-            lblTitulo.Margin = new Padding(4, 0, 4, 0);
+            lblTitulo.Font = new Font("Tahoma", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            lblTitulo.Location = new Point(81, 56);
+            lblTitulo.Margin = new Padding(6, 0, 6, 0);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(256, 19);
+            lblTitulo.Size = new Size(307, 21);
             lblTitulo.TabIndex = 15;
             lblTitulo.Text = "Ingrese número de documento del socio";
             // 
             // txtNroCliente
             // 
-            txtNroCliente.Location = new Point(345, 40);
-            txtNroCliente.Margin = new Padding(4);
-            txtNroCliente.MaxLength = 10;
+            txtNroCliente.Location = new Point(443, 56);
+            txtNroCliente.Margin = new Padding(6, 5, 6, 5);
+            txtNroCliente.MaxLength = 20;
             txtNroCliente.Name = "txtNroCliente";
-            txtNroCliente.Size = new Size(215, 23);
+            txtNroCliente.Size = new Size(275, 28);
             txtNroCliente.TabIndex = 16;
             // 
             // btnVolver
             // 
             btnVolver.BackColor = Color.FromArgb(233, 239, 236);
-            btnVolver.Location = new Point(513, 376);
-            btnVolver.Margin = new Padding(4);
+            btnVolver.Location = new Point(762, 526);
+            btnVolver.Margin = new Padding(6, 5, 6, 5);
             btnVolver.Name = "btnVolver";
-            btnVolver.Size = new Size(136, 36);
+            btnVolver.Size = new Size(174, 50);
             btnVolver.TabIndex = 19;
             btnVolver.Text = "Volver";
             btnVolver.UseVisualStyleBackColor = false;
@@ -202,10 +205,10 @@
             // btnLimpiar
             // 
             btnLimpiar.BackColor = Color.FromArgb(233, 239, 236);
-            btnLimpiar.Location = new Point(63, 376);
-            btnLimpiar.Margin = new Padding(4);
+            btnLimpiar.Location = new Point(117, 526);
+            btnLimpiar.Margin = new Padding(6, 5, 6, 5);
             btnLimpiar.Name = "btnLimpiar";
-            btnLimpiar.Size = new Size(133, 36);
+            btnLimpiar.Size = new Size(171, 50);
             btnLimpiar.TabIndex = 18;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = false;
@@ -214,10 +217,10 @@
             // btnImprimir
             // 
             btnImprimir.BackColor = Color.FromArgb(233, 239, 236);
-            btnImprimir.Location = new Point(297, 376);
-            btnImprimir.Margin = new Padding(4);
+            btnImprimir.Location = new Point(443, 526);
+            btnImprimir.Margin = new Padding(6, 5, 6, 5);
             btnImprimir.Name = "btnImprimir";
-            btnImprimir.Size = new Size(129, 36);
+            btnImprimir.Size = new Size(165, 50);
             btnImprimir.TabIndex = 17;
             btnImprimir.Text = "Imprimir";
             btnImprimir.UseVisualStyleBackColor = false;
@@ -226,10 +229,10 @@
             // btnBuscar
             // 
             btnBuscar.BackColor = Color.FromArgb(233, 239, 236);
-            btnBuscar.Location = new Point(592, 32);
-            btnBuscar.Margin = new Padding(4);
+            btnBuscar.Location = new Point(762, 50);
+            btnBuscar.Margin = new Padding(6, 5, 6, 5);
             btnBuscar.Name = "btnBuscar";
-            btnBuscar.Size = new Size(149, 36);
+            btnBuscar.Size = new Size(155, 38);
             btnBuscar.TabIndex = 20;
             btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = false;
@@ -237,9 +240,10 @@
             // 
             // MostrarCarnet
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = Color.FromArgb(246, 245, 242);
+            ClientSize = new Size(1028, 630);
             Controls.Add(btnBuscar);
             Controls.Add(btnVolver);
             Controls.Add(btnLimpiar);
@@ -247,6 +251,8 @@
             Controls.Add(lblTitulo);
             Controls.Add(txtNroCliente);
             Controls.Add(grpDatosPersonales);
+            Font = new Font("Tahoma", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            Margin = new Padding(3, 5, 3, 5);
             Name = "MostrarCarnet";
             Text = "Carnet";
             grpDatosPersonales.ResumeLayout(false);
@@ -267,12 +273,12 @@
         private Button btnVolver;
         private Button btnLimpiar;
         private Button btnImprimir;
-        private Label label1;
+        private Label lblNroSocioCarnet;
         private Label lblId_Cliente;
-        private Label label5;
-        private Label label2;
-        private Label label3;
-        private Label label4;
+        private Label lblFNacCarnet;
+        private Label lblNombreCarnet;
+        private Label lblApellidoCarnet;
+        private Label lblDniCarnet;
         private Button btnBuscar;
     }
 }

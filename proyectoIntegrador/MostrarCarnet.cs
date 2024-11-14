@@ -20,7 +20,7 @@ namespace proyectoIntegrador
         public MostrarCarnet()
         {
             InitializeComponent();
-            this.FormClosing += MostrarCarnet_FormClosing; 
+            this.FormClosing += MostrarCarnet_FormClosing;
         }
 
 
@@ -164,5 +164,7 @@ namespace proyectoIntegrador
             lblFechaNac.Text = "";
             txtNroCliente.Focus();
         }
+
+     
     }
 }
