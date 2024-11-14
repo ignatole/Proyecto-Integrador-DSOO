@@ -7,54 +7,47 @@
             InitializeComponent();
             this.FormClosing += Home_FormClosing;
         }
+        private void AbrirFormularioSecundario(Form formularioSecundario)
+        {
+            formularioSecundario.Owner = this; 
+            formularioSecundario.Show();       
+            this.Hide();                      
+        }
 
         // Evento para el botón "Inscribir Cliente"
         private void btnInscribirCliente_Click(object sender, EventArgs e)
         {
-            InscribirCliente nuevoFormulario = new InscribirCliente();
-            nuevoFormulario.Show();
-            this.Hide();
+            AbrirFormularioSecundario(new InscribirCliente());
         }
 
         // Evento para el botón "Inscribir Actividades"
         private void btnInscribirActividades_Click(object sender, EventArgs e)
         {
-            InscribirActividad nuevoFormulario = new InscribirActividad();
-            nuevoFormulario.Show();
-            this.Hide();
+            AbrirFormularioSecundario(new InscribirActividad());
         }
 
         // Evento para el botón "Pagos"
         private void btnPagos_Click(object sender, EventArgs e)
         {
-            PagarCuota nuevoFormulario = new PagarCuota();
-            nuevoFormulario.Show();
-            this.Hide();
+            AbrirFormularioSecundario(new PagarCuota());
         }
 
         // Evento para el botón "Listado de Vencimientos"
         private void btnListadoVencimientos_Click(object sender, EventArgs e)
         {
-            ListadoVencimiento nuevoFormulario = new ListadoVencimiento();
-            nuevoFormulario.Show();
-            this.Hide();
+            AbrirFormularioSecundario(new ListadoVencimiento());
         }
 
+        // Evento para el botón "Carnet
+        private void btnCarnet_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioSecundario(new MostrarCarnet());
+        }
 
         // Evento para el botón "Salir"
         private void Home_FormClosing(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-
-        // Evento para el botón "Carnet"
-        
-        private void btnCarnet_Click(object sender, EventArgs e)
-        {
-            MostrarCarnet nuevoFormulario = new MostrarCarnet();
-            nuevoFormulario.Show();
-            this.Hide();
         }
     }
 }

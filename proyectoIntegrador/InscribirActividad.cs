@@ -101,9 +101,8 @@ namespace proyectoIntegrador
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            Home formPrevio = new Home();
+            this.Owner.Show();
             this.Close();
-            formPrevio.Show();
         }
 
         private void InscribirActividad_FormClosing(object sender, FormClosingEventArgs e)

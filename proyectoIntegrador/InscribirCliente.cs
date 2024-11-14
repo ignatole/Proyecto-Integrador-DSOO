@@ -61,14 +61,13 @@
             LimpiarCampos();
         }
 
-        // Evento click del botón "Cancelar"
+        // Evento click del botón "Volver"
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            // Cerrar el formulario actual y abrir el anterior
-            Home formPrevio = new Home();
-            this.Close(); // Cerrar el formulario actual
-            formPrevio.Show(); // Mostrar el formulario 
+            this.Owner.Show();
+            this.Close();       
         }
+
         private bool ValidarCampos()
         {
             ResetLabels();

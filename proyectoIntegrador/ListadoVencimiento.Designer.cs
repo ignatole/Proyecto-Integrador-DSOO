@@ -34,6 +34,7 @@
             Dni = new DataGridViewTextBoxColumn();
             FechaVencimiento = new DataGridViewTextBoxColumn();
             lblTituloVencimientos = new Label();
+            btnVolver = new Button();
             ((System.ComponentModel.ISupportInitialize)gridVencimientos).BeginInit();
             SuspendLayout();
             // 
@@ -51,7 +52,7 @@
             gridVencimientos.ReadOnly = true;
             gridVencimientos.RowHeadersVisible = false;
             gridVencimientos.RowTemplate.Height = 25;
-            gridVencimientos.Size = new Size(776, 360);
+            gridVencimientos.Size = new Size(776, 316);
             gridVencimientos.TabIndex = 0;
             gridVencimientos.CellContentClick += gridVencimientos_CellContentClick;
             // 
@@ -88,11 +89,24 @@
             lblTituloVencimientos.TabIndex = 1;
             lblTituloVencimientos.Text = "Listado de vencimientos al dia: ";
             // 
+            // btnVolver
+            // 
+            btnVolver.BackColor = Color.FromArgb(233, 239, 236);
+            btnVolver.Location = new Point(333, 401);
+            btnVolver.Margin = new Padding(4);
+            btnVolver.Name = "btnVolver";
+            btnVolver.Size = new Size(107, 44);
+            btnVolver.TabIndex = 13;
+            btnVolver.Text = "Volver";
+            btnVolver.UseVisualStyleBackColor = false;
+            btnVolver.Click += btnVolver_Click;
+            // 
             // ListadoVencimiento
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnVolver);
             Controls.Add(lblTituloVencimientos);
             Controls.Add(gridVencimientos);
             Name = "ListadoVencimiento";
@@ -111,5 +125,6 @@
         private DataGridViewTextBoxColumn NombreCompleto;
         private DataGridViewTextBoxColumn Dni;
         private DataGridViewTextBoxColumn FechaVencimiento;
+        private Button btnVolver;
     }
 }
