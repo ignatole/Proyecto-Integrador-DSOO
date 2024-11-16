@@ -153,7 +153,7 @@ namespace proyectoIntegrador
             this.Close();
         }
 
-        private void PagarCuota_FormClosing(object sender, FormClosingEventArgs e)
+        private void PagarCuota_FormClosing(object? sender, FormClosingEventArgs e)
         {
             Form home = Application.OpenForms["Home"];
             if (home != null)

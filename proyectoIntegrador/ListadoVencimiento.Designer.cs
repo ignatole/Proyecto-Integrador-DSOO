@@ -56,7 +56,6 @@
             gridVencimientos.RowTemplate.Height = 25;
             gridVencimientos.Size = new Size(887, 379);
             gridVencimientos.TabIndex = 0;
-            gridVencimientos.CellContentClick += gridVencimientos_CellContentClick;
             // 
             // IdCliente
             // 

@@ -161,7 +161,7 @@
             chkAptoFisico.Checked = false;
         }
 
-        private void InscribirCliente_FormClosing(object sender, FormClosingEventArgs e)
+        private void InscribirCliente_FormClosing(object? sender, FormClosingEventArgs e)
         {
 
             Form home = Application.OpenForms["Home"];

@@ -10,7 +10,7 @@ namespace proyectoIntegrador
             picLogin.Image = Image.FromFile(@"..\..\..\resources\ImagenFormLogin.png");
             this.KeyPreview = true; // Permite que el formulario capture los eventos de tecla
             this.KeyPress += new KeyPressEventHandler(Login_KeyPress);
-            this.FormClosing += Login_FormClosing;
+            this.FormClosing += new FormClosingEventHandler(Login_FormClosing);
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
@@ -22,24 +22,24 @@ namespace proyectoIntegrador
 
             int resultadoLogin = usuarioDatos.Log_Usu(usuario, contrasena);
 
-            if (resultadoLogin == 1) 
+            if (resultadoLogin == 1)
             {
                 MessageBox.Show("Inicio de sesión exitoso.");
                 Home homeForm = new Home();
-                homeForm.Show(); 
-                this.Hide(); 
+                homeForm.Show();
+                this.Hide();
             }
             else
             {
                 MessageBox.Show("Usuario o contraseña incorrectos.");
             }
         }
-        private void Login_KeyPress(object sender, KeyPressEventArgs e)
+
+        private void Login_KeyPress(object? sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter)
             {
                 btnIngresar.PerformClick();
-
             }
         }
 
@@ -47,7 +47,8 @@ namespace proyectoIntegrador
         {
             txtContra.UseSystemPasswordChar = !chkMostrarContra.Checked;
         }
-        private void Login_FormClosing(object sender, FormClosingEventArgs e)
+
+        private void Login_FormClosing(object? sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }

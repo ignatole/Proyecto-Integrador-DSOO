@@ -9,9 +9,9 @@
         }
         private void AbrirFormularioSecundario(Form formularioSecundario)
         {
-            formularioSecundario.Owner = this; 
-            formularioSecundario.Show();       
-            this.Hide();                      
+            formularioSecundario.Owner = this;
+            formularioSecundario.Show();
+            this.Hide();
         }
 
         // Evento para el botón "Inscribir Cliente"
@@ -45,7 +45,7 @@
         }
 
         // Evento para el botón "Salir"
-        private void Home_FormClosing(object sender, EventArgs e)
+        private void Home_FormClosing(object? sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }

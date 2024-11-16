@@ -102,7 +102,6 @@ namespace proyectoIntegrador
             btnSalir.TabIndex = 5;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = false;
-            btnSalir.Click += Home_FormClosing;
             // 
             // lblTitulo
             // 
@@ -156,7 +155,6 @@ namespace proyectoIntegrador
         private System.Windows.Forms.Button btnPagos;
         private System.Windows.Forms.Button btnListadoVencimientos;
         private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.Label labelTitulo;
         private Label lblTitulo;
         private Button btnCarnet;
     }
