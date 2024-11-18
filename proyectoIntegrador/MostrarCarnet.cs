@@ -145,7 +145,7 @@ namespace proyectoIntegrador
                 }
             }
         }
-        private void MostrarCarnet_FormClosing(object sender, FormClosingEventArgs e)
+        private void MostrarCarnet_FormClosing(object? sender, FormClosingEventArgs e)
         {
             Form home = Application.OpenForms["Home"];
             if (home != null)

@@ -1,5 +1,6 @@
 ﻿namespace proyectoIntegrador
 {
+    using System.Text.RegularExpressions;
     public partial class InscribirCliente : Form
     {
         public InscribirCliente()
@@ -107,10 +108,10 @@
                 txtTelefono.Focus();
                 return false;
             }
-            if (string.IsNullOrWhiteSpace(txtEmail.Text))
+            if (!EsCorreoValido(txtEmail.Text))
             {
                 lblEmail.ForeColor = Color.Red;
-                MessageBox.Show("El campo Email debe ser llenado.");
+                MessageBox.Show("Por favor, ingrese una dirección de correo electrónico válida.", "Correo inválido", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtEmail.Focus();
                 return false;
             }
@@ -161,39 +162,17 @@
             chkAptoFisico.Checked = false;
         }
 
-        private void InscribirCliente_FormClosing(object sender, FormClosingEventArgs e)
+        private void InscribirCliente_FormClosing(object? sender, FormClosingEventArgs e)
         {
 
             Form home = Application.OpenForms["Home"];
-            if (home != null)
+            home?.Show();
+        }
+        private static bool EsCorreoValido(string correo)
             {
-                home.Show();
+                string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+                return Regex.IsMatch(correo, emailPattern);
             }
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void rbtnMasculino_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void chkAptoFisico_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
+

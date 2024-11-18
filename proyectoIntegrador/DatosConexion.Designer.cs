@@ -83,6 +83,7 @@
             txtHost.Location = new Point(246, 66);
             txtHost.Margin = new Padding(3, 5, 3, 5);
             txtHost.Name = "txtHost";
+            txtHost.PlaceholderText = "localhost";
             txtHost.Size = new Size(128, 28);
             txtHost.TabIndex = 0;
             // 
@@ -91,6 +92,7 @@
             txtDb.Location = new Point(246, 172);
             txtDb.Margin = new Padding(3, 5, 3, 5);
             txtDb.Name = "txtDb";
+            txtDb.PlaceholderText = "clubdeportivo";
             txtDb.Size = new Size(128, 28);
             txtDb.TabIndex = 2;
             // 
@@ -99,6 +101,7 @@
             txtUsuario.Location = new Point(246, 226);
             txtUsuario.Margin = new Padding(3, 5, 3, 5);
             txtUsuario.Name = "txtUsuario";
+            txtUsuario.PlaceholderText = "root";
             txtUsuario.Size = new Size(128, 28);
             txtUsuario.TabIndex = 3;
             // 
@@ -146,6 +149,7 @@
             txtPuerto.Location = new Point(246, 119);
             txtPuerto.Margin = new Padding(3, 5, 3, 5);
             txtPuerto.Name = "txtPuerto";
+            txtPuerto.PlaceholderText = "3306";
             txtPuerto.Size = new Size(128, 28);
             txtPuerto.TabIndex = 1;
             // 

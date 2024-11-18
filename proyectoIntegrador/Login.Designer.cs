@@ -123,10 +123,7 @@ namespace proyectoIntegrador
             PerformLayout();
         }
 
-        private TextBox textBox1;
-        private Label label1;
         private Label lblContra;
-        private TextBox textBox2;
         private Button btnIngresar;
         private CheckBox chkMostrarContra;
         private PictureBox picLogin;

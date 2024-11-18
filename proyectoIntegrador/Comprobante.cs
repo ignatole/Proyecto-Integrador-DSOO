@@ -17,7 +17,7 @@ namespace proyectoIntegrador
             this.Load += ComprobanteLoad;
         }
 
-        private void ComprobanteLoad(object sender, EventArgs e)
+        private void ComprobanteLoad(object? sender, EventArgs e)
         {
             if (!_cargado)
             {

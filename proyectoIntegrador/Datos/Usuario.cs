@@ -7,15 +7,13 @@ namespace proyectoIntegrador.Datos
     {
         public int Log_Usu(string L_Usu, string P_Usu)
         {
-            MySqlDataReader resultado;
-            DataTable tabla = new DataTable();
-            MySqlConnection sqlCon = new MySqlConnection();
+            MySqlConnection? sqlCon = new();
             int loginResultado = 0; // Variable para almacenar el resultado del login
 
             try
             {
                 sqlCon = Conexion.getInstancia().CrearConexion();
-                MySqlCommand comando = new MySqlCommand("IngresoLogin", sqlCon)
+                MySqlCommand comando = new("IngresoLogin", sqlCon)
                 {
                     CommandType = CommandType.StoredProcedure
                 };
@@ -27,14 +25,14 @@ namespace proyectoIntegrador.Datos
                 // Crear un parámetro de salida para recibir el resultado del login
                 MySqlParameter paramResultado = new MySqlParameter
                 {
-                    ParameterName = "@resultado", // Asegúrate de que el nombre coincida
+                    ParameterName = "@resultado",
                     MySqlDbType = MySqlDbType.Int32,
                     Direction = ParameterDirection.Output
                 };
                 comando.Parameters.Add(paramResultado);
 
                 sqlCon.Open();
-                comando.ExecuteNonQuery(); // Ejecutar el procedimiento
+                comando.ExecuteNonQuery();
 
                 // Obtener el resultado del login
                 loginResultado = Convert.ToInt32(paramResultado.Value);

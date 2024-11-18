@@ -105,7 +105,7 @@ namespace proyectoIntegrador
             this.Close();
         }
 
-        private void InscribirActividad_FormClosing(object sender, FormClosingEventArgs e)
+        private void InscribirActividad_FormClosing(object? sender, FormClosingEventArgs e)
         {
             // Muestra el formulario principal (home) al cerrar InscribirActividad
             Form home = Application.OpenForms["Home"];

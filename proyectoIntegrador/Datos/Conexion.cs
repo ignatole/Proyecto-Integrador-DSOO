@@ -5,11 +5,11 @@ namespace proyectoIntegrador.Datos
     public class Conexion
     {
         // declaramos las variables
-        private string baseDatos;
-        private string servidor;
-        private string puerto;
-        private string usuario;
-        private string clave;
+        private string? baseDatos;
+        private string? servidor;
+        private string? puerto;
+        private string? usuario;
+        private string? clave;
         private static Conexion? con = null;
 
         private Conexion() { }
@@ -20,11 +20,10 @@ namespace proyectoIntegrador.Datos
         public string Clave { set => clave = value; }
 
 
-        public MySqlConnection CrearConexion() // corregido el nombre CrearConcexion a CrearConexion
+        public MySqlConnection? CrearConexion()
         {
             // instanciamos una conexion
-            MySqlConnection? cadena = new MySqlConnection();
-            // el bloque try permite controlar errores
+            MySqlConnection? cadena = new();
             try
             {
                 cadena.ConnectionString = "datasource=" + this.servidor +
@@ -36,7 +35,7 @@ namespace proyectoIntegrador.Datos
             catch (Exception ex)
             {
                 cadena = null;
-                throw; // sería útil arrojar el 'ex' para tener más información del error
+                MessageBox.Show("Error:" + ex.Message); 
             }
             return cadena;
         }
@@ -48,7 +47,7 @@ namespace proyectoIntegrador.Datos
             {
                 con = new Conexion(); // se crea una nueva
             }
-            return con; // corregido return incompleto
+            return con; 
         }
     }
 }
