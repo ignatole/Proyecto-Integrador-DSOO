@@ -11,7 +11,7 @@ namespace proyectoIntegrador
             int resultado;
             int id_cliente = 0; // Variable para almacenar el ID del cliente insertado
 
-            using (MySqlConnection sqlCon = Conexion.getInstancia().CrearConexion())
+            using (MySqlConnection? sqlCon = Conexion.getInstancia().CrearConexion())
             {
                 try
                 {
@@ -67,7 +67,7 @@ namespace proyectoIntegrador
             int resultado = 0;
             int id_cliente = 0;
 
-            using (MySqlConnection sqlCon = Conexion.getInstancia().CrearConexion())
+            using (MySqlConnection? sqlCon = Conexion.getInstancia().CrearConexion())
             {
                 try
                 {

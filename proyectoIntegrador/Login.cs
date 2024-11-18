@@ -1,4 +1,4 @@
-using proyectoIntegrador.Datos; // Asegurate de incluir esta linea
+using proyectoIntegrador.Datos; 
 
 namespace proyectoIntegrador
 {
@@ -8,7 +8,7 @@ namespace proyectoIntegrador
         {
             InitializeComponent();
             picLogin.Image = Image.FromFile(@"..\..\..\resources\ImagenFormLogin.png");
-            this.KeyPreview = true; // Permite que el formulario capture los eventos de tecla
+            this.KeyPreview = true; 
             this.KeyPress += new KeyPressEventHandler(Login_KeyPress);
             this.FormClosing += new FormClosingEventHandler(Login_FormClosing);
         }
@@ -18,7 +18,7 @@ namespace proyectoIntegrador
             string usuario = txtUsuario.Text;
             string contrasena = txtContra.Text;
 
-            Usuario usuarioDatos = new Usuario();
+            Usuario usuarioDatos = new();
 
             int resultadoLogin = usuarioDatos.Log_Usu(usuario, contrasena);
 

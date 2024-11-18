@@ -131,7 +131,7 @@
             // 
             txtDNI.Location = new Point(170, 198);
             txtDNI.Margin = new Padding(6, 5, 6, 5);
-            txtDNI.MaxLength = 20;
+            txtDNI.MaxLength = 8;
             txtDNI.Name = "txtDNI";
             txtDNI.Size = new Size(262, 28);
             txtDNI.TabIndex = 2;
@@ -140,8 +140,9 @@
             // 
             txtTelefono.Location = new Point(109, 35);
             txtTelefono.Margin = new Padding(6, 5, 6, 5);
-            txtTelefono.MaxLength = 15;
+            txtTelefono.MaxLength = 10;
             txtTelefono.Name = "txtTelefono";
+            txtTelefono.PlaceholderText = "Sin 0 ni 15";
             txtTelefono.Size = new Size(256, 28);
             txtTelefono.TabIndex = 8;
             // 
@@ -161,7 +162,7 @@
             buttonInscribir.Margin = new Padding(6, 5, 6, 5);
             buttonInscribir.Name = "buttonInscribir";
             buttonInscribir.Size = new Size(114, 37);
-            buttonInscribir.TabIndex = 0;
+            buttonInscribir.TabIndex = 11;
             buttonInscribir.Text = "Inscribir";
             buttonInscribir.UseVisualStyleBackColor = false;
             buttonInscribir.Click += btnInscribir;
@@ -173,7 +174,7 @@
             buttonLimpiar.Margin = new Padding(6, 5, 6, 5);
             buttonLimpiar.Name = "buttonLimpiar";
             buttonLimpiar.Size = new Size(114, 37);
-            buttonLimpiar.TabIndex = 1;
+            buttonLimpiar.TabIndex = 12;
             buttonLimpiar.Text = "Limpiar";
             buttonLimpiar.UseVisualStyleBackColor = false;
             buttonLimpiar.Click += btnLimpiar_Click;
@@ -185,7 +186,7 @@
             btnVolver.Margin = new Padding(6, 5, 6, 5);
             btnVolver.Name = "btnVolver";
             btnVolver.Size = new Size(114, 37);
-            btnVolver.TabIndex = 2;
+            btnVolver.TabIndex = 13;
             btnVolver.Text = "Volver";
             btnVolver.UseVisualStyleBackColor = false;
             btnVolver.Click += btnCancelar_Click;
@@ -251,7 +252,6 @@
             label7.Size = new Size(15, 19);
             label7.TabIndex = 21;
             label7.Text = "*";
-            label7.Click += label7_Click;
             // 
             // label1
             // 
@@ -272,7 +272,6 @@
             rbtnOtro.Name = "rbtnOtro";
             rbtnOtro.Size = new Size(64, 25);
             rbtnOtro.TabIndex = 7;
-            rbtnOtro.TabStop = true;
             rbtnOtro.Text = "Otro";
             rbtnOtro.UseVisualStyleBackColor = true;
             // 
@@ -284,7 +283,6 @@
             rbtnFemenino.Name = "rbtnFemenino";
             rbtnFemenino.Size = new Size(103, 25);
             rbtnFemenino.TabIndex = 6;
-            rbtnFemenino.TabStop = true;
             rbtnFemenino.Text = "Femenino";
             rbtnFemenino.UseVisualStyleBackColor = true;
             // 
@@ -310,7 +308,6 @@
             rbtnMasculino.TabStop = true;
             rbtnMasculino.Text = "Masculino";
             rbtnMasculino.UseVisualStyleBackColor = true;
-            rbtnMasculino.CheckedChanged += rbtnMasculino_CheckedChanged;
             // 
             // lblSexo
             // 
@@ -365,9 +362,8 @@
             chkAptoFisico.Margin = new Padding(3, 5, 3, 5);
             chkAptoFisico.Name = "chkAptoFisico";
             chkAptoFisico.Size = new Size(18, 17);
-            chkAptoFisico.TabIndex = 2;
+            chkAptoFisico.TabIndex = 10;
             chkAptoFisico.UseVisualStyleBackColor = true;
-            chkAptoFisico.CheckedChanged += chkAptoFisico_CheckedChanged;
             // 
             // lblAptoFisico
             // 
@@ -377,7 +373,6 @@
             lblAptoFisico.Size = new Size(164, 21);
             lblAptoFisico.TabIndex = 19;
             lblAptoFisico.Text = "Presenta apto fisico?";
-            lblAptoFisico.Click += label8_Click;
             // 
             // label3
             // 
@@ -412,7 +407,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 15;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             // 
             // InscribirCliente
             // 

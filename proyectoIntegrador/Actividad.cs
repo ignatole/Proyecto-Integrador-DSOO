@@ -9,7 +9,7 @@ namespace proyectoIntegrador
         public int RegistrarActividad(EActividad actividad)
         {
             int resultado;
-            using (MySqlConnection sqlCon = Conexion.getInstancia().CrearConexion())
+            using (MySqlConnection? sqlCon = Conexion.getInstancia().CrearConexion())
             {
                 try
                 {
